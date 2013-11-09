@@ -13,8 +13,10 @@ pacman -Syu --noconfirm
 #pacman -S --noconfirm slim
 #systemctl enable slim.service
 #systemctl enable graphical.target
+cp ~/.xinitrc /home/nonroot/
+chmod 777 /home/nonroot/.xinitrc
 
-#curl https://raw.github.com/adimania/arch-desktop-environments/master/xinitrc >> ~/.xinitrc
-#curl https://raw.github.com/adimania/arch-desktop-environments/master/bash_profile >> ~/.bash_profile
+#curl https://raw.github.com/jalvani/arch-desktop-environments/master/xinitrc >> ~/.xinitrc
+#curl https://raw.github.com/jalvani/arch-desktop-environments/master/bash_profile >> ~/.bash_profile
 
 reboot
