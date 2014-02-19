@@ -1,0 +1,19 @@
+{
+   "background_page": "background.html",
+   "description": "Scrobbling to Last.fm from Grooveshark.",
+   "icons": {
+      "128": "gss128.png",
+      "16": "gss16.png",
+      "48": "gss48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbsP1oRPIpKl4CspJn4XoaYdjqgL5aIzgfQYkAZIaTaAAl1+u9gQ1uD5j9mPyVYufmsntfDLX46193355ovFUcjE2i9W8fJtEcIwcLIb/wqU7E61O4nNnAHX+7P5D9wUmV9AB3djhtKmYqATqaPymNAOzalrp9RO1v1BsW3sAscwIDAQAB",
+   "name": "Grooveshark Scrobbler",
+   "options_page": "options.html",
+   "page_action": {
+      "default_icon": "gss48g.png",
+      "default_title": "Grooveshark Scrobbler"
+   },
+   "permissions": [ "tabs", "http://grooveshark.com/", "http://last.fm/", "http://ws.audioscrobbler.com/", "http://ugotpewpewd.net/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.5"
+}

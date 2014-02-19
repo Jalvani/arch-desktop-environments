@@ -1,0 +1,83 @@
+{
+
+	"org.hcilab.projects.notification": {
+		"title": "Rate on Google Play",
+		"url":   "https://play.google.com/store/apps/details?id=org.hcilab.projects.notification"
+	},
+
+	"com.google.android.apps.plus": {
+		"title": "Open Google+",
+		"url":   "https://plus.google.com"
+	},
+
+	"com.facebook.katana": {
+		"title": "Open Facebook",
+		"url":   "https://www.facebook.com/"
+	},
+
+	"com.facebook.orca": {
+		"title": "Open Facebook",
+		"url":   "https://www.facebook.com/"
+	},
+
+	"com.google.android.gm": {
+		"title": "Open Gmail",
+		"url":   "https://mail.google.com/"
+	},
+
+	"com.twitter.android": {
+		"title": "Open Twitter",
+		"url":   "https://twitter.com/"
+	},
+
+	"com.android.vending": {
+		"title": "Open Google Play",
+		"url":   "https://play.google.com/store"
+	},
+
+	"com.google.android.music": {
+		"title": "Open Google Play Music",
+		"url":   "https://play.google.com/store/music"
+	},
+
+	"com.google.android.videos": {
+		"title": "Open Google Play Movies",
+		"url":   "https://play.google.com/store/movies"
+	},
+
+	"com.pinterest": {
+		"title": "Open Pinterest",
+		"url":   "https://pinterest.com/"
+	},
+
+	"com.spotify.mobile.android.ui": {
+		"title": "Open Spotify Web Player",
+		"url":   "https://play.spotify.com/"
+	},
+
+	"com.valvesoftware.android.steam.community": {
+		"title": "Open Steam",
+		"url":   "http://store.steampowered.com/"
+	},
+
+	"com.google.android.calendar": {
+		"title": "Open Google Calendar",
+		"url":   "https://www.google.com/calendar/"
+	},
+
+	"com.yahoo.mobile.client.android.mail": {
+		"title": "Open Yahoo! Mail",
+		"url":   "https://mail.yahoo.com/"
+	},
+
+	"com.instagram.android": {
+		"title": "Open Instagram",
+		"url":   "https://instagram.com/"
+	},
+
+	"com.sofascore.android": {
+		"title": "Open SofaScore",
+		"url":   "http://www.sofascore.com/"
+	}
+
+}

@@ -1,0 +1,86 @@
+{
+   "browserActionPopup_download": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "\u05D4\u05D5\u05E8\u05D3 \u05D0\u05EA KeyRocket"
+   },
+   "browserActionPopup_download_excel": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... \u05E2\u05D1\u05D5\u05E8 Microsoft Excel"
+   },
+   "browserActionPopup_download_outlook": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... \u05E2\u05D1\u05D5\u05E8 Microsoft Outlook"
+   },
+   "browserActionPopup_download_powerpoint": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... \u05E2\u05D1\u05D5\u05E8 Microsoft PowerPoint"
+   },
+   "browserActionPopup_download_win": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... \u05E2\u05D1\u05D5\u05E8 Windows 7, XP \u05D0\u05D5 Vista"
+   },
+   "browserActionPopup_download_word": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... \u05E2\u05D1\u05D5\u05E8 Microsoft Word"
+   },
+   "browserActionPopup_feedback": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "\u05E2\u05D6\u05D5\u05E8 \u05DC\u05E0\u05D5 - \u05D3\u05D5\u05D5\u05D7 \u05E2\u05DC \u05D1\u05E2\u05D9\u05D4 \u05D0\u05D5 \u05E9\u05DC\u05D7 \u05DE\u05E9\u05D5\u05D1!"
+   },
+   "browserActionPopup_review": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "\u05D3\u05E8\u05D2 \u05D5\u05E1\u05E7\u05D5\u05E8 \u05D0\u05EA KeyRocket!"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension in Chrome (not the big one in the Store).",
+      "message": "\u05D4\u05D3\u05E8\u05DA \u05D4\u05D8\u05D5\u05D1\u05D4 \u05D1\u05D9\u05D5\u05EA\u05E8 \u05DC\u05DC\u05DE\u05D5\u05D3 \u05E7\u05D9\u05E6\u05D5\u05E8\u05D9 \u05DE\u05E7\u05E9\u05D9\u05DD \u05D1\u05D6\u05DE\u05DF \u05E9\u05D0\u05EA\u05D4 \u05E2\u05D5\u05D1\u05D3 \u05D1-Gmail\u2122 \u05E2\u05DC-\u05D9\u05D3\u05D9 http://www.keyrocket.com."
+   },
+   "extensionName": {
+      "description": "The name/title of the extension in Chrome and the Chrome Webstore",
+      "message": "KeyRocket \u05DC-Gmail\u2122"
+   },
+   "gmailSettingsMessage_Done": {
+      "description": "Button text of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05E1\u05D9\u05D9\u05DE\u05EA!"
+   },
+   "gmailSettingsMessage_Not_Now": {
+      "description": "Button text of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05DC\u05D0 \u05E2\u05DB\u05E9\u05D9\u05D5, \u05D4\u05D6\u05DB\u05E8 \u05DC\u05D9 \u05DE\u05D0\u05D5\u05D7\u05E8 \u05D9\u05D5\u05EA\u05E8"
+   },
+   "gmailSettingsMessage_Part_01": {
+      "description": "The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05DB\u05D3\u05D9 \u05E9-KeyRocket \u05DC-Gmail\u2122 \u05D9\u05E4\u05E2\u05DC \u05D4\u05D9\u05D8\u05D1, \u05D0\u05E0\u05D0 \u05D1\u05E6\u05E2 \u05D0\u05EA \u05D4\u05E4\u05E2\u05D5\u05DC\u05D5\u05EA \u05D4\u05D1\u05D0\u05D5\u05EA:"
+   },
+   "gmailSettingsMessage_Part_02_optional_Settings": {
+      "description": "Name of the 'Settings' category in Gmail. Shown if hint is not shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05D4\u05D2\u05D3\u05E8\u05D5\u05EA"
+   },
+   "gmailSettingsMessage_Part_02_optional_goTo": {
+      "description": "Hint to switch to the 'Settings' category in Gmail. Shown if hint is not shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05E2\u05D1\u05D5\u05E8 \u05D0\u05DC"
+   },
+   "gmailSettingsMessage_Part_03_optional_Set_Display_Language": {
+      "description": "Hint to change display language to a English. Shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05E9\u05E0\u05D4 \u05D0\u05EA \u2018\u05E9\u05E4\u05EA \u05D4\u05EA\u05E6\u05D5\u05D2\u05D4 \u05E9\u05DC Gmail \u05DC\u05D0\u05E0\u05D2\u05DC\u05D9\u05EA"
+   },
+   "gmailSettingsMessage_Part_04_Set_KeyboardShortcuts_On": {
+      "description": "Hint to set keyboard shortcuts to on. Shown as Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05D4\u05E4\u05E2\u05DC \u05E7\u05D9\u05E6\u05D5\u05E8 \u05D3\u05E8\u05DA \u05D1\u05DE\u05E7\u05DC\u05D3\u05EA"
+   },
+   "gmailSettingsMessage_Part_05_Save_Settings": {
+      "description": "Hint to save settings. Shown as Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "\u05E9\u05DE\u05D5\u05E8 \u05E9\u05D9\u05E0\u05D5\u05D9\u05D9\u05DD."
+   },
+   "notificationMiss_Or": {
+      "description": "Linking part between alternative of the Missed Notifaction 'Press x or y to Go to Inbox.",
+      "message": "\u05D0\u05D5"
+   },
+   "notificationMiss_Press": {
+      "description": "Starting part of the Missed Notifaction 'Press g then i to Go to Inbox.",
+      "message": "\u05DC\u05D7\u05E5"
+   },
+   "notificationMiss_Then": {
+      "description": "Linking part between sequences of the Missed Notifaction 'Press g then i to Go to Inbox.",
+      "message": "\u05D5\u05DC\u05D0\u05D7\u05E8 \u05DE\u05DB\u05DF \u05E2\u05DC"
+   }
+}

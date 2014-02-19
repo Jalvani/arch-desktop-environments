@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xbacklight -set 50
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=backlighthack
+Name=backlighthack
+Comment[en_GB]=
+Comment=

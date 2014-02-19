@@ -1,0 +1,25 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "blue_dot_circle.png",
+      "default_title": "Manual Geolocation",
+      "popup": "popup2.html"
+   },
+   "content_scripts": [ {
+      "js": [ "fakegeo_content.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Override HTML5 GeoLocation API and return an arbitrary location.",
+   "icons": {
+      "128": "blue_dot_circle.png",
+      "16": "blue_dot_circle.png",
+      "32": "blue_dot_circle.png",
+      "48": "blue_dot_circle.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLcv1mo4cQpowcg5EclqKuTElS2htMt/00iOF/InAehRyHh2GEOD9mhpbdM4sqD9uaJBcCNPfcaiNpocT+1ArShHa2skD/DHz8c838GJYFM8GiD5OzK/OHV5Av8nFM1+6eyXaLhSbavQP8gGc7T9HeVHLpXRaMOfO490aFUxJH8QIDAQAB",
+   "name": "Manual Geolocation",
+   "permissions": [ "webNavigation", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

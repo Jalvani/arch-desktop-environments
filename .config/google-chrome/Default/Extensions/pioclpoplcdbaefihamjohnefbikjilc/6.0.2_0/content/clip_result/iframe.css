@@ -1,0 +1,29 @@
+#evernoteClipperResult {
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-name: fadein;
+  height: 62px;
+  right: 20px;
+  top: 20px;
+  transition: height 200ms linear;
+  width: 458px;
+  border: none;
+  z-index: 2147483647 !important;
+  -webkit-user-select: none !important;
+  position: fixed !important;
+}
+
+@-webkit-keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+#evernoteClipperResult.hide {
+  -webkit-animation-duration: 300ms;
+  -webkit-animation-name: fadeout;
+  opacity: 0;
+}
+
+@-webkit-keyframes fadeout {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

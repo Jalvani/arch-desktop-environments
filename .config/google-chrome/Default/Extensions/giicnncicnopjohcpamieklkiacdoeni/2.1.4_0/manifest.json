@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "socket.io.min.js", "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon5_19_disconnect.png"
+   },
+   "default_locale": "en",
+   "description": "__MSG_extension_description__",
+   "icons": {
+      "128": "images/icon_rich_128.png",
+      "19": "images/icon5_19.png",
+      "48": "images/icon_rich_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD9OXQCPnRhZgFXrz+HJVcmovz0Cf6PEh0zaJ9dwmG8NpLrdXHV8Xtxnk0Dge4IeUwWdSkNCxDEx6xx8visyIwWJ1ssGfaCuYx/2GW7d5VPBV+ZQzMWjm95Uua0Ci/QF4JYjMtHDEgq/78D3uyo7CnC3R+traDVlIvJd2i7SS5hewIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extension_name__",
+   "permissions": [ "background", "notifications", "storage", "https://projects.hci.simtech.uni-stuttgart.de/", "https://desktopnotifications.hci.simtech.uni-stuttgart.de/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.4",
+   "web_accessible_resources": [ "images/icon48.png" ]
+}

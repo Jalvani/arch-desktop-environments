@@ -1,0 +1,2 @@
+/*! scroblr 2013-11-15 */
+!function(){var a=window.location.search.split("=")[1];"undefined"!=typeof chrome?chrome.extension.sendMessage({name:"accessGranted",message:a}):"undefined"!=typeof safari&&safari.self.tab.dispatchMessage("accessGranted",a)}();

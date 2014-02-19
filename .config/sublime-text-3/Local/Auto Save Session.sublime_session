@@ -1,0 +1,683 @@
+{
+	"folder_history":
+	[
+		"/home/joseph/www/bitzon",
+		"/home/joseph/www/larazon",
+		"/home/joseph/www/larazon/vendor",
+		"/home/joseph/www/larazon/public",
+		"/home/joseph/www/larazon/bootstrap",
+		"/home/joseph/www/larazon/app",
+		"/var/log/apache2",
+		"/var/www",
+		"/etc/apache2",
+		"/etc/apache2/sites-enabled",
+		"/etc/apache2/sites-available",
+		"/etc/apache2/mods-enabled",
+		"/etc/apache2/mods-available",
+		"/etc/apache2/conf.d",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_core/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_core/src",
+		"/home/joseph/www/cdvc.github.io/assets",
+		"/home/joseph/www/cdvc.github.io/_includes",
+		"/home/joseph/www/cdvc.github.io/_layouts",
+		"/home/joseph/www/cdvc.github.io/_site",
+		"/home/joseph/www/cdvc.github.io",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_carrington_build_modules/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_carrington_build_modules/src",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/src",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/nbproject",
+		"/home/joseph/Dropbox/Code/work/batch_sbs_services",
+		"/home/joseph/www/processed/demo",
+		"/home/joseph/www/processed/team",
+		"/home/joseph/www/processed/_site",
+		"/home/joseph/www/processed/sass",
+		"/home/joseph/www/processed/_layouts",
+		"/home/joseph/www/processed/js",
+		"/home/joseph/www/processed/_includes",
+		"/home/joseph/www/processed/img",
+		"/home/joseph/www/processed/fonts",
+		"/home/joseph/www/processed/draw2d",
+		"/home/joseph/www/processed/Documentation",
+		"/home/joseph/www/processed/css",
+		"/home/joseph/www/processed/contact",
+		"/home/joseph/www/processed/about",
+		"/home/joseph/www/processed/screenflow",
+		"/home/joseph/www/processed/ir-transformation",
+		"/home/joseph/www/processed/app",
+		"/home/joseph/www/processedapp.github.io/team",
+		"/home/joseph/www/processedapp.github.io/_site",
+		"/home/joseph/www/processedapp.github.io/_layouts",
+		"/home/joseph/www/processedapp.github.io/js",
+		"/home/joseph/www/processedapp.github.io/_includes",
+		"/home/joseph/www/processedapp.github.io/img",
+		"/home/joseph/www/processedapp.github.io/fonts",
+		"/home/joseph/www/processedapp.github.io/Documentation",
+		"/home/joseph/www/processedapp.github.io/css",
+		"/home/joseph/www/processedapp.github.io/contact",
+		"/home/joseph/www/processedapp.github.io/app",
+		"/home/joseph/www/processedapp.github.io/about",
+		"/home/joseph/www/processedapp.github.io",
+		"/home/joseph/www/processedapp.github.io/processed_site/_posts",
+		"/home/joseph/www/processedapp.github.io/processed_site/_layouts",
+		"/home/joseph/www/processedapp.github.io/processed_site/css",
+		"/home/joseph/bootstrap/less",
+		"/home/joseph/bootstrap/_layouts",
+		"/home/joseph/bootstrap/js",
+		"/home/joseph/bootstrap/_includes",
+		"/home/joseph/bootstrap/fonts",
+		"/home/joseph/bootstrap/examples",
+		"/home/joseph/bootstrap/dist",
+		"/home/joseph/bootstrap/assets",
+		"/home/joseph/www/processedapp.github.io/ir-transformation",
+		"/home/joseph/www/dnipsum",
+		"/home/joseph/www/dnipsum/assets",
+		"/home/joseph/www/goalsproject/user_guide",
+		"/home/joseph/www/goalsproject/system",
+		"/home/joseph/www/goalsproject/js",
+		"/home/joseph/www/goalsproject/img",
+		"/home/joseph/www/goalsproject/css",
+		"/home/joseph/www/goalsproject/application",
+		"/home/joseph/www/sflow/vendor",
+		"/home/joseph/www/sflow/js",
+		"/home/joseph/www/sflow/img",
+		"/home/joseph/www/sflow/css",
+		"/home/joseph/www/goalsproject"
+	],
+	"last_version": 3059,
+	"last_window_id": 69,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"for",
+						"foreach	foreach …"
+					],
+					[
+						"Err",
+						"error_reporting"
+					],
+					[
+						"phpi",
+						"phpinfo"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 117.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/joseph/www/larazon/app/controllers/UserController.php",
+				"/home/joseph/www/larazon/app/views/layout.blade.php",
+				"/home/joseph/www/larazon/app/database/migrations/2014_01_31_001714_create_users_table.php",
+				"/home/joseph/www/larazon/app/models/User.php",
+				"/home/joseph/www/larazon/app/database/larazon.db",
+				"/home/joseph/www/default/index.php",
+				"/home/joseph/www/bitzon/application/views/templates/footer.php",
+				"/home/joseph/www/bitzon/application/views/templates/header.php",
+				"/home/joseph/www/bitzon/application/controllers/bitzon.php",
+				"/home/joseph/www/bitzon/application/config/database.php",
+				"/home/joseph/www/bitzon/js/bitzon.js",
+				"/home/joseph/www/bitzon/bootstrap.zip",
+				"/home/joseph/www/bitzon/index.php",
+				"/home/joseph/www/bitzon/license.txt",
+				"/C/wamp/www/bitzon/js/bitzon.js",
+				"/C/wamp/www/bitzon/application/views/bitzonviews/about.php",
+				"/home/joseph/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"class URL",
+					"class Url",
+					"function to (",
+					"function to",
+					"class Url",
+					"default"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"remote"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 338.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"for",
+						"foreach	foreach …"
+					],
+					[
+						"Err",
+						"error_reporting"
+					],
+					[
+						"phpi",
+						"phpinfo"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/joseph/arch-raspi-build-script/xinitrc",
+					"settings":
+					{
+						"buffer_size": 154,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/bash_profile",
+					"settings":
+					{
+						"buffer_size": 52,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/README.md",
+					"settings":
+					{
+						"buffer_size": 294,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/sources.list",
+					"settings":
+					{
+						"buffer_size": 3525,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "echo \"Run this script as root only.\"\necho \"You can hit Ctrl+c in next 10 seconds if you don't want to continue.\"\nsleep 10\n# adduser nonroot\nmv ~/sources.list /etc/apt/sources.list\napt-get update\napt-get -y  chromium-browser\napt-get -y  apache2 php5 android-tools-adb	caffeine cups firefox nautilus mysql-server-core-5.5\napt-get -y  mysql-client-5.5 nodejs-dev nodejs	php5-sqlite rails\n\nchmod 777 /home/nonroot/.xinitrc\n\ncurl https://raw.github.com/jalvani/arch-desktop-environments/master/xinitrc >> ~/.xinitrc\ncurl https://raw.github.com/jalvani/arch-desktop-environments/master/bash_profile >> ~/.bash_profile\n\nreboot\n",
+					"file": "/home/joseph/arch-raspi-build-script/XFCE-Arch-RPi.sh",
+					"file_size": 619,
+					"file_write_time": 130373227989988239,
+					"settings":
+					{
+						"buffer_size": 620,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/pck.txt",
+					"settings":
+					{
+						"buffer_size": 47865,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 117.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/joseph/www/larazon/app/controllers/UserController.php",
+				"/home/joseph/www/larazon/app/views/layout.blade.php",
+				"/home/joseph/www/larazon/app/database/migrations/2014_01_31_001714_create_users_table.php",
+				"/home/joseph/www/larazon/app/models/User.php",
+				"/home/joseph/www/larazon/app/database/larazon.db",
+				"/home/joseph/www/default/index.php",
+				"/home/joseph/www/bitzon/application/views/templates/footer.php",
+				"/home/joseph/www/bitzon/application/views/templates/header.php",
+				"/home/joseph/www/bitzon/application/controllers/bitzon.php",
+				"/home/joseph/www/bitzon/application/config/database.php",
+				"/home/joseph/www/bitzon/js/bitzon.js",
+				"/home/joseph/www/bitzon/bootstrap.zip",
+				"/home/joseph/www/bitzon/index.php",
+				"/home/joseph/www/bitzon/license.txt",
+				"/C/wamp/www/bitzon/js/bitzon.js",
+				"/C/wamp/www/bitzon/application/views/bitzonviews/about.php",
+				"/home/joseph/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"class URL",
+					"class Url",
+					"function to (",
+					"function to",
+					"class Url",
+					"default"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"remote"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 4,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/joseph/arch-raspi-build-script/xinitrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 154,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10,
+										10
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/joseph/arch-raspi-build-script/bash_profile",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 52,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/joseph/arch-raspi-build-script/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 294,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/joseph/arch-raspi-build-script/sources.list",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3525,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/joseph/arch-raspi-build-script/XFCE-Arch-RPi.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 620,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										386,
+										386
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/joseph/arch-raspi-build-script/pck.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 47865,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										47865,
+										47865
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 29973.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0,1,0,0,0,724,265,1364,745,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 338.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 69,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/joseph/www/larazon/larazon.sublime-workspace",
+			"/home/joseph/www/bitzon/ajax.sublime-workspace"
+		]
+	}
+}

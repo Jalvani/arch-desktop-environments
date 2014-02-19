@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Android Desktop Notifications</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="popup.js"></script>	
+	<style>
+
+body {
+	padding: 20px;
+	min-width: 360px;	
+}
+
+#code {
+	font-family: monospace;
+	font-weight: bold;
+	color: #0099ff;
+}
+
+code {
+	color: #0099ff;
+}
+
+#offline, #helptext {
+	display: none;
+}
+
+select:focus {
+	outline-color: #0099ff;
+}
+
+/*.code {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.blue   { color: #0099ff; }
+.purple { color: #9900ff; }
+.yellow { color: #ff9900; }
+.red    { color: #ff0000; }
+.green  { color: #009900; }*/
+
+.pointer {
+	cursor: pointer;
+}
+
+	</style>
+</head>
+<body>
+	<fieldset>
+
+		<legend>Android Desktop Notifications</legend>
+
+		<!-- Offline -->
+
+		<p class="alert" id="offline"><strong>Information</strong> You are currently offline. Connect to the Internet to receive notifications.</p>
+
+		<p><label for="code">Enter the code to pair your browser and phone. <i class="icon-question-sign pointer" id="showhelp" title="Click here to learn how"></i></label></p>
+
+		<!-- Help -->
+
+		<div class="alert alert-info" id="helptext">
+			<p>If you did not install the Android app yet
+			<strong><a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank">download it now from Google Play</a></strong>
+			and run it to generate the code.</p>
+			<ul>
+				<li>Make sure that you enter the code correctly</li>
+				<li>You can add up to 3 devices by entering the codes separated by a comma</li>
+			</ul>
+			<p>If you encounter any problem, feel free to contact us at <a href="mailto:hcilab@gmail.com">hcilab@gmail.com</a>.</p>
+		</div>
+
+		<!-- Code -->
+
+		<div class="input-append">
+			<input type="text" id="code" class="input-large" maxlength="50" autocorrect="false" spellcheck="false" autocomplete="false" autofocus placeholder="Enter the code here">
+			<button id="submit" class="btn btn-primary">Apply</button>
+		</div>
+
+		<hr>
+
+		<!-- Duration -->
+
+		<p><label for="duration">Close the notifications after...</label></p>
+		<select id="duration" class="input-xlarge">
+			<option value="3000">3 Seconds</option>
+			<option value="7000">7 Seconds (default)</option>
+			<option value="15000">15 Seconds</option>
+			<option value="0">Close manually</option>
+		</select>
+
+		<hr>
+
+		<!-- Sound -->
+
+		<label class="checkbox">
+			<input type="checkbox" id="sound"> Enable sound
+		</label>
+
+		<hr>
+
+		<!-- Hints -->
+
+		<p class="muted">To stop certain apps from sending notifications just disable them in the settings of the Android app.</p>
+		<p class="muted">It makes us happy if you rate our app on <a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank">Google Play</a>. :)</p>
+
+	</fieldset>
+</body>
+</html>

@@ -1,19 +1,15 @@
 echo "Run this script as root only."
 echo "You can hit Ctrl+c in next 10 seconds if you don't want to continue."
 sleep 10
-pacman-key --init 
-pacman -S --noconfirm sudo adduser bash-completion
 # adduser nonroot
-echo "joseph  ALL=(ALL) ALL" >> /etc/sudo
-pacman -Syu --noconfirm
-pacman -S --noconfirm chromium-browser
-pacman -S --noconfirm xorg-xinit xorg-server xorg-server-utils xterm
-pacman -S --noconfirm xfce4
-pacman -S --noconfirm mesa xf86-video-fbdev xf86-video-vesa
-pacman -S --noconfirm slim
-systemctl enable slim.service
-systemctl enable graphical.target
-cp ~/.xinitrc /home/nonroot/
+mv .confid ~/.config
+mv sources.list /etc/apt/sources.list
+
+apt-get update
+apt-get -y  chromium-browser
+apt-get -y  apache2 php5 android-tools-adb	caffeine cups firefox nautilus mysql-server-core-5.5
+apt-get -y  mysql-client-5.5 nodejs-dev nodejs	php5-sqlite rails sublime-text
+
 chmod 777 /home/nonroot/.xinitrc
 
 curl https://raw.github.com/jalvani/arch-desktop-environments/master/xinitrc >> ~/.xinitrc

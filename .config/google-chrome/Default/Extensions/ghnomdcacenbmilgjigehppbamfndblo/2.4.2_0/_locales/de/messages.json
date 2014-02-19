@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "F\u00FCge Preisverlaufsdiagramme zu Google Chrome hinzu und \u00FCberwache die Preisver\u00E4nderungen. Unterst\u00FCtzt Amazon, Best Buy und Newegg."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Der Camelizer - Amazon-Preisverfolger"
+   },
+   "pageActionTitle": {
+      "description": "Tool tip for the icon",
+      "message": "Der Camelizer"
+   }
+}

@@ -1,0 +1,2 @@
+var injected=!1;Browser.addMessageHandlers({isExtensionOpen:isExtensionOpen,scriptsInjectedAlready:msgHandlerScriptsInjectedAlready});function isExtensionOpen(a,b,c){(a=document.querySelector("#evernoteGlobalTools"))&&/evernoteClipperVisible/.test(a.className)&&Browser.sendToExtension({name:"showOpenState"})}
+function msgHandlerScriptsInjectedAlready(a,b,c){Browser.sendToExtension({name:"scriptsInjectedAlready",injected:injected,type:a.type,source:a.source,selectionText:a.selectionText,imageUrl:a.imageUrl})}Browser.sendToExtension({name:"tabLoaded"});

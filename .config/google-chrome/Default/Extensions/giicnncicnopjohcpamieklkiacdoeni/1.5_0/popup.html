@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Android Desktop Notifications</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="popup.js"></script>	
+	<style>
+
+body {
+	padding: 20px;
+	min-width: 360px;	
+}
+
+#code {
+	font-family: monospace;
+	font-weight: bold;
+	color: #0099ff;
+}
+
+code {
+	color: #0099ff;
+}
+
+#offline, #error, #helptext, #maintenance {
+	display: none;
+}
+
+select:focus {
+	outline-color: #0099ff;
+}
+
+/*.code {
+	font-family: monospace;
+	font-weight: bold;
+}
+
+.blue   { color: #0099ff; }
+.purple { color: #9900ff; }
+.yellow { color: #ff9900; }
+.red    { color: #ff0000; }
+.green  { color: #009900; }*/
+
+.pointer {
+	cursor: pointer;
+}
+
+.help {
+	cursor: help;
+}
+
+	</style>
+</head>
+<body>
+	<fieldset>
+
+		<legend>Android Desktop Notifications</legend>
+
+		<!-- Maintenance -->
+
+		<p class="alert alert-danger" id="maintenance"></p>
+
+		<!-- Offline -->
+
+		<p class="alert" id="offline"><strong>Information</strong> You are currently offline. Connect to the Internet to receive notifications.</p>
+
+		<!-- Error -->
+
+		<div class="alert alert-error" id="error">
+			<p><strong>Error</strong> The Desktop Notifications server does not respond. You won't receive notifications right now. Possible reasons are:</p>
+			<ul>
+				<li>Temporal overload of the server</li>
+				<li>Server maintenance</li>
+				<li>The server is blocked by your firewall</li>
+			</ul>
+			<p>Feel free to contact us at <a href="mailto:hcilab@gmail.com">hcilab@gmail.com</a>.</p>
+		</div>
+
+		<p><label for="code">Enter the code to pair your browser and phone. <i class="icon-question-sign pointer" id="showhelp" title="Click here to learn how"></i></label></p>
+
+		<!-- Help -->
+
+		<div class="alert alert-info" id="helptext">
+			<p>If you did not install the Android app yet
+			<strong><a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank">download it now from Google Play</a></strong>
+			and run it to generate the code.</p>
+			<ul>
+				<li>Make sure you enter the code correct</li>
+				<li>Don't forget to enable the accessibility service on your Android device</li> 
+			</ul>
+			<p>If you encounter any problem, feel free to contact us at <a href="mailto:hcilab@gmail.com">hcilab@gmail.com</a>.</p>
+		</div>
+
+		<!-- Code -->
+
+		<div class="input-append">
+			<input type="text" id="code" class="input-large" maxlength="50" autocorrect="false" autocomplete="false" autofocus placeholder="Enter the code here">
+			<button id="submit" class="btn btn-primary">Apply</button>
+		</div>
+
+		<hr>
+
+		<!-- Duration -->
+
+		<p><label for="duration">Close the notifications after...</label></p>
+		<select id="duration" class="input-xlarge">
+			<option value="3000">3 Seconds</option>
+			<option value="7000">7 Seconds (default)</option>
+			<option value="15000">15 Seconds</option>
+			<option value="0">Close manually</option>
+		</select>
+
+		<hr>
+
+		<!-- Sound & Flood Prevention -->
+
+		<label class="checkbox">
+			<input type="checkbox" id="sound"> Enable sound
+		</label>
+
+		<label class="checkbox" id="floodbox">
+			<input type="checkbox" id="flood"> Prevent notification flooding <i class="icon-info-sign help" title="Reject more than 3 notifications at once"></i>
+		</label>
+
+		<hr>
+
+		<!-- Did you know? -->
+
+		<div class="muted">
+			<strong>Did you know?</strong> <em id="hint"></em>
+		</div>
+
+	</fieldset>
+</body>
+</html>

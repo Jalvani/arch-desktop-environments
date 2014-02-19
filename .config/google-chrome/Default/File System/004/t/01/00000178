@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:Data::ICal 0.13
+VERSION:2.0
+BEGIN:VEVENT
+ATTENDEE:joseph.finlayson@gmail.com
+CATEGORIES:Travel\, Flight\, germanwings
+CLASS:PUBLIC
+DESCRIPTION:Booking Code: I393UL\nFlightnumber: 4U8465\nFrom: London Heathr
+ ow\nTo: Berlin-Tegel\nDeparture: 05.03.2014 20:00\nArrival: 05.03.2014 22:
+ 50\n\nBefore your planned departure please check whether there have been a
+ ny changes to your flight - for example at www.germanwings.com under Info&
+ Services->Flight info->Timetable\n\n\nPassengerlist\n1.  MR Joseph Finlays
+ on\n
+DTEND:20140305T225000
+DTSTAMP:20140210T132107Z
+DTSTART:20140305T200000
+LOCATION:From London Heathrow (4U 8465)
+PRIORITY:5
+SEQUENCE:0
+SUMMARY:Flight to Berlin-Tegel
+TRANSP:OPAQUE
+UID:I393UL_LHRTXL
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Reminder Webcheckin
+TRIGGER:-P1DT00H00M00S
+END:VALARM
+END:VEVENT
+END:VCALENDAR

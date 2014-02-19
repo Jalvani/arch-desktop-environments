@@ -1,0 +1,77 @@
+{
+   "extension_description": {
+      "message": "Empfange Android Benachrichtigungen in deinem Browser."
+   },
+   "extension_name": {
+      "message": "Android Desktop Notifications"
+   },
+   "extension_popup": {
+      "message": "popup-de.html"
+   },
+   "notification_button_action_desktop_notifications": {
+      "message": "Auf Google Play bewerten"
+   },
+   "notification_button_action_dropbox": {
+      "message": "Dropbox \u00F6ffnen"
+   },
+   "notification_button_action_facebook": {
+      "message": "Facebook \u00F6ffnen"
+   },
+   "notification_button_action_facebook_messenger": {
+      "message": "Facebook Messenger \u00F6ffnen"
+   },
+   "notification_button_action_google_calendar": {
+      "message": "Google Kalender \u00F6ffnen"
+   },
+   "notification_button_action_google_mail": {
+      "message": "Gmail \u00F6ffnen"
+   },
+   "notification_button_action_google_play": {
+      "message": "Google Play \u00F6ffnen"
+   },
+   "notification_button_action_google_play_movies": {
+      "message": "Google Play Movies \u00F6ffnen"
+   },
+   "notification_button_action_google_play_music": {
+      "message": "Google Play Music \u00F6ffnen"
+   },
+   "notification_button_action_google_plus": {
+      "message": "Google+ \u00F6ffnen"
+   },
+   "notification_button_action_instagram": {
+      "message": "Instagram \u00F6ffnen"
+   },
+   "notification_button_action_outlook": {
+      "message": "Outlook.com \u00F6ffnen"
+   },
+   "notification_button_action_pinterest": {
+      "message": "Pinterest \u00F6ffnen"
+   },
+   "notification_button_action_sofascore": {
+      "message": "SofaScore \u00F6ffnen"
+   },
+   "notification_button_action_spotify": {
+      "message": "Spotify Web Player \u00F6ffnen"
+   },
+   "notification_button_action_steam": {
+      "message": "Steam \u00F6ffnen"
+   },
+   "notification_button_action_twitter": {
+      "message": "Twitter \u00F6ffnen"
+   },
+   "notification_button_action_yahoo_mail": {
+      "message": "Yahoo! Mail \u00F6ffnen"
+   },
+   "notification_button_open_links": {
+      "message": "Link(s) \u00F6ffnen"
+   },
+   "notification_button_survey_link": {
+      "message": "http://surveys.hcilab.org/index.php/871482/lang-de"
+   },
+   "notification_button_survey_text": {
+      "message": "Umfrage \u00FCber Kommunikationsverhalten"
+   },
+   "setup_complete": {
+      "message": "Einrichtung abgeschlossen!"
+   }
+}

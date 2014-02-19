@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=touchpad-indicator
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_GB]=t
+Name=t
+Comment[en_GB]=
+Comment=

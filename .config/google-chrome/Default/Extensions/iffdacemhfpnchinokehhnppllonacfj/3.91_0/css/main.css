@@ -1,0 +1,2212 @@
+/* STANDARD ELEMENT CUSTOM STYLING */
+input{
+    border:none;
+}
+/* THIS CLASS IS USED TO RESET THE VISIBILITY OF GMAIL CHAT CONTAINER */
+.visible{
+    visibility: visible;
+}
+.minimizedFB{
+    bottom: -259px !important;
+}
+.mightyClearfix:after{
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+/* START IFRAME CSS */
+.mightyMenu, .mightyMenuItem{
+    padding-left: 0px;
+}
+.myMightyText{
+    width:100%;
+    height:100%;
+    display:none;
+}
+    .myMightyText.active{
+        display:block;
+    }
+    .mightyIframeContainer{
+        margin: 12px 12px 12px 0px;
+        border: 1px solid #E5E5E5;
+        background-color: #F1F1F1;
+    }                
+            .mightyIframeContainer >  #mightyIframe{
+                height:100%;
+                width:100%;
+                border:none;
+                background-color: #F1F1F1;
+            }
+.aio{
+    margin-left: 15px;
+}
+    .mightynU{
+        float: left;
+    }
+    .mightyLeftNavPhotoLogo, .mightyLeftNavTextLogo{
+        float: left;
+        margin-right: 2px;
+    }
+        .mightyLeftNavPhotoLogo{
+            height: 15px;
+            width: 15px;
+        }
+        .mightyLeftNavTextLogo{
+            height: 15px;
+            width: 15px;
+        }
+        .mightyLeftNavLinkRemove{
+            display: none;
+            float: right;
+            margin-right: 15px;
+            margin-top: 1px;
+            height: 13px;
+            opacity: 0.4;
+        }
+.mightyHide{
+    display:none !important;
+}
+.mightyAim{
+    padding-left:12px;
+}
+.mightyFooter{
+    padding-bottom: 0px !important;
+}
+/* END IFRAME CSS */
+/* START COMPOSER BUTTON CSS */
+#gText{
+    margin-left:8px;
+    width: 175px;
+}
+    #composeSMS, #installApp {
+    	width: 115px;
+/*     	width: 35px; */
+    	height: 30px;
+    	margin-bottom: 10px;
+    	background-color: #34879c;
+    	background-image: -webkit-linear-gradient(top,#419ab1,#34879c);
+    	background-image: linear-gradient(top,#419ab1,#34879c);
+    	color: #fff;
+    	border: 1px solid transparent;
+    	-webkit-box-shadow: none;
+    	box-shadow: none;
+    	text-shadow: 0 1px rgba(0,0,0,0.1);
+    	text-transform: uppercase;
+    	-webkit-border-radius: 2px;
+    	border-radius: 2px;
+    	cursor: default;
+    	font-size: 11px;
+    	font-weight: bold;
+    	text-align: center;
+    	white-space: nowrap;
+    	line-height: 30px;
+    	outline: 0;
+    	padding: 0 8px;
+    	font-family: arial,sans-serif;
+    	cursor: pointer;
+    	float:left;
+    }
+        #installApp > .installAppImg{
+            height: 20px;
+            width: 20px;
+            margin-left: 3px;
+            margin-bottom: -5px;
+        }
+    #composeSMS:hover {
+    	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    }
+    #composeSMS:focus {
+    	border: 1px solid rgba(0,0,0,0);
+    	outline: 0 rgba(0,0,0,0);
+    	-webkit-box-shadow: inset 0 0 0 1px #fff;
+    	box-shadow: inset 0 0 0 1px #fff;
+    }
+    #composeSMS:active {
+    	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    	box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    	background-color: #2c788b;
+    	background-image: -webkit-linear-gradient(top,#419ab1,#2c788b);
+    	background-image: linear-gradient(top,#419ab1,#2c788b);
+    	border: 1px solid #2f7d90;
+    	border-top: 1px solid #2f7d90;
+    }
+
+    /* FACEBOOK COMPOSE BUTTON START */
+    #composeLogo{
+        margin-top: 1px;
+        margin-left: 8px;
+    }
+    .fbComposeButton{
+        margin:0px;
+        float:left;
+    }
+    .fbComposeButton:hover{
+        cursor:pointer;
+    }
+    /* FACEBOOK COMPOSE BUTTON END */  
+    
+    .settingsButtonContainer, .shareButtonContainer{
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        padding: 4px 1px;
+        position:relative;
+        float:left;
+    }
+    .settingsButtonContainer{
+        width: 28px;
+    }
+    .shareButtonContainer{
+        padding: 1px 1px;
+    }
+        #settingsButton, #settingsCaret{
+            float:left;
+        }
+            #settingsCaret{
+                height: 3px;
+                width: 5px;
+                margin-top: 8px;
+            }
+        #settingsPane, #socialPane{    
+            display:none;      
+            height: auto;  
+            position: absolute;
+            border: 1px solid rgba(0,0,0,.2);
+            top: 35px;
+            right: -14px;
+            width: 180px;
+            background: #FFF;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            box-sizing: border-box;
+            z-index:1;
+        }
+    .flyoutMenu{
+        position: relative;
+    }
+        #settingsPane.fb{
+            display: none;
+            top: 36px;
+            left: -138px;
+            border: 1px solid rgba(100, 100, 100, 0.4);
+        }
+            #settingsPane:before, #settingsPane:after{
+                position:absolute;
+                height: 0px; width: 0px;
+                right: 24px;
+                border:solid rgba(0,0,0,0);
+                content:" ";
+            }
+                #settingsPane:before{
+/*                     border-color:#000; */
+                    top: -16px;
+                    border-bottom-color: rgba(0,0,0,.2);
+                    border-width:8px;
+                }
+                #settingsPane:after{
+                    top: -15px;
+                    border-bottom-color: #419ab1;
+                    border-width: 8px;
+                }
+            .fb#settingsPane:before, .fb#settingsPane:after{
+                position:absolute;
+                height: 0px; width: 0px;
+                left: 148px;
+                border:solid rgba(0,0,0,0);
+                content:" ";
+            }
+                .fb#settingsPane:before{
+                    top: -21px;
+                    border-bottom-color: rgba(100, 100, 100, 0.4);
+                    border-width: 10px;
+                }
+                .fb#settingsPane:after{
+                    top: -20px;
+                    border-bottom-color: #419ab1;
+                    border-width: 10px;
+                }
+
+        #socialPane{
+            width: 220px;
+            height: 110px;
+            top: 35px;
+            left: -10px;
+        }
+            #socialPane:before, #socialPane:after{
+                position:absolute;
+                height: 0px; width: 0px;
+                left: 14px;
+                border:solid rgba(0,0,0,0);
+                content:" ";
+            }
+                #socialPane:before{
+                    top: -17px;
+                    border-bottom-color: rgba(0,0,0,.2);
+                    border-width:8px;
+                }
+                #socialPane:after{
+                    top: -16px;
+                    border-bottom-color: #419ab1;
+                    border-width: 8px;
+                }
+            #mightyLogoHeader{
+                background-color: #419ab1;
+                padding: 11px;
+            }
+            #mightyLogoHeader.fb{
+                border-radius: 2px 2px 0px 0px;
+                padding: 6px 22px;
+                
+            }
+                #mightyLogoHeader.fb > img{
+                    height: 15px; width: 15px;
+                }
+                #mightyLogoHeader.fb > span{
+                    font-size: 11px;
+                    margin-top: 0px;
+                }
+                #socialPane > #mightyLogoHeader{
+                    padding: 11px 14px;
+                }
+                #mightyLogoHeader > img, #mightyLogoHeader > span {
+                    float: left;
+                }
+                    #mightyLogoHeader > img{
+                        height:20px; width:20px;
+                    }
+                    #mightyLogoHeader > span{
+                        margin-top: 2px;
+                        margin-left: 5px;
+                        color: #FFF;
+                        font-weight: bold;
+                        font-size: 13px;
+                    }
+                    #mightyLogoHeader > span.fb{
+                        font-size: 11px;
+                    }
+            #userAccountDisplay, #signInTrigger{
+                padding: 6px;
+                border-bottom: 1px solid #CCC;
+                margin: 0px auto;
+                max-width: 150px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            #userAccountDisplay.fb, #signInTrigger.fb{
+                max-width: 100%;
+                margin: 6px 0px;
+                padding:0px 22px;
+                border-bottom: none;
+            }
+                .fbNavTab{
+                    float:left;
+                    color:black;
+                }
+                    .fbNavTab > a{
+                        color: #AAA;
+                    }     
+                        .fbNavTab > a:hover{
+                            text-decoration: none;
+                            color: #777;
+                        }
+                    .fbNavTab > a.active{
+                        color: black;
+                    }                                
+                    #threadButtonWrapper{
+                        margin-left:2px;
+                    }                               
+                    #settingsButtonWrapper, #socialButtonWrapper{
+                        margin-left: 7px;
+                    }
+            #settingsPane > ul{
+                list-style: none;
+                margin-top: 10px;
+                padding:0px;
+            }
+                #settingsPane > ul.fb{
+                    margin-top: 0px;
+                    padding: 11px 0px;
+                    border-top: 1px solid #CCC;
+                }
+                    #settingsPane > ul.fb:hover{
+                        overflow-y: scroll;
+                    }
+            #settingsPane > ul > a {
+                text-decoration: none;                
+            }
+                #settingsPane > ul > .settingsLink:hover, #settingsPane > ul > a > .settingsLink:hover{
+                    background-color: #EEE;
+                }
+                #settingsPane > ul > .settingsLink.fb:hover, #settingsPane > ul > a > .settingsLink.fb:hover, .settingsLink.fb:hover{
+                    background-color: #419ab1;
+                    color: white;
+                }
+            .settingsLink{
+                line-height: 18px;
+                padding: 0px 22px;
+                color: black;
+            }
+                .settingsLink.fb:hover{
+                    cursor: pointer;
+                }
+                .settingsLink.disabled{
+                    pointer-events: none;
+                    cursor: default;
+                    color: #CCC;
+                }
+    .settingsButtonContainer:hover, .shareButtonContainer:hover{
+        cursor: pointer;
+    }
+
+/* START SIGNOUT CONFIRM MODAL CSS */    
+    #signOutConfirmModal{
+        width: 600px;
+        height: 100px;
+        background: #FFF;
+        padding: 15px;
+        z-index: 1051;
+    }
+        #signOutCaption{
+            color: #333;
+            cursor: none;
+            text-decoration: none;
+            font-size:18px;
+            width: 390px;
+            margin: 0px auto;
+        }
+            #signOutCaption:hover{
+                text-decoration: none;
+            }
+/* END SIGNOUT CONFIRM MODAL CSS */    
+
+/* END COMPOSE BUTTON CSS */
+/* START TOUR CSS */
+#tourNotif{
+    height:150px;
+    width:250px;
+    border: 3px solid white;
+    border-radius: 4px;
+    position:absolute;
+    bottom:0;
+    right:0;
+    background-color:#419ab1;
+    -webkit-box-shadow:0px 0px 5px 0px #777777;
+    z-index:10;
+}
+    #tourContainer{
+        border-radius: 4px;
+    }
+            #tourDescrip{
+                margin: 1.25em;
+                color:white;
+            }
+        #tourActions{
+            width:82px;
+            margin:0 auto;
+        }
+/* END TOUR CSS */
+/* START OPTIONS POPUP CSS */
+#optionsModal{
+    height: 90%; width: 600px;
+    overflow: hidden;
+    top: 7%;
+}
+    .mightyClose{
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        padding: 10px;
+        height:14px;
+        width:14px;
+    }
+    #optionsIframe{
+        border-radius: 4px;
+        border:none;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+    }
+.stopFacebookScroll{
+    overflow: hidden;
+}
+/* END OPTIONS POPUP CSS */
+/* START MULTIACCOUNT ALERT CSS */
+/* TEMPORARILY BORROWING MULTIACCOUNTMODAL CSS FOR SIGNOUT MODAL */
+#multiAccountsModal{
+    width: 600px;
+    height: 100px;
+    background: #FFF;
+    padding: 15px;
+    z-index: 1051;
+}
+#multiAccountsModal:hover{
+    text-decoration:none;
+    cursor:default;
+}
+    .mightyMultiAccount{
+        font-family: Arial;
+        font-size: 16px;
+        color:#333;
+        font-weight: bold;
+        width: 600px;
+        white-space:pre-line;
+    }
+/* END MULTIACCOUNT ALERT CSS */
+.notificationWrapper{
+    width: 260px;
+}    
+    .mightynH, .mightyno{
+        float:left;
+        visibility: hidden;
+    }
+    .mightynH, .mightyFB{
+        width: 260px !important;
+    }
+        .mightynH{
+            min-height: 1;
+            margin-right: 5px;
+        }
+        .mightyno{
+            height:100%;
+        }
+/* START NOTIFICATION CSS */
+.convoWindowPlaceHolder{
+    display:none;
+}
+.composeOuterContainer{
+    float:left;
+    position:relative;
+    width:260px;
+    height:100%;
+}
+    .composeInnerContainer{
+        position:absolute;
+        bottom:0px;
+        width:100%;
+        background-color:white;
+        border-radius:2px;
+        padding:0px;
+        visibility: visible;
+    }
+        .composeInnerContainer.fb{
+            height:285px;
+        }
+/* START COMPOSER HEADER CSS */
+        .composeHeader{
+            background-color: #419ab1;
+            height:28px;
+            font-size: 16px;
+            padding:4px 10px;
+        }
+            .composeHeader.fb{                
+                height: 15px;
+                padding: 5px 6px;
+                border: 1px solid #2d6b7c;
+                border-radius: 2px 2px 0px 0px;
+                border-bottom: none;
+            }
+            .flash{
+                background-color:black;
+            }
+            .composeHeader > .mightyLogo{
+                float:left;
+                margin-top:6px;
+                margin-right:8px;
+            }
+                .mightyLogo.fb{
+                    margin-top: 0px;
+                }
+                .mightyLogo > img, .mightyLogo.fb > img{
+                    height:16px;
+                    width:16px;
+                }
+            .composeHeader > .title{
+                overflow: hidden;
+    			text-overflow: ellipsis;
+    			max-width: 140px;
+    			white-space: nowrap;
+    			background-position: left center;
+    			background-repeat: no-repeat;
+    			color: white;
+    			font-weight: bold;
+    			margin-left: 2px;
+    			height: 19px;
+    			padding: 0;
+    			margin: 8px 0px 0px;
+    			line-height: 1em;
+    			font-size: 80%;
+    			float: left;
+            }
+                .title.fb{
+                    font-size: 11px;
+                    margin-top: 1px;
+                }
+            .mightbtnholder {
+    	        margin: 2px -3px 0 0;
+    	        float: right;
+            }
+                #EEComposerContactInfo > .composeHeader > .mightbtnholder{
+                    display: none;
+                }
+                .mightbtnholder.fb{
+                    margin: -4px -3px 0px 0px;
+                }
+    	        .mighthbtn {
+    		        width: 24px; height: 24px;
+    /* 		        background: #419ab1; */
+    		        float: left;
+    		        cursor: pointer;
+    		        margin: 0;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+    		        padding:4px;
+    	        }
+    	        	.mighthbtn:hover {
+    		        	background: rgba(255,255,255,0.2);
+    	        	}
+    	        	.mighthbtn img {
+    		        	width: 16px; height: 16px;
+    	        	}
+/* END COMPOSER HEADER CSS */
+/* START COMPOSER BODY CSS */
+        .composeBody{
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-top: none;
+            padding: 0px;
+        }
+            .composeBody.fb{
+                height:100%;
+                border: 1px solid rgba(0, 0, 0, 0.3);
+                border-top:none;
+            }
+/* START CONTACT HOLDER CSS */
+            .sendTo{
+                width: 258px;
+                min-height: 30px;
+                margin: 0;
+                padding: 3px 10px;
+                border: 1px solid #ccc;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                background-color: white;
+            }
+                .sendTo.fb{                    
+                    padding: 2px 5px;
+                    border: none;
+                    border-bottom: 1px solid rgba(0,0,0,0.1);
+                    min-height: 27px;
+                }
+                .sendContacts > ul{
+                    padding: 0px;
+                    margin: 0px 0px 10px 25px;
+                }
+                .sendContacts > ul, .sendTo > menu, .sendTo > dir {
+                    display: block;
+                    list-style-type: disc;
+                    -webkit-margin-before: 1em;
+                    -webkit-margin-after: 1em;
+                    -webkit-margin-start: 0px;
+                    -webkit-margin-end: 0px;
+                    -webkit-padding-start: 40px;
+                }
+                    .sendContacts > li{
+                        line-height: 20px;
+                        display: list-item;
+                        text-align: -webkit-match-parent;
+                    }
+                    .sendContacts > .typeahead {
+                        z-index: 1051;
+                        margin-top: 2px;
+                        border-radius: 4px;
+                    }
+                    .sendContacts > .dropdown-menu {
+                        position: absolute;
+                        top: 100%;
+                        left: 0px;
+                        z-index: 1000;
+                        display: none;
+                        float: left;
+                        min-width: 160px;
+                        padding: 5px 0px;
+                        margin: 2px 0px 0px;
+                        list-style: none;
+                        background-color: #FFF;
+                        border: 1px solid rgba(0, 0, 0, 0.2);
+                        border-image: initial;
+                        border-radius: 6px;
+                        -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+                        box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+                        -webkit-background-clip: padding-box;
+                        background-clip: padding-box;
+                        font-size:12px
+                    }
+                        .sendContacts > .dropdown-menu > .active > a{
+                            color: #FFF;
+                            text-decoration: none;
+                            background-color: #419ab1;
+                            outline: 0px;
+                        }
+                            .sendContacts > .dropdown-menu > .active > a:hover{
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #419ab1;
+                                outline: 0;   
+                            }
+                        .sendContacts > .dropdown-menu > li > a{
+                            display: block;
+                            padding: 3px 6px;
+                            clear: both;
+                            font-weight: normal;
+                            line-height: 20px;
+                            color: #333;
+                            white-space: nowrap;
+                            text-decoration: none;
+                        }
+                            .sendContacts >.dropdown-menu > li > a:hover{
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #419ab1;
+                            }
+                .sendContacts{
+                    float:left;
+                }
+                    .sendContacts > span{            
+                        float: left;
+                        margin-top: 8px;
+                        color: grey;
+                        font-size: 13px;
+                    }
+                        .sendContacts.fb > span{
+                            font-size: 11px;
+                            margin-top: 3px;
+                            margin-right:5px;
+                        }
+                .numberToSendTo{
+                    float:left;
+                    min-height: 31px;
+                    width: 200px;
+                    float: left;
+                    margin-left: 5px;
+                    -moz-box-sizing: border-box;
+                    -o-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    border: none;
+                    font-size: 13px;
+                }
+                	.numberToSendTo:focus {
+        	        	outline: none;
+                	}
+                    	.numberToSendTo.fb{
+                        	min-height: 18px;
+                        	font-size: 11px;
+                    	}
+                .contact{
+                    float:left;
+                    font-size: 12px;
+                    padding: 4px;
+                    background-color: #419AB1;
+                    color: #FFF;
+                    text-align: center;
+                    float: left;
+                    margin: 4px 2px;
+                    border-radius: 3px;
+                }
+                    .contact.fb{                        
+                        font-size: 11px;
+                        padding: 0px 4px;
+                        border-radius: 2px;
+                        background-color: #deeeef;
+                        border: 1px solid #85becc;
+                        color: #373737;
+                        margin: 2px 1px;
+                    }
+                        .contact.fb > img{
+                            height: 8px; width: 8px;
+                            padding:3px 0px;
+                        }
+                    .removeContact{
+                        margin-bottom: -3px;
+                        cursor:pointer;
+                    }
+            .conversation > .sendTo{
+                display:none;
+            }
+/* END CONTACT HOLDER CSS */
+/* START CONVERSATION HOLDER CSS */
+            .conversationHolder{
+                height:200px;
+                overflow-y: auto;
+                overflow-x: hidden;
+/*                 border-bottom: 1px solid #ccc; */
+            }
+            .conversationHolder.emojiContainerOpen{
+                display: none;
+            }
+            .conversationHolder.fb{
+                height: 234px;
+            }
+                .textWrapper{
+                    border-radius: 6px;
+                    padding: 10px;
+                    font-size: 12px;
+                    margin:3px 5px;
+                    clear:both;
+                    max-width:150px;
+                }
+                    .textWrapper > div > span > a {
+                        color: #08C;
+                    }
+                    .incoming{
+                        position: relative;
+                        background: #E8E8E8;
+                        border: 1px solid #BFBFBF;
+                        float: left;
+                        text-align: left;
+                        margin-left: 20px;
+                    }
+                        .incoming:before, .incoming:after{
+                            right: 100%;
+                            border: solid rgba(0, 0, 0, 0);
+                            content: " ";
+                            height: 0;
+                            width: 0;
+                            position: absolute;
+                            pointer-events: none;
+                        }
+                            .incoming:before{
+                                border-color: rgba(191, 191, 191, 0);
+                                border-right-color: #BFBFBF;
+                                border-width: 11px;
+                                top: 50%;
+                                margin-top: -11px;
+                            }
+                            .incoming:after{
+                                border-color: rgba(232, 232, 232, 0);
+                                border-right-color: #E8E8E8;
+                                border-width: 10px;
+                                top: 50%;
+                                margin-top: -10px;
+                            }
+                    .outgoing{
+                        position: relative;
+                        background: #CBD9DD;
+                        border: 1px solid #9BB4BB;
+                        float: right;
+                        text-align: right;
+                        box-shadow: inset 0 1px rgba(255, 255, 255, 0.6);
+                        margin-right: 20px;
+                    }
+                        .outgoing:before, .outgoing:after{
+                            left: 100%;
+                            border: solid rgba(0, 0, 0, 0);
+                            content: " ";
+                            height: 0;
+                            width: 0;
+                            position: absolute;
+                            pointer-events: none;
+                        }
+                            .outgoing:before{
+                                border-color: rgba(155, 180, 187, 0);
+                                border-left-color: #9BB4BB;
+                                border-width: 11px;
+                                top: 50%;
+                                margin-top: -11px;
+                            }
+                            .outgoing:after{
+                                border-color: rgba(203, 217, 221, 0);
+                                border-left-color: #CBD9DD;
+                                border-width: 10px;
+                                top: 50%;
+                                margin-top: -10px;
+                            }
+                        .textContent{
+                            margin:0px;
+                            word-wrap:break-word;
+                        }
+                            .textContent > .contentAuthor{
+                                color: #419ab1;
+                            }
+                        .itemActions{
+                            margin-top:5px;
+                        }   
+                            .unstarred,.starred , #deleteMessage{
+                                margin-left:5px
+                            }             
+                            .unstarred, #deleteMessage, #forwardMessage{
+                                visibility: hidden;
+                            }
+                            .starred{
+                                visibility: visible;
+                            }
+                            .textTimeStamp{
+                                font-size: 10px;
+                                color: #9B9B9B;
+                                margin-left:15px;
+                            }
+                        .sentMessageStatus {
+                            display:block;
+                            float:left;
+                            margin-right:5px;
+                        }
+                            .sentMessageStatus > img{
+                                /* WAS GOING TO ADJUST HEIGHT OF IMAGE HERE */
+                            }
+                    #mms-scale-down{
+                        display: table;
+                        height: 60px;
+                        margin: 5px auto;
+                    }
+                        #fancyimagepopup{
+                            display: table-cell;
+                            vertical-align: middle;
+                        }
+                            #fancyimagepopup > img{
+                                height:auto;
+                                max-width: 100%;
+                            }
+/* END CONVERSATION HOLDER CSS */
+/* START RESPONSE AREA CSS */
+/* Daniel Styling */
+            .emojiContainerWrapper{
+                display: none;
+                position: relative;
+                margin-bottom: 15px;
+                height: 178px;
+                width: 90%;
+                left: 13px;
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                background: #FFF;
+            }
+                .emojiContainerWrapper.fb{
+                    position: absolute;
+                    top: 68px;
+                }
+                .emojiContainerWrapper:after, .emojiContainerWrapper:before {
+                	top: 100%;
+                	border: solid transparent;
+                	content: " ";
+                	height: 0;
+                	width: 0;
+                	position: absolute;
+                	pointer-events: none;
+                	left: 41%;
+
+                }
+                
+                .emojiContainerWrapper:after {
+                	border-color: rgba(255, 255, 255, 0);
+                	border-top-color: #FFF;
+                	border-width: 11px;
+                	margin-left: -11px;
+                }
+                .emojiContainerWrapper:before {
+                	border-color: rgba(204, 204, 204, 0);
+                	border-top-color: #ccc;
+                	border-width: 12px;
+                	margin-left: -12px;
+                }
+                .emojiRemoveWrapper{
+                    position: absolute;
+                    top: -12px;
+                    right: -12px;
+                }
+                .emojiContainer{
+                    overflow: hidden;
+                    overflow-y: scroll;
+                    height: 100%;
+                    direction:rtl;
+                    padding-left: 12px;
+                }
+/*                 SCROLLBAR DISPLAY BY DEFAULT */
+                    .emojiContainer::-webkit-scrollbar {
+                        -webkit-appearance: none;
+                        background-color: rgba(0,0,0, 0.1);
+                    }                    
+                    .emojiContainer::-webkit-scrollbar:vertical {
+                        width: 10px;
+                    }
+                    .emojiContainer::-webkit-scrollbar-thumb {
+                        border-radius: 2px;
+                        border: 2px solid rgba(0,0,0, 0.1); /* should match background, can't be transparent */
+                        background-color: rgba(0, 0, 0, .5);
+                    }
+                    
+                    .gtextEmoticon, .gtextEmoji{
+                        zoom: 0.6;
+                    }
+                    .messageToSend > .gtextEmoticon, .messageToSend > .gtextEmoji{
+                        margin-right: 10px;
+                    }
+/*
+            .emojiContainer::-webkit-scrollbar-thumb {
+                background-color: rgba(0, 0, 0, 0.2);
+                background-clip: padding-box;
+                border: solid rgba(0, 0, 0, 0);
+                border-width: 1px 1px 1px 6px;
+                min-height: 28px;
+            }
+*/
+                .responseArea.emojiContainerOpen{
+                    padding-top: 15px;
+                    height:auto;
+                }
+                .responseArea.emojiContainerOpen > .emojiContainerWrapper{
+                    display: block;
+                }
+            .messageContainer{
+                margin: 0;
+                border: 1px solid #ccc;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                overflow-x:hidden;
+                overflow-y: scroll;
+                max-height:150px;
+            }
+                .messageContainer.fb{                    
+                    height: 24px;
+                    position: absolute;
+                    bottom: 0px;
+                    border-top: 1px solid #ccc;
+                    border-bottom: none;
+                }
+                .messageToSend{
+                    width: 100%;
+                    min-height: 150px;
+                    border: none;
+                    box-shadow:none;
+                    padding: none;
+                    -moz-box-sizing: border-box;
+                    -o-box-sizing: border-box;
+                    -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+                    padding: 10px;
+                    resize: none;
+/*                     overflow-y: auto; */
+                    font-size: 13px;
+                    outline:0;
+                }
+                    .messageToSend.fb{
+                        border: 0px;
+                        padding: 5px;
+                        font-size: 11px;
+                        float:left;
+                        width:200px;
+                        height:24px;
+                    }
+                	.messageToSend:focus {
+        	        	outline: 0;
+                	}
+        	.fbFoot{
+            	max-width: 58px;
+            	margin-top:2px;
+            	float:left;
+        	}   	
+    .conversation > .responseArea > .messageContainer, .composeNew > .responseArea.emojiContainerOpen > .messageContainer > .messageToSend{
+        min-height: 40px;
+    }
+    .conversation > .responseArea > .messageContainer.fb, .composeNew > g.emojiContainerOpen > .messageContainer.fb{
+        height:24px;
+    }
+    .composeNew > .responseArea.emojiContainerOpen > .messageContainer, .conversation > .responseArea > .messageContainer{
+        max-height: 80px;
+    }
+    .conversation > .responseArea > .messageContainer, .composeNew > .responseArea.emojiContainerOpen > .messageContainer{
+        border-top: 1px solid #CCC;
+    }
+        .conversation > .responseArea > .messageContainer > .messageToSend{
+            min-height: 40px;
+        }
+        conversation > .responseArea > .messageContainer > .messageToSend.fb{
+            height: 24px;
+        }
+    .enterToSend > .responseArea > .messageContainer{
+
+        height: 45px;
+        border:none;
+    }
+        .enterToSend > .responseArea > .messageContainer > .messageToSend{
+            width: 100%;
+            height: 45px;
+        }
+    .conversation.fb > .responseArea.emojiContainerOpen > .emojiContainerWrapper{
+        height: 200px;
+        top: 42px;
+    }
+    .composeNew.fb > .responseArea.emojiContainerOpen > .emojiContainerWrapper{
+        min-height: 154px;
+        max-height: 174px;
+        top: 68px;
+    }
+        .composeNew.fb > .responseArea.emojiContainerOpen > .messageContainer > .messageToSend{
+            border: 0px;
+            height: 24px;
+/*             max-height: 40px */
+        }
+    .composeBody.fb > .responseArea.emojiContainerOpen > .emojiContainerWrapper{
+        position: absolute;
+    }
+        .composeBody.fb > .responseArea.emojiContainerOpen > .emojiContainerWrapper:before, .composeBody.fb > .responseArea.emojiContainerOpen > .emojiContainerWrapper:after{
+            left: 86.5%;
+        }        
+        
+/* END RESPONSE AREA CSS */
+/* START COMPOSE FOOTER CSS */
+       .mightdcfoot{
+    	   width: 100%;
+    	   background: #f5f5f5;
+    	   height: 42px;
+       }
+       .mightdcfoot.fb{
+            display: block;
+            float: left;
+            position: absolute;
+            bottom: 0;
+            width: 75px;
+            right: 1px;
+            height: 24px;
+            background: #FFF;
+            border-top: 1px solid #CCC;       
+        } .enterToSend > .mightdcfoot{
+                display: none;
+            }
+    	    .sendSMS .btn{
+    			float:left;
+    			-webkit-box-shadow: none;
+    			box-shadow: none;
+    			background-color: #4d90fe;
+    			background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    			background-image: linear-gradient(top,#4d90fe,#4787ed);
+    			border: 1px solid #3079ed;
+    			color: #fff;
+    			-webkit-border-radius: 2px;
+    			border-radius: 2px;
+    			cursor: default;
+    			font-size: 11px;
+    			font-weight: bold;
+    			text-align: center;
+    			white-space: nowrap;
+    			height: 30px;
+    			line-height: 23px;
+    			min-width: 54px;
+    			outline: 0;
+    			padding: 0 15px;
+    			border-spacing: 0;
+    			vertical-align: middle;
+    			margin: 7px 0px 0px 6px;
+    	    }
+    	    .sendSMS.fb{
+        	    display:none;
+    	    }
+    	    	.sendSMS .btn:active {
+    				-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    				box-shadow: inset 0 1px 2px rgba(0,0,0,0.3);
+    				background: #357ae8;
+    				border: 1px solid #2f5bb7;
+    				border-top: 1px solid #2f5bb7;
+    	    	}
+    	    	.sendSMS .btn:focus {
+    				-webkit-box-shadow: inset 0 0 0 1px #fff;
+    				box-shadow: inset 0 0 0 1px #fff;
+    				border: 1px solid #fff;
+    				border: 1px solid rgba(0,0,0,0);
+    				outline: 1px solid #4d90fe;
+    				outline: 0 rgba(0,0,0,0);
+    				cursor:pointer;
+    	    	}
+        	    	.sendSMS > .btn > img{
+            	    	width:22px;
+            	    	height:22px;
+            	    	margin-top:3px;
+        	    	}
+            .sendMMS {
+            	float: left;
+            	margin-top: 7px;
+            	background-color: transparent;
+            	-webkit-box-shadow: none;
+            	box-shadow: none;
+            	-webkit-border-radius: 2px;
+            	-moz-border-radius: 2px;
+            	border-radius: 2px;
+            	cursor: default;
+            	white-space: nowrap;
+            	height: 30px;
+            	min-width: 20px;
+            	outline: 0;
+            	padding: 0;
+            }
+            .sendMMS.fb{
+            	margin-top: 2px;
+            	height: 20px;
+                margin-left: 0px;
+                min-width: 20px;
+        	}
+            	.sendMMS.fb > #upload-image-mms{
+                    padding: 2px 5px 0px 5px;
+            	}
+                	.sendMMS.fb > #upload-image-mms > .dcattachicon > img{
+                    	width: 8px;
+                    	height: 16px;
+                	}
+                	.sendMMS.fb > #holder-mms-image-preview > a#fancyimagepopup-MMS > img#mms-image-preview{
+                    	max-width: 18px;
+                	}
+            .sendMMS, .emojiButtonHolder{
+                margin-left:5px;
+            }
+                .sendMMS:hover, .emojiButtonHolder:hover{
+                	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
+                	background-image: -webkit-gradient(linear,left top,left bottom,from(#f5f5f5),to(#f1f1f1));
+                	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+                	border: 1px solid rgba(0,0,0,0.1);
+                }
+                .sendMMS.fb:hover{
+                    background-image: none;
+                    border:none;
+                }
+            #upload-image-mms{
+                padding:5px 8px;
+            	opacity:0.5;
+            }
+            #upload-image-mms:hover{
+            	opacity:1;
+            }
+            textTimeStamp {
+            	border: none;
+            	background: none;
+            }
+            .sendSMS > .btn {
+            	border: 1px solid rgb(48, 121, 237);
+            	color: rgb(255, 255, 255);
+            	border-radius: 2px;
+            	cursor: default;
+            	font-size: 11px;
+            	font-weight: bold;
+            	text-align: center;
+            	white-space: nowrap;
+            	line-height: 23px;
+            	outline: 0px;
+            	padding: 0px 15px;
+            }
+            .sendSMS > .btn > img {
+            	width: 18px; height: 18px;
+            	padding: 0;
+            	margin: 5px 0 0;
+            }
+            .dcattachicon > img{
+                width: 9px;
+                height: 18px;
+            }
+            #singleMessageContainer #holder-mms-image-preview {
+                width: 90px;
+            }
+            #holder-mms-image-preview {
+                overflow: hidden;
+                border: 1px dashed lightgray;
+                max-height: 30px;
+                max-width: 26px;
+            }
+/*                 MAKE THE PREVIEW SMALLER WHEN IN THE SMALL FB CHAT WINDOW. */
+/*
+                #holder-mms-image-preview.fb{
+                    max-width: 20px;
+                }
+*/
+                #mms-image-preview {
+                    max-height: 100%;
+                    max-width: 100%;
+                    vertical-align: middle;
+                    float: left;
+                }
+        .emojiButtonHolder{
+            float: left;
+            margin-top: 7px;
+            width: 32px;
+            height:30px;
+            padding: 5px 6px;
+            box-sizing: border-box;
+            border-radius: 2px;
+        }
+        .emojiButtonHolder.fb{
+            padding: 0px;
+            width: 18px;
+            height: 18px;
+            margin: 3px;
+            opacity: 0.7;
+        }
+            .emojiButtonHolder.fb:hover{
+                background-image: none;
+                border: 0px;
+                opacity: 1;
+            }
+    	.countContainer{
+        	float: right;
+        	margin: 11px 6px 9px;
+            font-size: 14px;
+            color: #808080;
+    	}
+        	.countContainer.fb{
+            	float:right;
+            	font-size:12px;
+            	margin: 0px;
+            	margin-top: 4px;
+            	margin-right: 4px;
+        	}
+    	.groupMMSContainer{
+        	display:none;
+        	float: right;
+    	}
+    	.sendMMS, .emojiButtonHolder, .groupMMSContainer{
+        	box-sizing: border-box;
+    	}
+/* END COMPOSE FOOTER CSS */
+/* END COMPOSER BODY CSS */
+/* Bootstrap CSS Knock Off */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  background-color: #000000;
+}
+    .modal-backdrop.fadeMighty {
+      opacity: 0;
+    }
+    .modal-backdrop,
+    .modal-backdrop.fadeMighty.in {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+    }
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  z-index: 1050;
+  width: 560px;
+  margin-left: -280px;
+  background-color: #ffffff;
+  border: 1px solid #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  *border: 1px solid #999;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  outline: none;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+     -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding-box;
+          background-clip: padding-box;
+}
+.modal.fadeMighty {
+  top: -25%;
+  -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, top 0.3s ease-out;
+          transition: opacity 0.3s linear, top 0.3s ease-out;
+}
+    .fadeMighty {
+      opacity: 0;
+        -webkit-transition: opacity 0.15s linear;
+            -moz-transition: opacity 0.15s linear;
+                -o-transition: opacity 0.15s linear;
+                    transition: opacity 0.15s linear;
+    }
+.modal.fadeMighty.in {
+  top: 5%;
+}
+.modal-header {
+  padding: 9px 15px;
+  border-bottom: 1px solid #eee;
+}
+    .modal-header > .close {
+        margin-top: 2px;
+        float:left;    
+    }    
+    .modal-header > h3 {
+        margin: 0;
+        line-height: 30px;
+        float:left;
+        color:black;
+    }
+.modal-body {
+    position: relative;
+    max-height: 400px;
+    padding: 15px;
+    overflow-y: auto;
+}
+.modal-form {
+  margin-bottom: 0;
+}
+#mms-upload-image-preview-pane{
+    max-width:520px;
+    overflow:hidden;
+}
+    #file-just-uploaded{
+        max-width:100%;
+    }
+.modal-footer {
+  padding: 14px 15px 15px;
+  margin-bottom: 0;
+  text-align: right;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  -webkit-border-radius: 0 0 6px 6px;
+     -moz-border-radius: 0 0 6px 6px;
+          border-radius: 0 0 6px 6px;
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 #ffffff;
+     -moz-box-shadow: inset 0 1px 0 #ffffff;
+          box-shadow: inset 0 1px 0 #ffffff;
+}
+    .modal-footer:before,
+    .modal-footer:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+    .modal-footer:after {
+      clear: both;
+    }
+    
+    .modal-footer .btn + .btn {
+      margin-bottom: 0;
+      margin-left: 5px;
+      display: inline-block;
+      padding: 4px 12px;
+      margin-bottom: 0;
+      font-size: 14px;
+      line-height: 20px;
+      color: #333;
+      text-align: center;
+      text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #F5F5F5;
+      background-image: -moz-linear-gradient(top, #FFF, #E6E6E6);
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFF), to(#E6E6E6));
+      background-image: -webkit-linear-gradient(top, #FFF, #E6E6E6);
+      background-image: -o-linear-gradient(top, #FFF, #E6E6E6);
+      background-image: linear-gradient(to bottom, #FFF, #E6E6E6);
+      background-repeat: repeat-x;
+      border: 1px solid #CCC;
+      border-color: #E6E6E6 #E6E6E6 #BFBFBF;
+      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+      border-bottom-color: #B3B3B3;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+      filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    }
+    .modal-footer > .mightyButton.btn{
+        background-color: #419AB1;
+        background-image: -webkit-linear-gradient(top, #2F6F80, #419AB1);
+    }
+    .modal-footer .btn-group .btn + .btn {
+      margin-left: -1px;
+    }
+    .modal-footer .btn-block + .btn-block {
+      margin-left: 0;
+    }
+.fadeMighty.in , .fadeMighty.inside {
+    opacity: 1;
+}
+    .hide {
+        display: none;
+    }
+/* RIP OFF FROM MIGHTYTEXT DEFAULT THEME */
+#mms-upload-dialog {
+    z-index: 5000;
+    text-align: left;
+    top:7%;
+}
+#file-upload-progress-indicator{
+    width: 42px;
+    margin: 40px auto 0;
+}
+#mms-file-attach{
+    margin: 15px 0px 0px 15px;
+    font-size:16px;
+    color:black;
+}
+#frmUpload {
+    font-size: 20px;
+}
+#mms-upload-image-preview-pane {
+    max-height: 200px;
+    padding: 20px;
+    display: inline-block;
+}
+#file-just-uploaded {
+    vertical-align: middle;
+    float: left;
+    margin-top: 10px;
+    max-height: inherit;
+}
+.modal-footer > .btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.modal-footer > .btn.cancel:hover,
+.modal-footer > .btn.cancel:focus,
+.modal-footer > .btn.cancel:active,
+.modal-footer > .btn.active,
+.modal-footer > .btn.disabled,
+.modal-footer > .btn[disabled] {
+  color: #333333;
+  background-color: #e6e6e6;
+  *background-color: #d9d9d9;
+}
+
+.modal-footer > .btn:active,
+.modal-footer > .btn.active {
+  background-color: #cccccc \9;
+}
+
+.modal-footer > .btn:first-child {
+  *margin-left: 0;
+}
+
+.modal-footer > .btn:hover,
+.modal-footer > .btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: 0 -15px;
+  -webkit-transition: background-position 0.1s linear;
+     -moz-transition: background-position 0.1s linear;
+       -o-transition: background-position 0.1s linear;
+          transition: background-position 0.1s linear;
+}
+
+.modal-footer > .btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+.modal-footer > .btn.active,
+.modal-footer > .btn:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.tooltip {
+  position: absolute;
+  z-index: 1030;
+  display: block;
+  font-size: 11px !important;
+  line-height: 1.3;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  visibility: visible;
+}
+    .tooltip:hover{
+        text-decoration: none;
+    }
+/* KL MADE CHANGE TO .IN CLASS BECAUSE IT CONFLICTS WITH GMAIL */
+    .tooltip.inside {
+      opacity: 0.8;
+      filter: alpha(opacity=80);
+    }
+    
+    .tooltip.top {
+      padding: 5px 0;
+      margin-top: -3px;
+    }
+    
+    .tooltip.right {
+      padding: 0 5px;
+      margin-left: 3px;
+    }
+    
+    .tooltip.bottom {
+      padding: 5px 0;
+      margin-top: 3px;
+    }
+    
+    .tooltip.left {
+      padding: 0 5px;
+      margin-left: -3px;
+    }
+
+.tooltip-inner {
+  white-space: normal;
+  max-width: 200px;
+  padding: 8px;
+  color: #ffffff;
+  text-align: left;
+  text-decoration: none;
+  background-color: #000000;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.tooltip.top .tooltip-arrow {
+  bottom: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-top-color: #000000;
+  border-width: 5px 5px 0;
+}
+
+.tooltip.right .tooltip-arrow {
+  top: 50%;
+  left: 0;
+  margin-top: -5px;
+  border-right-color: #000000;
+  border-width: 5px 5px 5px 0;
+}
+
+.tooltip.left .tooltip-arrow {
+  top: 50%;
+  right: 0;
+  margin-top: -5px;
+  border-left-color: #000000;
+  border-width: 5px 0 5px 5px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: #000000;
+  border-width: 0 5px 5px;
+}
+/* START BATTERY CSS */
+.newbatterywrap {
+	color: #cacaca; /*MA changed*/
+	min-width: 90px;
+	height: 20px;
+	display: none;
+    position: absolute;
+    top: 0px;
+    z-index: 992;
+    right: 22px;
+    padding-right:9px;
+}
+    .newbatterywrap.newBatStatLocation{
+        position: relative;
+        margin-top:5px;
+        margin-right: -22px;
+        padding-right: 0px;
+        padding-left: 10px;
+        right: 0px;
+/*         box-flex:1 auto; */
+    }
+	.baticon {
+		display:inline-block;
+		float: left;
+		line-height: 20px;
+		color:#EEE;
+	}
+    	.baticon > img{
+        	height:20px;
+        	width:20px;
+    	}
+	.gTextBattery{
+    	display:inline-block;
+    	float:left;
+	}
+    	.batwrap {
+    		position: relative;
+    		width: 45px;
+/*     		margin-top:5px; */
+    		float: left;
+    	}
+    		.batshell {
+    			border-radius: 2px;
+    			height: 20px; width: 100%;
+    			position: absolute;
+    			overflow: hidden;
+    			background: #777;
+    			-moz-transition: all 0.2s;
+    			-o-transition: all 0.2s;
+    			-webkit-transition: all 0.2s;
+    			transition: all 0.2s;
+    			
+    		}
+    			.batbar {
+    				max-width: 100%;
+    				height: 100%;
+    				background-color: none;
+    				-moz-transition: all 0.2s;
+    				-o-transition: all 0.2s;
+    				-webkit-transition: all 0.2s;
+    				transition: all 0.2s;
+    				border-radius: 2px 0 0 2px;
+    			}
+    		.batnub {
+    			width: 4px; height: 10px;
+    			background-color: #777;
+    			right: -4px;
+    			top: 5px;
+    			position: absolute;
+    			-moz-transition: all 0.2s;
+    			-o-transition: all 0.2s;
+    			-webkit-transition: all 0.2s;
+    			transition: all 0.2s;
+    		}
+    	.batpercent {
+    /* 		gmail styling */
+    		color:#EEE;
+    		text-shadow: 0 0 4px rgba(0, 0, 0, .4);
+    /* 		gmail styling */
+    		display: block;
+    /* 		float: right; */
+    		font-size: .9em;
+    		font-weight: 500;
+    		line-height: 1.4em;
+            margin-top:1px;
+    		position: relative;
+    		z-index: 5;
+    		-moz-transition: all 0.2s;
+    		-o-transition: all 0.2s;
+    		-webkit-transition: all 0.2s;
+    		transition: all 0.2s;
+    		text-align:center;
+    	}
+        	.batpercent.legible{
+            	color: black;
+            	text-shadow:none;
+        	}
+    	.battimestamp {
+    		display: block;
+    		float: left;
+    		/*color: white;*/ /*MA changed*/
+    		text-align: center;
+    		width: 100%;
+    		font-size: 0.8em; /*MA changed - increased size a bit */
+    		/*text-transform: uppercase; */  /*MA changed - made it mixed case again */
+    		margin-top: 6px;
+    		/*opacity: 0.7;*/  /*MA changed*/
+    		-moz-transition: all 0.2s;
+    		-o-transition: all 0.2s;
+    		-webkit-transition: all 0.2s;
+    		transition: all 0.2s;
+    	}
+
+#chargingIcon {
+    display:inline-block;
+	width: 10px; 
+	height: 20px;
+	position: relative;
+	top: 0px;    
+	left: 8px;  
+	float:left;
+}
+    .newBatStatLocation > #chargingIcon{
+        position: relative;
+        margin-left: 8px;
+        margin-top: 3px;
+        left: 0px;
+    }
+    #chargingIcon > img {
+        position:absolute;
+        right: 0px;
+        height:14px;
+        width:7px;
+    }
+/* END BATTERY CSS */
+/* START BOOTSTRAP POPOVER CSS */
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  display: none;
+  max-width: 276px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+}
+
+    .popover.top {
+      margin-top: -10px;
+    }
+    
+    .popover.right {
+      margin-left: 10px;
+    }
+    
+    .popover.bottom {
+      margin-top: 10px;
+    }
+    
+    .popover.left {
+      margin-left: -10px;
+    }
+
+.popover-title {
+  padding: 10px 24px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+     -moz-border-radius: 5px 5px 0 0;
+          border-radius: 5px 5px 0 0;
+}
+
+.popover-title:empty {
+  display: none;
+}
+
+.popover-content {
+  padding: 9px 14px;
+}
+
+    .popover .arrow,
+    .popover .arrow:after {
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+    }
+    
+    .popover .arrow {
+      border-width: 11px;
+    }
+    
+    .popover .arrow:after {
+      border-width: 10px;
+      content: "";
+    }
+    
+    .popover.top .arrow {
+      bottom: -11px;
+      left: 50%;
+      margin-left: -11px;
+      border-top-color: #999;
+      border-top-color: rgba(0, 0, 0, 0.25);
+      border-bottom-width: 0;
+    }
+    
+    .popover.top .arrow:after {
+      bottom: 1px;
+      margin-left: -10px;
+      border-top-color: #ffffff;
+      border-bottom-width: 0;
+    }
+    
+    .popover.right .arrow {
+      top: 50%;
+      left: -11px;
+      margin-top: -11px;
+      border-right-color: #999;
+      border-right-color: rgba(0, 0, 0, 0.25);
+      border-left-width: 0;
+    }
+    
+    .popover.right .arrow:after {
+      bottom: -10px;
+      left: 1px;
+      border-right-color: #ffffff;
+      border-left-width: 0;
+    }
+    
+    .popover.bottom .arrow {
+      top: -11px;
+      left: 50%;
+      margin-left: -11px;
+      border-bottom-color: #999;
+      border-bottom-color: rgba(0, 0, 0, 0.25);
+      border-top-width: 0;
+    }
+    
+    .popover.bottom .arrow:after {
+      top: 1px;
+      margin-left: -10px;
+      border-bottom-color: #ffffff;
+      border-top-width: 0;
+    }
+    
+    .popover.left .arrow {
+      top: 50%;
+      right: -11px;
+      margin-top: -11px;
+      border-left-color: #999;
+      border-left-color: rgba(0, 0, 0, 0.25);
+      border-right-width: 0;
+    }
+    
+    .popover.left .arrow:after {
+      right: 1px;
+      bottom: -10px;
+      border-left-color: #ffffff;
+      border-right-width: 0;
+    }
+
+.popoverRow{
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+}
+    .popoverContentLeft{
+        margin-left:15px;
+    }
+    .popoverContentLeft:nth-of-type(1){
+        margin-left: 0px;
+    }
+        .popoverContentLeft > img, .popoverContentRight > img{
+            height: 36px;
+            width: 36px;
+        }
+/* END BOOTSTRAP POPOVER CSS */
+/* START EMOJI SELECTOR CSS */
+
+.titleHolder{
+    background-color: #419ab1;
+    color:white;
+    display:inline-block;
+    width:99%;
+    padding: 5px;
+    margin: 5px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.emojiHolder{
+    padding: 3px;
+    cursor: pointer;
+}
+    .titleHolder, .emojiHolder{
+        float: left;
+    }
+/* START BOOTSTRAP DROPDOWN CSS */
+.dropdown {
+  position: relative;
+}
+.dropdown-toggle:focus {
+  outline: 0;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  font-size: 14px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  background-clip: padding-box;
+}
+.dropdown-menu.pull-right {
+  right: 0;
+  left: auto;
+}
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.dropdown-menu > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: nowrap;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #419ab1;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  text-decoration: none;
+  outline: 0;
+  background-color: #419ab1;
+}
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  color: #999999;
+}
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.open > .dropdown-menu {
+  display: block;
+}
+.open > a {
+  outline: 0;
+}
+.dropdown-header {
+  display: block;
+  padding: 3px 20px;
+  font-size: 12px;
+  line-height: 1.428571429;
+  color: #999999;
+}
+.dropdown-backdrop {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 990;
+}
+.pull-right > .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret {
+  border-top: 0 dotted;
+  border-bottom: 4px solid #000000;
+  content: "";
+}
+.dropup .dropdown-menu,
+.navbar-fixed-bottom .dropdown .dropdown-menu {
+  top: auto;
+  bottom: 100%;
+  margin-bottom: 1px;
+}
+/* MIGHTYTEXT */
+
+.dropdownToggler{
+    cursor: pointer;
+}
+.mightyDropup{
+    position: relative;
+    padding: 4px 2px;
+    margin: 7px 0px 4px;
+    height: 31px;
+    box-sizing: border-box;
+	border-radius: 3px;
+}
+    .mightyDropup:hover{
+    	border: 1px solid rgba(0,0,0,0.1);
+    }
+    .groupTriggerContainer > img, .mightyTrigger{
+        float:left;
+    }
+        .groupTriggerContainer > img.groupMMSIcon{
+            margin-top: -2px;
+        }
+        img.groupMMSDropdownCaret{
+            margin-top: 6px;
+            margin-left: 2px;
+        }
+    .mightyTrigger{
+        font-size: 12px;
+        color: grey;
+        text-decoration: none;
+        margin-top: 2px;
+        margin-left: 3px;
+    }
+        .dropdownOption{
+            font-size: 12px;
+            color: grey;
+            text-decoration: none;
+        }
+            .dropdownOption:hover{
+                background-color: #419ab1;
+            }
+            .dropdownOption > img{
+                opacity: .75;
+                margin-right: 3px;
+                float:left;
+            }
+    
+
+/* END BOOTSTRAP DROPDOWN CSS */
+
+/* START BOOTSTRAP ALERT CSS */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
+}
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+.alert-dismissable {
+  padding-right: 35px;
+}
+.alert-dismissable .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+/* CUSTOM KEVIN BOOTSTRAP CSS */
+    .alert >  .close{
+        position: absolute;
+        text-decoration: none;
+        top: 5px;    
+        right: 10px;
+/*         margin-right:10px; */
+        color: inherit;
+    }
+/* CUSTOM KEVIN BOOTSTRAP CSS */
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #356635;
+}
+/* KEVIN CUSTOM BOOTSTRAP ALERT INFO CSS */
+.alert-info {
+	color: #287488;
+	background-color: #C4DBE2;
+	border: 1px solid #419AB1 !important;
+	font-size: 13px;
+}
+/* KEVIN CUSTOM BOOTSTRAP ALERT INFO CSS */
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #2d6987;
+}
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #fbeed5;
+  color: #c09853;
+}
+.alert-warning hr {
+  border-top-color: #f8e5be;
+}
+.alert-warning .alert-link {
+  color: #a47e3c;
+}
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+}
+.alert-danger hr {
+  border-top-color: #e6c1c7;
+}
+.alert-danger .alert-link {
+  color: #953b39;
+}
+/* END BOOTSTRAP ALERT CSS */
+
+
+

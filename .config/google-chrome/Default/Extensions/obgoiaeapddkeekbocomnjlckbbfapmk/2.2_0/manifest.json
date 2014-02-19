@@ -1,0 +1,26 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "translate.js", "background.js", "sf.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "sf-inject.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Automatically translate selection/mouseover text by google translate",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "256": "icons/translation.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyxymr2zoiu+VXsAE+zxG19O44Bk7giW865ZxblwehfWSlzzRocL60E45KZCzg7UHR9iRXIV6QPvMlTb66JWGq7GErBCawsbMPIyVsQucdRLM4bVDfH/a03Oek+T4j8OMk1k8iGpANFXUur7N32aMsJ4Xk/xYshq6OCzIprZhNHQIDAQAB",
+   "manifest_version": 2,
+   "name": "Auto-Translate",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://ajax.googleapis.com/*", "http://*.google.com/*", "http://google.com/*", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2"
+}

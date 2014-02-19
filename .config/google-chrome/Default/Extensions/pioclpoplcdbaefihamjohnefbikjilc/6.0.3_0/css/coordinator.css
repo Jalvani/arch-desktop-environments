@@ -1,0 +1,212 @@
+.skitch-surface, .skitch-layer, .skitch-tool-element-text-editor, .skitch-tool-element-text-hidden-text {
+  visibility: hidden;
+}
+body.skitchon *:not(#evernoteFilingTools):not(#evernoteGlobalTools):not(#evernoteUserTools):not(#evernoteShareTools):not(#evernoteEmailSharing):not(#evernoteOptionsPage):not(#evernoteFlePage):not(.skitch-surface):not(.skitch-layer):not(.skitch-tool-element-text-editor):not(.skitch-tool-element-text-hidden-text):not(.skitchVisible) {
+  visibility: hidden !important;
+}
+body.skitchon iframe:not(#evernoteFilingTools):not(#evernoteGlobalTools):not(#evernoteUserTools):not(#evernoteShareTools):not(#evernoteEmailSharing):not(#evernoteOptionsPage):not(#evernoteFlePage):not(.skitch-surface):not(.skitch-layer):not(.skitch-tool-element-text-editor):not(.skitch-tool-element-text-hidden-text):not(.skitchVisible) {
+  display: none !important;
+}
+
+body.skitchon .skitch-surface, body.skitchon .skitch-layer,
+body.skitchon .skitch-tool-element-text-editor,
+body.skitchon .skitch-tool-element-text-hidden-text {
+  visibility: visible !important;
+}
+
+body.skitchon {
+  min-width: 100% !important;
+  overflow: hidden;
+  position: fixed;
+}
+
+/* Multiple tools */
+#evernoteEmailSharing,
+#evernoteFilingTools, #evernoteGlobalTools,#evernoteUserTools,
+#evernoteShareTools, #evernoteOptionsPage, #evernoteFlePage {
+  border: none;
+  z-index: 2147483647 !important;
+  -webkit-user-select: none !important;
+}
+
+#evernoteEmailSharing,
+#evernoteFilingTools, #evernoteGlobalTools, #evernoteUserTools,
+#evernoteShareTools, #evernoteFlePage {
+  position: fixed !important;
+}
+
+/* Filing tools */
+#evernoteFilingTools {
+  height: 501px;
+  right: -257px;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 257px;
+}
+#evernoteFilingTools.evernoteClipperVisible {
+  right: 152px;
+}
+
+/* Global tools */
+#evernoteGlobalTools {
+  height: 100%;
+  right: -154px;
+  top: 0;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 154px;
+}
+#evernoteGlobalTools.evernoteClipperVisible {
+  right: 0;
+}
+#evernoteGlobalTools.evernoteClipperVisible.tempHidden {
+  right: -136px;
+}
+#evernoteGlobalTools.hidable {
+  width: 172px;
+}
+
+/* user menu */
+#evernoteUserTools {
+  border: 1px solid #6D7880;
+  box-shadow: 0 4px 6px 0 rgba(47, 55, 61, 0.42);
+  bottom: 0;
+  height: 156px;
+  right: -250px;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 206px;
+}
+#evernoteUserTools.evernoteClipperVisible {
+  right: 152px;
+}
+
+/* sharing tools */
+#evernoteShareTools {
+  bottom: 35px;
+  height: 98px;
+  right: -297px;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 297px;
+}
+#evernoteShareTools.evernoteClipperVisible {
+  right: 152px;
+}
+
+/* Email Sharing */
+#evernoteEmailSharing {
+  height: 318px;
+  right: -297px;
+  bottom: 35px;
+  transition: right .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+  width: 297px;
+}
+#evernoteEmailSharing.evernoteClipperVisible {
+  right: 152px;
+}
+
+/* Options page */
+#evernoteOptionsPage {
+  border: none;
+  display: none;
+  height: 755px;
+  left: calc(50% - 315px);
+  position: fixed;
+  top: calc(50% - 377px);
+  width: 620px;
+}
+#evernoteOptionsPage.evernoteClipperVisible {
+  display: inline;
+}
+
+#evernoteFlePage {
+  border: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 154px;
+  width: calc(100% - 154px);
+  height: 100%;
+  background: none;
+}
+/* clearly */
+#evernoteClearlyArticle {
+  border: none;
+  height: 100%;
+  left: -100%;
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  z-index: 2147483646 !important;     
+}
+
+html.clearlyBeforeVisible, html >  body.clearlyBeforeVisible,
+body.clearlyBeforeVisible {
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+}
+html.clearlyBeforeVisible object, html.clearlyBeforeVisible embed,
+html.clearlyBeforeVisible iframe:not(#evernoteFilingTools):not(#evernoteGlobalTools):not(#evernoteUserTools):not(#evernoteShareTools):not(#evernoteEmailSharing):not(#evernoteOptionsPage):not(#evernoteClearlyArticle):not(#evernoteFlePage),
+html > body.clearlyBeforeVisible object, html > body.clearlyBeforeVisible embed,
+html > body.clearlyBeforeVisible iframe:not(#evernoteFilingTools):not(#evernoteGlobalTools):not(#evernoteUserTools):not(#evernoteShareTools):not(#evernoteEmailSharing):not(#evernoteOptionsPage):not(#evernoteClearlyArticle):not(#evernoteFlePage),
+body.clearlyBeforeVisible object, body.clearlyBeforeVisible embed,
+body.clearlyBeforeVisible iframe:not(#evernoteFilingTools):not(#evernoteGlobalTools):not(#evernoteUserTools):not(#evernoteShareTools):not(#evernoteEmailSharing):not(#evernoteOptionsPage):not(#evernoteClearlyArticle):not(#evernoteFlePage) {
+  visibility: hidden !important;
+}
+html.clearlyBeforeVisible #evernoteClearlyArticle, html >  + body.clearlyBeforeVisible #evernoteClearlyArticle,
+body.clearlyBeforeVisible #evernoteClearlyArticle, #evernoteClearlyArticle {
+  display: block !important;
+  overflow: auto !important;
+  visibility: visible !important;
+}
+
+@font-face {
+  font-family: "GothamMedium";
+  src: url(chrome-extension://__MSG_@@extension_id__/fonts/GothamSSm-Medium.otf);
+}
+
+/* skitch */
+.skitchCropOptions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgb(47,55,61);
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px rgba(255,255,255,.38) solid;
+}
+
+.skitchCropOptions div {
+  float: right;
+}
+
+.skitchCropOptions div div {
+  float: none;
+  display: inline-block;
+  color: white;
+  font-family: "GothamMedium", Helvetica, Arial, sans-serif;
+  font-size: 10pt;
+  margin-top: 10px;
+}
+
+.skitchCropOptions div div:last-of-type {
+  text-shadow: 1px 1px 2px rgba(0,0,0,.32);
+  height: 22px;
+  width: 60px;
+  background-color: rgb(38,176,100);
+  border-radius: 2px;
+  border-top: 1px rgb(51,204,120) solid;
+  line-height: 20px;
+  margin: 0px 10px;
+  text-align: center;
+}
+.skitchCropOptions div div:first-of-type {
+  text-shadow: 1px 1px 2px rgba(0,0,0,.32);
+  padding-left: 22px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  padding-right: 22px;
+}

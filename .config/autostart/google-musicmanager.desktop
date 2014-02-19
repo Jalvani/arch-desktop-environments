@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=google-musicmanager
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=google-musicmanager
+Name=google-musicmanager
+Comment[en_GB]=
+Comment=

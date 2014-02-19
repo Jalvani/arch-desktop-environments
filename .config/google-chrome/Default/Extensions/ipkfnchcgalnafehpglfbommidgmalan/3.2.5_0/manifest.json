@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "main.html"
+   },
+   "browser_action": {
+      "default_icon": "images/icon24.png",
+      "default_title": "__MSG_extDesc__"
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "lib/mootools-core.js", "lib/mootools-more.js", "js/klippy.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extDesc__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDM2I6zcWr5OHwhC5RWSlvGVvIEXL3a5ZN3j+G53bDJZnbHzcNWcFQ1aSbL5rbporA5/ILZQenuRDFWBwBDYfjVS5/xk2tJhzMIMk+r6o5eDw5Iue/N2G7WxGsVrnpAZp+GyjxU4WuCXpoI6xOX7gacEP8q36BjUcMVcFr7Dp/N2wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.2.5",
+   "web_accessible_resources": [ "css/base.css", "css/klip.css", "css/select.css", "css/ui.css", "images/overlay-button.png", "images/gtk-close.png", "lib/mootools-core.js", "lib/mootools-more.js", "js/klippy.js" ]
+}

@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Add price history charts to Google Chrome and watch product prices change. Supports Amazon, Best Buy and Newegg."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "The Camelizer - Amazon Price Tracker"
+   },
+   "pageActionTitle": {
+      "description": "Tool tip for the icon",
+      "message": "The Camelizer"
+   }
+}

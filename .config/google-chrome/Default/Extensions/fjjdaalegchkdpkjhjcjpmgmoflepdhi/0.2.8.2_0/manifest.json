@@ -1,0 +1,16 @@
+{
+   "background_page": "background_clt.html",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Close Tabs To Left"
+   },
+   "description": "Close Tabs To Left will let you close all the tabs to the left of the current tab with only a click.",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDVE5cBQVZermqXeWJpQrduyb72MX/IM8KjyMr+WkdXwZn7q4IMn/plqAJzEDQY96Wy/fFpdD8LSLriz1tMb/NWcDtinEeULskuf8CbnExSTR3Ro3OkJh/ElUcot+IjORaTZBBrATtFXVzgAs6eyPI5fXgypxtjnJgvVpIA1R83hwIDAQAB",
+   "name": "Close Tabs to Left",
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.2.8.2"
+}

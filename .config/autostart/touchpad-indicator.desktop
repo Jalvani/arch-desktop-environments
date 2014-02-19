@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=touchpad-indicator -c
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=turnoff touchpad
+Name=turnoff touchpad
+Comment[en_GB]=
+Comment=

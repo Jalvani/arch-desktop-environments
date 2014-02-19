@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "Background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "Flash.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkcaaiCnNAudpKq1gklnHpN/hyl8Men/DcBXVmyNkvdTsV66YS8TJXqO8M9NXX3kCQpyBTtHEpWxvTa9BVjxIC2q4skfzQWx4bbH0/98rXPOHLDibBVOzAn8bIBvXZkPeSuMrmw/YT+RemtCXkBiOmpktZYtrbzsbwoZFo2IPY3wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "page_action": {
+      "default_icon": "icons/16.png",
+      "default_title": "__MSG_name__"
+   },
+   "permissions": [ "tabs" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}

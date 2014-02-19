@@ -1,0 +1,30 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "img/main-icon.png",
+      "popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "js/inject.js" ],
+      "matches": [ "http://play.google.com/music/listen*", "https://play.google.com/music/listen*" ]
+   }, {
+      "js": [ "js/contentscript.js" ],
+      "matches": [ "http://play.google.com/music/listen*", "https://play.google.com/music/listen*" ]
+   }, {
+      "js": [ "js/jquery-1.7.min.js" ],
+      "matches": [ "http://play.google.com/music/listen*", "https://play.google.com/music/listen*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Scrobbles songs from Google Music Player to Last.fm",
+   "icons": {
+      "128": "img/icon128.png",
+      "16": "img/icon16.png",
+      "48": "img/icon48.png",
+      "64": "img/icon64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6TZJQPZgQND8s1iTKDDEx7riY+iIzC3RDuRTtJ5JCfQmtpPajeQzlSdlFwqvZnPU1BZEdsTGBX0NGEFcFja+jh19ls+Y3Q9FCly9amGjgBlUjM/e6jSoN97QcHxM0bTduYcU6Opuqj9BTvHT2FWckT73wsPZ6Ka/0vJSB1KI9PwIDAQAB",
+   "name": "Last.fm scrobbler for Google Play",
+   "permissions": [ "http://ws.audioscrobbler.com/", "http://play.google.com/", "https://play.google.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.2.4"
+}

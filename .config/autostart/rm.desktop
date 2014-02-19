@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=rm ~/.nicotine/config.transfers.pickle
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_GB]=depickler
+Name=depickler
+Comment[en_GB]=
+Comment=

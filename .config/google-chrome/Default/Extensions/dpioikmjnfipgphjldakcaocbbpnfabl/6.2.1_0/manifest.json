@@ -1,0 +1,21 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [  ],
+      "include_globs": [  ],
+      "js": [ "IQS.user.js" ],
+      "matches": [ "http://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "converted_from_user_script": true,
+   "description": "Enables video streaming from various file hosts via icedivx.com",
+   "homepage_url": "http://www.icedivx.com",
+   "icons": {
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCBqEGzbvFNw6245h/9RZcP7/9ESapjudrDRMBfRZXVQ8pR+GNlqT5zWZMUObUnfoujz+ysVrOTV3kYZiUcB8sSQ5yPQv8dnu0GcYdZsVcAuK0JVr1dhggdR9hSsf8K2MKHbbay4PbW/dBc6c8L34mSL3/Ng8t6uyccgc1U/zXS2wIDAQAB",
+   "manifest_version": 2,
+   "name": "ICE Quick Stream",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "6.2.1"
+}

@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://agoogleaday.com/"
+      },
+      "urls": [ "*://agoogleaday.com/" ]
+   },
+   "description": "Welcome to the new daily puzzle from Google. There is no right way to solve it, but there's only one right answer.",
+   "icons": {
+      "128": "appIcon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDNljRUts9nuAwPeI4NX5kimwKs19GZIUZZ/7YjCfuB3ndmoYQwHZz13gPt/wABK1oy4UkIsa0Ygm1i5Vg1UGk/L1qzZx9rHIQelkFnow/YkOQmh8HD02ltSba/nYuqwoqxft5pjKuCq0Cb6dmkaM/DdbNzhvMVrYdXdmBY9FqyOQIDAQAB",
+   "name": "a Google a Day",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

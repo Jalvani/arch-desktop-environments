@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+<html>
+<head>
+    <title>MightyText Chrome Extension Options</title>
+    <script src="js/jquery1.9.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/options.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/options.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="settingsTitle"><img height="32px" width="32px" src="../img/mightylogo2.png"> GText Settings</h2>
+        <div class="settingHolder localSetting" id="gmailPref" data-settingname="gmail_preference">
+            <div class="title">
+                <strong>GText - Send/Receive SMS directly in Gmail</strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="gmail_preference" data-storagedestination="local" value="1"/>
+                <span>
+                    Enabled
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="gmail_preference" data-storagedestination="local" value="0"/>
+                <span>
+                    Disabled
+                </span>
+            </div>
+        </div>
+<!-- facebook setting -->
+<!--
+        <div class="settingHolder localSetting" id="fbPref" data-settingname="fb_preference">
+            <div class="title">
+                <strong>FBText - Send/Receive SMS directly in Facebook</strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="fb_preference" data-storagedestination="local" value="1"/>
+                <span>
+                    Enabled
+                </span>
+            </div>
+            <div>
+                <input type="radio" name="fb_preference" data-storagedestination="local" value="0"/>
+                <span>
+                    Disabled
+                </span>
+            </div>
+        </div>
+-->
+<!-- end facebook setting -->
+        <div class="settingHolder localSetting" id="receiveNotifications" data-settingname="receive_notifications">
+            <div class="title">
+                <strong> Receive Incoming Message Notifications in Gmail </strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="receive_notifications" data-storagedestination="local" value="1"/>
+                <span>
+                    Yes
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="receive_notifications" data-storagedestination="local" value="0"/>
+                <span>
+                    No
+                </span>
+            </div>
+        </div>
+        <div class="settingHolder serverSetting" id="sendOnEnter" data-settingname="enter_to_send">
+            <div class="title">
+                <strong> Enter To Send </strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="enter_to_send" data-storagedestination="server" value="1"/>
+                <span>
+                    Yes, pressing Enter will send message.
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="enter_to_send" data-storagedestination="server" value="0"/>
+                <span>
+                    No, pressing Enter will not send message.
+                </span>
+            </div>
+        </div>
+        <div class="settingHolder localSetting" id="ongoingConversation" data-settingname="ongoing_conversations">
+            <div class="title">
+                <strong> Create a conversation window when sending via Compose New </strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="ongoing_conversations" data-storagedestination="local" value="1"/>
+                <span>
+                    Yes
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="ongoing_conversations" data-storagedestination="local" value="0"/>
+                <span>
+                    No
+                </span>
+            </div>
+        </div>
+        <div class="settingHolder localSetting" id="multiple_accounts" data-settingname="multiple_accounts">
+            <div class="title">
+                <strong> Load GText for all Google Accounts </strong>
+            </div>
+            <div class="subText">
+                <span>For users who use multiple Google Accounts, GText will be available in all Gmail Tabs.</span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="multiple_accounts" data-storagedestination="local" value="1"/>
+                <span>
+                    Yes
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="multiple_accounts" data-storagedestination="local" value="0"/>
+                <span>
+                    No
+                </span>
+            </div>
+        </div>
+        <div class="settingHolder localSetting" id="displayLeftNavLinks" data-settingname="displayMTLinks">
+            <div class="title">
+                <strong>Display Mightytext in Gmail Sidebar</strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="checkbox" name="displayMTLinks_texts" data-storagedestination="local" value="1"/>
+                <span>
+                    Texts
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="checkbox" name="displayMTLinks_media" data-storagedestination="local" value="1"/>
+                <span>
+                    Photos/Videos
+                </span>
+            </div>
+        </div>
+        <div class="settingHolder localSetting" id="enableLogs" data-settingname="enable_logs">
+            <div class="title">
+                <strong>Turn on console logging</strong>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="enable_logs" data-storagedestination="local" value="1"/>
+                <span>
+                    Yes
+                </span>
+            </div>
+            <div class="settingsInputHolder">
+                <input type="radio" name="enable_logs" data-storagedestination="local" value="0"/>
+                <span>
+                    No
+                </span>
+            </div>
+        </div>  
+        <div class="alertContainer">
+            <div class="alert">
+                <strong>Settings successfully saved</strong>
+            </div> 
+        </div>      
+    </div>
+</body>
+</html>

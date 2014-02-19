@@ -1,0 +1,32 @@
+{
+   "background": {
+      "scripts": [ "util.js", "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "contentscript.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "Displays a flattr button for Wikipedia and other popular sites that do not have flattr buttons visible",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "favicon.ico",
+      "48": "icon_48.png"
+   },
+   "intents": {
+      "http://webintents.org/share": {
+         "path": "intent.html",
+         "title": "Share link to Flattr",
+         "type": [ "text/uri-list" ]
+      }
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7MdTI3XsGwTG8IT/X5NS5rcAhxUzz4WrHLI0J0BFueld+klEsHrdFcZ/rwJuQwKHqpsPsZirwxV9TdRe+9uESJCjJHYgBO9wND0BafDNi0HQkwN7rvwYbIUrVUPowmJeR6fD8W4CdEP8SoRaoXyQ2pLKknwtD1LzrPcH+WZOB0QIDAQAB",
+   "manifest_version": 2,
+   "name": "Flattr",
+   "page_action": {
+      "default_icon": "icon_19.png",
+      "default_title": "Flattr this!"
+   },
+   "permissions": [ "tabs", "https://api.flattr.com/" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.8.7"
+}

@@ -1,0 +1,21 @@
+{
+   "app": {
+      "launch": {
+         "local_path": "index.html"
+      }
+   },
+   "background_page": "background.html",
+   "description": "REST Console is an HTTP Request Visualizer and Constructor tool, helps developers build, debug and test RESTful APIs.",
+   "icons": {
+      "128": "images/logo/128.png",
+      "16": "images/logo/16.png",
+      "32": "images/logo/32.png",
+      "48": "images/logo/48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCe0ingq/yQC9gRxG7gZpeFFFPQykDqeitvH931Dc1A6U6umdnXE3nfwB06PGd8qTGVavNwjbTEbaxGPzOtMjQzHH1ToMiNsW8sYlHw0VDwmwz8TfzHRdLUs0xkzt+xOVl1k9FlEmxrTpFUiT0sd1ii2i2Wmryysi5lKOG43WX6yQIDAQAB",
+   "name": "REST Console",
+   "options_page": "index.html#options",
+   "permissions": [ "tabs", "*://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "4.0.2"
+}

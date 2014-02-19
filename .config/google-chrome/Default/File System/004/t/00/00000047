@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+UID:20130905T153011Z-EN0001-4-9288157@reservation.carlsonwagonlit.com
+DTSTAMP:20130905T153011Z
+ORGANIZER;CN=CWT Travel:MAILTO:CWTCalendar@reservation.carlsonwagonlit.com
+DTSTART:20130922T234500Z
+DTEND:20130923T064500Z
+SUMMARY:FLIGHT AA 106\, JFK->LHR / RSHTWC
+LOCATION:New York J F Kennedy -> London Heathrow
+DESCRIPTION:Flight: AMERICAN AIRLINES - AA106 - Sun 22 September\, 2013\nFrom: New York J F Kennedy - Terminal 8\nTo: London Heathrow - Terminal 3\nDeparture local time: 19:45 - 22/09/2013\nArrival local time: 07:45 - 23/09/2013\nDuration: 07:00(non-stop)\nClass: Economy/Coach (S)\nSeat: 38D \nEquipment: Boeing 777-300er Passenger\nAir E-Ticket Issued: 0014135744499\nBooking Reference: RSHTWC\nRecord Locator: RSHTWC
+X-ALT-DESC;FMTTYPE=text/html:<font size='2'>Flight: AMERICAN AIRLINES - AA106 - Sun&nbsp;22&nbsp;September, 2013<br />From: New York J F Kennedy - Terminal 8<br />To: London Heathrow - Terminal 3<br />Departure local time: 19:45 - 22/09/2013<br />Arrival local time: 07:45 - 23/09/2013<br />Duration: 07:00(non-stop)<br />Class: Economy/Coach (S)<br />Seat: 38D <br />Equipment: Boeing 777-300er Passenger<br />Air E-Ticket Issued: 0014135744499<br />Booking Reference: RSHTWC<br />Record Locator: RSHTWC</font>
+END:VEVENT
+END:VCALENDAR

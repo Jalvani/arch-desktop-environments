@@ -1,0 +1,98 @@
+{
+
+	"org.hcilab.projects.notification": {
+		"title": "notification_button_action_desktop_notifications",
+		"url":   "https://play.google.com/store/apps/details?id=org.hcilab.projects.notification"
+	},
+
+	"com.google.android.apps.plus": {
+		"title": "notification_button_action_google_plus",
+		"url":   "https://plus.google.com"
+	},
+
+	"com.facebook.katana": {
+		"title": "notification_button_action_facebook",
+		"url":   "https://www.facebook.com/"
+	},
+
+	"com.facebook.orca": {
+		"title": "notification_button_action_facebook_messenger",
+		"url":   "https://www.facebook.com/messages/"
+	},
+
+	"com.google.android.gm": {
+		"title": "notification_button_action_google_mail",
+		"url":   "https://mail.google.com/"
+	},
+
+	"com.twitter.android": {
+		"title": "notification_button_action_twitter",
+		"url":   "https://twitter.com/"
+	},
+
+	"com.android.vending": {
+		"title": "notification_button_action_google_play",
+		"url":   "https://play.google.com/store"
+	},
+
+	"com.google.android.music": {
+		"title": "notification_button_action_google_play_music",
+		"url":   "https://play.google.com/store/music"
+	},
+
+	"com.google.android.videos": {
+		"title": "notification_button_action_google_play_movies",
+		"url":   "https://play.google.com/store/movies"
+	},
+
+	"com.pinterest": {
+		"title": "notification_button_action_pinterest",
+		"url":   "https://pinterest.com/"
+	},
+
+	"com.spotify.mobile.android.ui": {
+		"title": "notification_button_action_spotify",
+		"url":   "https://play.spotify.com/"
+	},
+
+	"com.valvesoftware.android.steam.community": {
+		"title": "notification_button_action_steam",
+		"url":   "http://store.steampowered.com/"
+	},
+
+	"com.google.android.calendar": {
+		"title": "notification_button_action_google_calendar",
+		"url":   "https://www.google.com/calendar/"
+	},
+
+	"com.yahoo.mobile.client.android.mail": {
+		"title": "notification_button_action_yahoo_mail",
+		"url":   "https://mail.yahoo.com/"
+	},
+
+	"com.instagram.android": {
+		"title": "notification_button_action_instagram",
+		"url":   "https://instagram.com/"
+	},
+
+	"com.sofascore.android": {
+		"title": "notification_button_action_sofascore",
+		"url":   "http://www.sofascore.com/"
+	},
+
+	"com.dropbox.android": {
+		"title": "notification_button_action_dropbox",
+		"url":   "https://www.dropbox.com/home"
+	},
+
+	"com.outlook.Z7": {
+		"title": "notification_button_action_outlook",
+		"url":   "https://outlook.com/"
+	},
+
+	"com.google.android.talk": {
+		"title": "notification_button_action_google_plus",
+		"url":   "https://plus.google.com"
+	}
+
+}

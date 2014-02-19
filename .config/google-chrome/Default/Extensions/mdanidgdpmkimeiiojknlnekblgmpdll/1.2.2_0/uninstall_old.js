@@ -1,0 +1,1 @@
+chrome.extension.sendRequest({greeting: "uninstall_old_extension"});

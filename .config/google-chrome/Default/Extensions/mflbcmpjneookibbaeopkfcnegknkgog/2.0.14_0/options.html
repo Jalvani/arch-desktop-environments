@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Options - scroblr</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>scroblr options</h1>
+        </header>
+
+        <p id="userSettings">
+            You are signed in as '<strong id="userProfile"></strong>'.
+            <a href="#logoutUser" id="logoutLink">Sign out</a>
+        </p>
+
+        <p id="authenticate">
+            <strong>scroblr</strong> requires authorization from last.fm to
+                post track information on your behalf.<br />
+            <button id="authorizeBtn">AUTHORIZE WITH LAST.FM</button>
+        </p>
+
+        <p class="settings-options">
+            <input type="checkbox" id="disable_scrobbling" value="1" checked="checked" />
+                <label for="disable_scrobbling">Enable scrobbling</label><br />
+            <input type="checkbox" id="disable_notifications" value="1" checked="checked" />
+                <label for="disable_notifications">Enable notifications</label><br />
+            <input type="checkbox" id="disable_autodismiss" value="1" checked="checked" />
+                <label for="disable_autodismiss">Auto-dismiss notifications after 5 seconds</label>
+		</p>
+
+		<hr />
+
+		<p class="settings-options">
+			<input type="checkbox" id="disable_eighttracks" checked="checked" />
+				<label for="disable_eighttracks">Enable 8tracks</label><br />
+			<input type="checkbox" id="disable_accujazz" checked="checked" />
+				<label for="disable_accujazz">Enable AccuRadio</label><br />
+			<input type="checkbox" id="disable_accuradio" checked="checked" />
+				<label for="disable_accuradio">Enable AccuJazz</label><br />
+			<input type="checkbox" id="disable_bandcamp" checked="checked" />
+				<label for="disable_bandcamp">Enable Bandcamp</label><br />
+			<input type="checkbox" id="disable_google" checked="checked" />
+				<label for="disable_google">Enable Google Play</label><br />
+			<input type="checkbox" id="disable_indieshuffle" checked="checked" />
+				<label for="disable_indieshuffle">Enable Indie Shuffle</label><br />
+			<input type="checkbox" id="disable_jango" checked="checked" />
+				<label for="disable_jango">Enable Jango</label><br />
+			<input type="checkbox" id="disable_pandora" checked="checked" />
+				<label for="disable_pandora">Enable Pandora</label><br />
+			<input type="checkbox" id="disable_piki" checked="checked" />
+				<label for="disable_piki">Enable piki</label><br />
+			<input type="checkbox" id="disable_playerfm" checked="checked" />
+				<label for="disable_playerfm">Enable Player.fm</label><br />
+			<input type="checkbox" id="disable_plugdj" checked="checked" />
+				<label for="disable_plugdj">Enable plug.dj</label><br />
+			<input type="checkbox" id="disable_rhapsody" checked="checked" />
+				<label for="disable_rhapsody">Enable Rhapsody</label><br />
+			<input type="checkbox" id="disable_songza" checked="checked" />
+				<label for="disable_songza">Enable Songza</label><br />
+			<input type="checkbox" id="disable_soundcloud" checked="checked" />
+				<label for="disable_soundcloud">Enable SoundCloud</label><br />
+			<input type="checkbox" id="disable_turntable" checked="checked" />
+				<label for="disable_turntable">Enable Turntable.fm</label><br />
+			<input type="checkbox" id="disable_youtube" checked="checked" />
+				<label for="disable_youtube">Enable YouTube</label><br />
+		</p>
+
+        <footer>
+            <p><small>Questions or comments? Follow me on twitter
+                <a href="http://twitter.com/scroblrfm" target="_blank">@scroblrfm</a></small></p>
+        </footer>
+
+    </div>
+
+    <script src="js/lib/jquery-2.0.2.js"></script>
+    <script src="js/options.js"></script>
+
+</body>
+</html>

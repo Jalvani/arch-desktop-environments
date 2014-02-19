@@ -1,0 +1,929 @@
+Received: by 10.231.182.66 with SMTP id cb2mr871143ibb.4.1284831206559;
+        Sat, 18 Sep 2010 10:33:26 -0700 (PDT)
+Received: by 10.231.182.66 with SMTP id cb2mr871142ibb.4.1284831206489;
+        Sat, 18 Sep 2010 10:33:26 -0700 (PDT)
+Return-Path: <jasmines0405@gmail.com>
+Received: from mail-iw0-f179.google.com (mail-iw0-f179.google.com [209.85.214.179])
+        by gmr-mx.google.com with ESMTP id e25si3795087ibk.7.2010.09.18.10.33.25;
+        Sat, 18 Sep 2010 10:33:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of jasmines0405@gmail.com designates 209.85.214.179 as permitted sender) client-ip=209.85.214.179;
+Authentication-Results: gmr-mx.google.com; spf=pass (google.com: domain of jasmines0405@gmail.com designates 209.85.214.179 as permitted sender) smtp.mail=jasmines0405@gmail.com; dkim=pass (test mode) header.i=@gmail.com
+Received: by iwn4 with SMTP id 4so4052689iwn.10
+        for <multiple recipients>; Sat, 18 Sep 2010 10:33:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=gamma;
+        h=domainkey-signature:received:mime-version:received:from:date
+         :message-id:subject:to:cc:content-type;
+        bh=6KxdcJziV6CXjz+E42veoglWKssHHHyV2Df6jljwBlc=;
+        b=gafPn+xx6Ua4hQk6JZYYpwcaHUrtyEdJaxX1oGES3V81y6IuLfzBMWrf28hfSOCqcU
+         XD3VV1nSgj2DPk+Ey4q/K6Az8OvboeIxKI8wJjiQodt38g7gHqBmv9Y5uOUFfDFjdXeu
+         A0wMBT4CUgcp6PvrAyDajhoLwzkf80VMSqbrA=
+DomainKey-Signature: a=rsa-sha1; c=nofws;
+        d=gmail.com; s=gamma;
+        h=mime-version:from:date:message-id:subject:to:cc:content-type;
+        b=XS67Tk7ta0KACZFN+JS9tcyzwhdJ4gGLSUEtYrFnIs+8npCf9bNna5ZoJGdeAUe8Z6
+         q0B9lDrPW3gB8FJxjzUObYRY/S6P7zwbVSEUbeFbBjxLP+D/u5+jbgmXJzkJo8DAj/st
+         61+2bEnK4V3i4PU/Yk7tNO9PGrPmbR+KHACcU=
+Received: by 10.231.166.210 with SMTP id n18mr7237331iby.167.1284831205316;
+ Sat, 18 Sep 2010 10:33:25 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.231.154.144 with HTTP; Sat, 18 Sep 2010 10:33:05 -0700 (PDT)
+From: Jin Yun Soo <jasmines0405@gmail.com>
+Date: Sun, 19 Sep 2010 01:33:05 +0800
+Message-ID: <AANLkTi=sNF_P7qqgear+Ra7UAxiHt8ALUj3W2btfBied@mail.gmail.com>
+Subject: Minutes of BL Team Meeting 18 September 2010
+To: unfccc_youth <unfccc_youth@googlegroups.com>
+Cc: bottomliners <bottomliners@googlegroups.com>
+Content-Type: multipart/alternative; boundary=0050450159df96d86704908c1303
+
+--0050450159df96d86704908c1303
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+*Minutes of BL Team Meeting 18 September 2010*
+
+* *
+
+*Members Present: *Avi, Hilary, Jin, Alina, Vositha, Kyle
+
+
+
+*1. BL TEAM***
+
+No new BL members present.
+
+Rob from UKYCC, Jason from Global Common Trust and Prajwal Baral from Nepal=
+,
+residing in India have just participated in the Induction session.
+
+* *
+
+*2. LAST MEETING*
+
+*Review of ACTs:*
+
+
+*ACT Hilary*: send out the remainder of the emails for YOUNGO Volunteer
+Roles and mid-week reminder
+
+=C2=B7         ACT completed.
+
+
+*ACT Hilary*: make the public google doc of the mail she receives and will
+email ron the full pdf file of descriptions
+
+=C2=B7         ACT completed
+
+
+*ACT Jin*: Prepare guidelines for Youthclimate.org ,Email Ron about YC
+content managers, putting case study forms on YC, and YC to host GoogleAds.
+Find out about online forms/survey monkey/googleforms.
+
+=C2=B7         ACT completed.
+
+
+*ACT Hilary*: Mail claire regarding the YOUNGO website and connecting with
+British Council
+
+=C2=B7         ACT completed. Ellie is in contact with BL. Issue will be ra=
+ised
+during discussion.
+
+
+*ACT Jin*: follow up with Kyle regarding updating the application he has
+received for YOUNGO volunteer
+
+=C2=B7         ACT completed. To hear from Kyle soon.
+
+
+
+*ACT Jin*: Contact the present adminsitrator for IYCM facebook account if
+they want to continue as the administrator and asking them involving 3
+active member of present BL team
+
+=C2=B7         ACT completed. Suggestions and comments from Adam and Ron ha=
+ve
+been sent to the email list.
+
+
+*ACT Avi*: Contact Kyle on Norad, Dutch, British funding. Email Seb, Rishi
+and BL regarding the last two discussion topics so that members can discuss
+through email thread before next BL meet.
+
+=C2=B7         ACT completed. No replies so far. Topics will be postponed t=
+o next
+BL meet and email will be resent to garner response.
+
+
+
+*Adoption of minutes of meeting held on 11th September,2010*
+
+http://my.uniteforclimate.org/youngo/11th-september-2010
+
+ *3. Discussion:*
+
+*Update on YOUNGO volunteer role*
+
+=C2=B7         BL team will take over the role of YoFuGe Coordinator for th=
+e time
+being until a suitable candidate has been found.
+
+* *
+
+*Update on COY Update*
+
+=C2=B7         *ACT Vosi*: Write to Tim on COY Update
+
+* *
+
+*British Council Funding for Youthclimate.org*
+
+=C2=B7         *ACT Alina: *Ask Ron if there is an existing document on aim=
+s,
+vision etc. of Youthclimate.org**
+
+=C2=B7         *ACT Jin*: Solicit and consolidate ideas from others, and dr=
+aft
+ideas for Youthclimate.org
+
+
+
+*Consolidating and analyzing youth funding prospects for COP16 and in the
+longer-term, into 2011 and 2012.*
+
+*Creating a plan for January/February 2011 to ensure continuity in the yout=
+h
+movement. Look at a 5-year plan to 2016*
+
+=C2=B7         Topics will be postponed to next BL meet and email will be r=
+esent
+to garner response.
+
+
+
+*Bottomlining Team mailing list clean up*
+
+=C2=B7         *ACT Hilary*: Send email to clean up list so that only those=
+ still
+wishing to be, and are playing the roles of Active and Observing members
+remain.  Weekly reminder will be sent, and timeframe given for response is
+one month.
+
+
+
+*4. NEXT MEETING: 25th September, 16:00 GMT*
+
+*Facilitator*: Avi
+
+*Secretary*: Jin
+
+
+
+*Meeting Evaluation*
+
+Low participation
+
+Effective
+
+In time
+
+Most of the agenda covered
+
+
+
+*Past ACT completed but follow-up required.*
+
+=C2=B7         *ACT Avi*: Contact Kyle on Norad, Dutch, British funding. Em=
+ail
+Seb, Rishi and BL regarding the last two discussion topics so that members
+can discuss through email thread before next BL meet.
+
+=C2=A7  Topics will be postponed to next BL meet and email will be resent t=
+o
+garner response.
+
+
+
+*Summary of ACTS*
+
+=C2=B7         *ACT Vosi*: Write to Tim on COY Update
+
+=C2=B7         *ACT Alina: *Ask Ron if there is an existing document on aim=
+s,
+vision etc. of Youthclimate.org**
+
+=C2=B7         *ACT Jin*: Solicit and consolidate ideas from others, and dr=
+aft
+ideas for Youthclimate.org
+
+=C2=B7         *ACT Hilary*: Send email to clean up list so that only those=
+ still
+wishing to be, and are playing the roles of Active and Observing members
+remain.  Weekly reminder will be sent, and timeframe given for response is
+one month.
+
+--0050450159df96d86704908c1303
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-family=
+:&quot;Arial&quot;,&quot;sans-serif&quot;">Minutes
+of BL Team Meeting 18 September 2010</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-family=
+:&quot;Arial&quot;,&quot;sans-serif&quot;">=C2=A0</span></b></p>
+
+<p style=3D"margin:0cm;margin-bottom:.0001pt"><b style=3D"mso-bidi-font-wei=
+ght:
+normal"><span style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;">Members
+Present:<span style=3D"mso-bidi-font-weight:bold"> </span></span></b><span =
+style=3D"font-size:11.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;mso-bidi-font-weight:
+bold">Avi, Hilary, Jin, Alina, Vositha, Kyle</span></p>
+
+<p style=3D"margin:0cm;margin-bottom:.0001pt"><span style=3D"font-size:11.0=
+pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-bidi-font-weight:b=
+old">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">1. BL TEAM</span></b><b><span style=3D"font-fa=
+mily:&quot;Arial&quot;,&quot;sans-serif&quot;"></span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;">No new BL members present.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span class=3D"apple-style-span"><span style=3D"font-family:&quot;A=
+rial&quot;,&quot;sans-serif&quot;;
+color:black">Rob from UKYCC, Jason from Global Common Trust and Prajwal Bar=
+al
+from Nepal, residing in India have just participated in the Induction sessi=
+on.</span></span><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-se=
+rif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+
+
+
+<p style=3D"margin:0cm;margin-bottom:.0001pt"><b><span style=3D"font-size:1=
+1.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">=C2=A0</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">2. LAST MEETING</span></b><span style=3D"font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&qu=
+ot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">Review of ACTs:</span></b><span style=3D"font-=
+family:&quot;Arial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Hilary</b>: send out the remai=
+nder
+of the emails for YOUNGO Volunteer Roles and mid-week reminder</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-fa=
+mily:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &qu=
+ot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed.</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Hilary</b>: make the public go=
+ogle
+doc of the mail she receives and will email ron the full pdf file of
+descriptions</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-fa=
+mily:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &qu=
+ot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed</span></=
+p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Jin</b>: Prepare guidelines fo=
+r
+Youthclimate.org ,Email Ron about YC content managers, putting case study f=
+orms
+on YC, and YC to host GoogleAds. Find out about online forms/survey
+monkey/googleforms.</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-fa=
+mily:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &qu=
+ot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed.</span><=
+/p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Hilary</b>: Mail claire regard=
+ing
+the YOUNGO website and connecting with British Council</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-fa=
+mily:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
+Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &qu=
+ot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-family:&quot;Arial&quot;,&quot;san=
+s-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed. Ellie i=
+s in contact
+with BL. Issue will be raised during discussion.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-family:&quot;Arial&quot;,&quot;sans-serif&quot;=
+;mso-fareast-font-family:
+&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Jin</b>: follow up with Kyle
+regarding updating the application he has received for YOUNGO</span><span s=
+tyle=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quo=
+t;;mso-fareast-font-family:
+&quot;Times New Roman&quot;"> volunteer</span></p>
+
+<p class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:0cm;margin-right=
+:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed. To hear=
+ from Kyle
+soon.</span></p>
+
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:0cm;margin-right:=
+0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+line-height:normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">ACT
+Jin</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;=
+,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">: Contact the present =
+adminsitrator
+for IYCM facebook account if they want to continue as the administrator and
+asking them involving 3 active member of present BL team</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-si=
+ze:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed. Suggest=
+ions and
+comments from Adam and Ron have been sent to the email list.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"><br>
+<b style=3D"mso-bidi-font-weight:normal">ACT Avi</b>: Contact Kyle on Norad=
+,
+Dutch, British funding. Email Seb, Rishi and BL regarding the last two
+discussion topics so that members can discuss through email thread before n=
+ext
+BL meet.</span></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-si=
+ze:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">ACT completed. No repl=
+ies so far.
+Topics will be postponed to next BL meet and email will be resent to garner
+response.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Adoption
+of minutes of meeting held on 11th September,2010</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"><a href=3D"http://my.u=
+niteforclimate.org/youngo/11th-september-2010" target=3D"_blank"><span styl=
+e=3D"color:windowtext">http://my.uniteforclimate.org/youngo/11th-september-=
+2010</span></a></span></p>
+
+
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span lang=3D"ZH-CN" style=3D"font-size:10.0pt;font-family:&quot;MS=
+ Gothic&quot;;
+mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-famil=
+y:
+Arial">=E3=80=80</span><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;
+line-height:normal"><b><span style=3D"font-size:10.0pt;font-family:&quot;Ar=
+ial&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">3. Discussion:</span><=
+/b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Update
+on YOUNGO volunteer role</span></b></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-si=
+ze:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">BL team will take over=
+ the role of
+YoFuGe Coordinator for the time being until a suitable candidate has been
+found.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">=C2=A0</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Update
+on COY Update</span></b></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span class=3D"apple-s=
+tyle-span"><span style=3D"font-size:10.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style=3D"=
+mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &quot;Times New Roman&quot=
+;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span></span><span class=3D"apple-style-span"><b style=3D"ms=
+o-bidi-font-weight:normal"><span style=3D"font-size:10.0pt;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;">ACT Vosi</span></b></span><span c=
+lass=3D"apple-style-span"><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,&quot;sans-serif&quot;">: Write to Tim</span>
+on COY Update</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">=C2=A0</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">British
+Council Funding for Youthclimate.org</span></b></p>
+
+<p class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:0cm;margin-right=
+:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Alina: </span></b><span style=3D"font-size=
+:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Ask
+Ron if there is an existing document on aims, vision etc. of Youthclimate.o=
+rg<b style=3D"mso-bidi-font-weight:normal"></b></span></p>
+
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:0cm;margin-righ=
+t:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Jin</span></b><span style=3D"font-size:10.=
+0pt;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Time=
+s New Roman&quot;">: Solicit and consolidate
+ideas from others, and draft ideas for Youthclimate.org</span></p>
+
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:0cm;margin-right:=
+0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+line-height:normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Consolidating
+and analyzing youth funding prospects for COP16 and in the longer-term, int=
+o
+2011 and 2012.</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Creating
+a plan for January/February 2011 to ensure continuity in the youth movement=
+.
+Look at a 5-year plan to 2016</span></b></p>
+
+<p class=3D"MsoListParagraph" style=3D"margin-top:0cm;margin-right:0cm;marg=
+in-bottom:
+0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:auto;text-inden=
+t:
+-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span style=3D"font-si=
+ze:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><span style=3D"font-size:10.0pt;font-family:&quot;Aria=
+l&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Topics will be postpon=
+ed to next BL
+meet and email will be resent to garner response.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Bottomlining
+Team mailing list clean up</span></b></p>
+
+<p class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:0cm;margin-right=
+:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Hilary</span></b><span style=3D"font-size:=
+10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">:
+Send email to clean up list so that only those still wishing to be, and are
+playing the roles of Active and Observing members remain.<span style=3D"mso=
+-spacerun:yes">=C2=A0 </span>Weekly reminder will be sent, and timeframe gi=
+ven
+for response is one month.</span></p>
+
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:0cm;margin-right:=
+0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+line-height:normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&q=
+uot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">4. NEXT MEETING: 25th =
+September,
+16:00 GMT</span></b><span style=3D"font-size:10.0pt;font-family:&quot;Arial=
+&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Facilitator</span></b><span style=3D"font-si=
+ze:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-=
+font-family:
+&quot;Times New Roman&quot;">: Avi</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Secretary</span></b><span style=3D"font-size=
+:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-fo=
+nt-family:
+&quot;Times New Roman&quot;">: Jin</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Meeting
+Evaluation</span></b></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Low participation</spa=
+n></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Effective</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">In time</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">Most of the agenda cov=
+ered</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;">Past ACT completed bu=
+t follow-up required.</span></b></p>
+
+<p class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:0cm;margin-right=
+:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Avi</span></b><span style=3D"font-size:10.=
+0pt;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Time=
+s New Roman&quot;">: Contact Kyle
+on Norad, Dutch, British funding. Email Seb, Rishi and BL regarding the las=
+t
+two discussion topics so that members can discuss through email thread befo=
+re
+next BL meet. </span></p>
+
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:0cm;margin-right:=
+0cm;
+margin-bottom:0cm;margin-left:35.7pt;margin-bottom:.0001pt;mso-add-space:au=
+to;
+text-indent:-17.85pt;line-height:normal;mso-list:l1 level1 lfo2"><span styl=
+e=3D"font-size:10.0pt;font-family:Wingdings;mso-fareast-font-family:Wingdin=
+gs;
+mso-bidi-font-family:Wingdings"><span style=3D"mso-list:Ignore">=C2=A7<span=
+ style=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0 </span></span></sp=
+an><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans=
+-serif&quot;;mso-fareast-font-family:
+&quot;Times New Roman&quot;">Topics will be postponed to next BL meet and e=
+mail will be
+resent to garner response.</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot=
+;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" style=3D"margin-bottom:0cm;margin-bottom:.0001pt;lin=
+e-height:
+normal"><b style=3D"mso-bidi-font-weight:normal"><span style=3D"font-size:1=
+0.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Summary
+of ACTS</span></b></p>
+
+<p class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:0cm;margin-right=
+:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span clas=
+s=3D"apple-style-span"><span style=3D"font-size:10.0pt;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol"><span style=3D"=
+mso-list:Ignore">=C2=B7<span style=3D"font:7.0pt &quot;Times New Roman&quot=
+;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0
+</span></span></span></span><span class=3D"apple-style-span"><b style=3D"ms=
+o-bidi-font-weight:normal"><span style=3D"font-size:10.0pt;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;">ACT Vosi</span></b></span><span c=
+lass=3D"apple-style-span"><span style=3D"font-size:10.0pt;font-family:&quot=
+;Arial&quot;,&quot;sans-serif&quot;">: Write to Tim</span>
+on COY Update</span></p>
+
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:0cm;margin-righ=
+t:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Alina: </span></b><span style=3D"font-size=
+:10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">Ask
+Ron if there is an existing document on aims, vision etc. of Youthclimate.o=
+rg<b style=3D"mso-bidi-font-weight:normal"></b></span></p>
+
+<p class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:0cm;margin-righ=
+t:0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Jin</span></b><span style=3D"font-size:10.=
+0pt;font-family:
+&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Time=
+s New Roman&quot;">: Solicit and consolidate
+ideas from others, and draft ideas for Youthclimate.org</span></p>
+
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:0cm;margin-right:=
+0cm;
+margin-bottom:0cm;margin-left:17.85pt;margin-bottom:.0001pt;mso-add-space:a=
+uto;
+text-indent:-17.85pt;line-height:normal;mso-list:l0 level1 lfo1"><span styl=
+e=3D"font-size:10.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol"><span style=3D"mso-list:Ignore">=C2=B7<span st=
+yle=3D"font:7.0pt &quot;Times New Roman&quot;">=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0
+</span></span></span><b style=3D"mso-bidi-font-weight:normal"><span style=
+=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;m=
+so-fareast-font-family:
+&quot;Times New Roman&quot;">ACT Hilary</span></b><span style=3D"font-size:=
+10.0pt;
+font-family:&quot;Arial&quot;,&quot;sans-serif&quot;;mso-fareast-font-famil=
+y:&quot;Times New Roman&quot;">:
+Send email to clean up list so that only those still wishing to be, and are
+playing the roles of Active and Observing members remain.<span style=3D"mso=
+-spacerun:yes">=C2=A0 </span>Weekly reminder will be sent, and timeframe gi=
+ven
+for response is one month.</span></p>
+
+--0050450159df96d86704908c1303--

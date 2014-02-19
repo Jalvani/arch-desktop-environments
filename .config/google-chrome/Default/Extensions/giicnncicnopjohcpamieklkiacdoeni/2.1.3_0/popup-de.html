@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Android Desktop Notifications</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="popup.js"></script>
+	<style>
+
+		body {
+			padding: 20px;
+			min-width: 400px;
+		}
+
+		#code {
+			font-family: monospace;
+			font-weight: bold;
+			color: #0099ff;
+		}
+
+		code {
+			color: #0099ff;
+		}
+
+		#offline, #helptext {
+			display: none;
+		}
+
+		/*.code {
+			font-family: monospace;
+			font-weight: bold;
+		}
+
+		.blue   { color: #0099ff; }
+		.purple { color: #9900ff; }
+		.yellow { color: #ff9900; }
+		.red    { color: #ff0000; }
+		.green  { color: #009900; }*/
+
+		.pointer {
+			cursor: pointer;
+		}
+
+		label {
+			font-weight: normal;
+		}
+
+	</style>
+</head>
+<body>
+<fieldset>
+
+	<legend>Android Desktop Notifications</legend>
+
+	<!-- Offline -->
+
+	<p class="alert alert-danger" id="offline"><strong>Information</strong> Du bist momentan offline. Verbinde dich mit dem Internet um Benachrichtigungen zu empfangen.</p>
+
+	<p><label for="code">Gib hier den Code ein um deinen Browser mit deinem Smartphone zu verbinden. <span class="glyphicon glyphicon-question-sign pointer" id="showhelp" title="Hier klicken um mehr zu erfahren"></span></label></p>
+
+	<!-- Help -->
+
+	<div class="alert alert-info" id="helptext">
+		<p>Wenn du die Android App noch nicht installiert hast,
+			<strong><a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank">lade sie dir jetzt von Google Play herunter</a></strong>
+			und führe sie aus um den Code zu generieren.</p>
+		<ul>
+			<li>Stell sicher, dass du den Code richtig eingibst</li>
+			<li>Du kannst mehrere Geräte verbinden indem du bis zu 3 Codes mit einem Komma getrennt eingibst</li>
+		</ul>
+		<p>Bei Problemen erreichst du uns mit einer Mail an <a href="mailto:hcilab@gmail.com">hcilab@gmail.com</a>.</p>
+	</div>
+
+	<!-- Code -->
+
+	<div class="input-group">
+		<input type="text" id="code" class="form-control" maxlength="50" autocorrect="off" spellcheck="false" autocomplete="off" autofocus placeholder="Enter the code here">
+			<span class="input-group-btn">
+				<button id="submit" class="btn btn-primary">Anwenden</button>
+			</span>
+	</div>
+
+	<hr>
+
+	<!-- Duration -->
+
+	<p><label for="duration">Die Benachrichtigungen schließen nach...</label></p>
+	<select id="duration" class="form-control">
+		<option value="3000">3 Sekunden</option>
+		<option value="7000">7 Sekunden (Standard)</option>
+		<option value="15000">15 Sekunden</option>
+		<option value="3600000">1 Stunde</option>
+		<option value="0">Manuell schließen</option>
+	</select>
+
+	<hr>
+
+	<!-- Sound -->
+
+	<div class="checkbox">
+		<label>
+			<input type="checkbox" id="sound"> Benachrichtigungston aktivieren
+		</label>
+	</div>
+
+	<hr>
+
+	<!-- Hints -->
+
+	<p class="text-muted">Um bestimmte Apps am Senden von Benachrichtigungen zu hindern, deaktiviere sie einfach in den Einstellungen von der Desktop Notifications Android App.</p>
+	<p class="text-muted">Wir freuen uns über Bewertungen auf <a href="https://play.google.com/store/apps/details?id=org.hcilab.projects.notification" target="_blank">Google Play</a>. :)</p>
+
+</fieldset>
+</body>
+</html>

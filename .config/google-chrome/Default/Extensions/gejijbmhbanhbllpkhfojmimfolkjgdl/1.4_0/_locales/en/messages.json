@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "If it detects a flash application, displays a button for full screen display"
+   },
+   "name": {
+      "message": "Full Screen Flash"
+   }
+}

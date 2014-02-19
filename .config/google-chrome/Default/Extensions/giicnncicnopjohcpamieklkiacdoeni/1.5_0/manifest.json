@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "socket.io.min.js", "bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/icon5_19.png",
+      "default_popup": "popup.html"
+   },
+   "description": "Receive Android notifications in your browser.",
+   "icons": {
+      "128": "images/icon_rich_128.png",
+      "19": "images/icon5_19.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD9OXQCPnRhZgFXrz+HJVcmovz0Cf6PEh0zaJ9dwmG8NpLrdXHV8Xtxnk0Dge4IeUwWdSkNCxDEx6xx8visyIwWJ1ssGfaCuYx/2GW7d5VPBV+ZQzMWjm95Uua0Ci/QF4JYjMtHDEgq/78D3uyo7CnC3R+traDVlIvJd2i7SS5hewIDAQAB",
+   "manifest_version": 2,
+   "name": "Android Desktop Notifications",
+   "permissions": [ "background", "notifications", "storage", "https://projects.hci.simtech.uni-stuttgart.de/", "http://projects.hcilab.org/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5",
+   "web_accessible_resources": [ "images/icon48.png", "images/icon_rich_80.png" ]
+}

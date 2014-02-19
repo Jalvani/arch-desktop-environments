@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Ako se otkrije bljesak primjene, prikazuje gumb za prikaz preko cijelog zaslona"
+   },
+   "name": {
+      "message": "Full Screen Flash"
+   }
+}

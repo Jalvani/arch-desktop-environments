@@ -1,0 +1,8 @@
+{
+   "description": {
+      "message": "Se detectar um aplicativo Flash, exibe um bot\u00E3o para visualiza\u00E7\u00E3o em tela cheia"
+   },
+   "name": {
+      "message": "Flash de tela cheia"
+   }
+}

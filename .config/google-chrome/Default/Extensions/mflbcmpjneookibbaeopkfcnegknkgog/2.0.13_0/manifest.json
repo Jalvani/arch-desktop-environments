@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "img/icons/lastfm32.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/scroblr.js" ],
+      "matches": [ "*://*.8tracks.com/*", "*://*.accuradio.com/*", "*://*.amazon.com/gp/dmusic*", "*://*.amazon.co.uk/gp/dmusic*", "*://*.amazon.de/gp/dmusic*", "*://*.bandcamp.com/*", "*://play.google.com/music/*", "*://*.indieshuffle.com/*", "*://*.jango.com/*", "*://*.napster.co.uk/*", "*://*.napster.de/*", "*://*.pandora.com/*", "*://*.piki.fm/*", "*://*.player.fm/*", "*://*.plug.dj/*", "*://*.rhapsody.com/*", "*://*.slipstreamradio.com/pop_player/*", "*://*.songza.com/*", "*://*.soundcloud.com/*", "*://*.turntable.fm/*", "*://*.youtube.com/watch*" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://platform.twitter.com; font-src 'self' https://themes.googleusercontent.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "A lightweight Last.fm scrobbler that scrobbles the music you listen to on the web.",
+   "icons": {
+      "128": "img/scroblr128.png",
+      "16": "img/scroblr16.png",
+      "24": "img/scroblr24.png",
+      "48": "img/scroblr48.png",
+      "64": "img/scroblr64.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDdT0riR65fnpHmNco391Luzi0ee2hyzYWGcJZJ82Q1wInQDmnoUf25noQq+wS8S1qRwZID8syW+uwFGKr45YQDfZ4b4gMLQ34c65LoLB0Pg0EL04fcqWR4jt/JpkdG9FhVxn+zDK8rbj7AJfNPi6hY8a540v+pT69Kn5IpWG+FrQIDAQAB",
+   "manifest_version": 2,
+   "name": "scroblr",
+   "options_page": "options.html",
+   "permissions": [ "notifications", "http://ws.audioscrobbler.com/2.0/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.13",
+   "web_accessible_resources": [ "img/scroblr64.png" ]
+}

@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Ajoutez des graphiques d'historique de prix \u00E0 Google Chrome et suivez les changements de prix du produit. Supporte Amazon, Best Buy."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Le Camelizer - Outil de suivi de prix Amazon"
+   },
+   "pageActionTitle": {
+      "description": "Tool tip for the icon",
+      "message": "Le Camelizer"
+   }
+}

@@ -1,0 +1,20 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"CoffeeLint",
+		"CoffeeScript",
+		"ColorPick",
+		"ColorPicker",
+		"Hayaku - tools for writing CSS faster",
+		"HTML5",
+		"jQuery",
+		"jQuery Snippets pack",
+		"JS Snippets",
+		"Laravel Blade Highlighter",
+		"Package Control",
+		"PhpTidy",
+		"Sass",
+		"SassBeautify"
+	]
+}

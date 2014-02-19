@@ -1,0 +1,1003 @@
+{
+   "1093196373615461508": {
+      "message": "Kahjuks ei saa me kujutist praegu kuvada."
+   },
+   "1098726677907695030": {
+      "message": "H\u00E4\u00E4lsalvestis: "
+   },
+   "1160186203475556062": {
+      "message": "$2\u200BEemaldage kujutis$1\u200B"
+   },
+   "1185164838496022543": {
+      "message": "Lehe uuesti laadimiseks kl\u00F5psake siin."
+   },
+   "1263685395252160366": {
+      "message": "LaTeX"
+   },
+   "1398025099726122129": {
+      "message": "Viga \u00FCksuse $1\u200B kuvamisel. Uuesti proovimine."
+   },
+   "139942704574044780": {
+      "message": "N\u00F5ustu"
+   },
+   "1419896259743862406": {
+      "message": "Ava rakendusega"
+   },
+   "1435613501685026676": {
+      "message": "Sulgemine"
+   },
+   "1446829548948002072": {
+      "message": "koma"
+   },
+   "1454684154234137497": {
+      "message": "paus"
+   },
+   "1462902182020106181": {
+      "message": "Lisage pealkiri ..."
+   },
+   "1484121429181423440": {
+      "message": "Pole sisse logitud. Laadige uuesti."
+   },
+   "1499433769420882987": {
+      "message": "\u00DCksuse $1\u200B kuvamine"
+   },
+   "1527836113392558206": {
+      "message": "Laadimine ..."
+   },
+   "1536051766421561160": {
+      "message": "v\u00F5rdusm\u00E4rk"
+   },
+   "156992719062713230": {
+      "message": "Hall"
+   },
+   "1700522311470719738": {
+      "message": "Tuleta mulle meelde"
+   },
+   "1709410429018687341": {
+      "message": "Hommik ($1\u200B)"
+   },
+   "1791115075948268631": {
+      "message": "Klaviatuuri otsetee avamise abi"
+   },
+   "1808245543551507519": {
+      "message": "Heli"
+   },
+   "1815108332424147305": {
+      "message": "V\u00F5i proovige soovitatud rakendust"
+   },
+   "1823222042913714987": {
+      "message": "Edasta parool"
+   },
+   "1847413775362184342": {
+      "message": "Avamine"
+   },
+   "1856444915090632305": {
+      "message": "Dokument on kr\u00FCpteeritud. Sisestage parool."
+   },
+   "187077078156858455": {
+      "message": "Helim\u00E4rge"
+   },
+   "1900571668686750716": {
+      "message": "vCard"
+   },
+   "1900829747616936506": {
+      "message": "Tagasi avalehele"
+   },
+   "1918176455405610789": {
+      "message": "Valmis"
+   },
+   "1920189655549476211": {
+      "message": "teadmata pikkus"
+   },
+   "1935425718037933511": {
+      "message": "Sisestage dokumendi uus nimi:"
+   },
+   "1965626377712226216": {
+      "message": "Keynote"
+   },
+   "2055388154421214950": {
+      "message": "Enamate rakenduste \u00FChendamine"
+   },
+   "2061440050632248160": {
+      "message": "Arhiveerimine"
+   },
+   "2068023589621557589": {
+      "message": "TrueType'i font"
+   },
+   "210610357717331623": {
+      "message": "Veel"
+   },
+   "212796670323571824": {
+      "message": "OK"
+   },
+   "2154372123324862271": {
+      "message": "kaldkriips"
+   },
+   "2185270915942408270": {
+      "message": "Suumi sobivasse suurusesse"
+   },
+   "2187239650627580457": {
+      "message": "Esita"
+   },
+   "2198096971937872560": {
+      "message": "Meeldetuletus:"
+   },
+   "221715292685577880": {
+      "message": "Jah"
+   },
+   "2220005860896049129": {
+      "message": "Kahjuks kulus dokumendi algallikast otsimisele liiga kaua aega."
+   },
+   "2228413078211839077": {
+      "message": "Kahjuks tekkis selle dokumendi vaate loomisel ajutine probleem."
+   },
+   "2257303402199718039": {
+      "message": "Kahjuks ei leitud algallikast soovitud dokumenti. Kontrollige, kas dokument on ikka olemas."
+   },
+   "2289812403593835836": {
+      "message": "Pages"
+   },
+   "229177484946387188": {
+      "message": "Google Earth"
+   },
+   "2307106955255567860": {
+      "message": "Valmis"
+   },
+   "2329167963662998826": {
+      "message": "Google Keep soovib kasutada teie asukohta, et t\u00E4iustada kohasoovitusi asukoha meeldetuletuste jaoks."
+   },
+   "2341472379592330773": {
+      "message": "Pealkiri ..."
+   },
+   "2359614137862708172": {
+      "message": "T\u00F5stuklahv"
+   },
+   "2370656573843123707": {
+      "message": "parem nurksulg"
+   },
+   "2412314804333167252": {
+      "message": "See arvutustabel on liiga suur. Kl\u00F5psake $3\u200Ballalaadimiseks$1\u200B v\u00F5i $4\u200Bmuutke teenuses Google'i arvutustabelid$1\u200B."
+   },
+   "2415274561162670983": {
+      "message": "Kahjuks ei saa videot praegu kuvada."
+   },
+   "2449254824382583885": {
+      "message": "H\u00FCpikaken"
+   },
+   "2450327925369898841": {
+      "message": "Kahjuks ilmnes \u00FCksuse Drive'i lisamisel viga. Proovige uuesti."
+   },
+   "2455753442347598108": {
+      "message": "Vaataja on eemaldatud"
+   },
+   "2475181823688399272": {
+      "message": "J\u00E4rgmine"
+   },
+   "2510929871271209216": {
+      "message": "See arvutustabel on liiga suur. Kl\u00F5psake allalaadimiseks $2\u200Bsiin$1\u200B."
+   },
+   "2513437337377210144": {
+      "message": "l\u00F5ppu"
+   },
+   "257317112834806705": {
+      "message": "Loendi- ja ruudustikuvaate vahel vahetamine"
+   },
+   "2609409316752026806": {
+      "message": "PDF"
+   },
+   "2611879390264566852": {
+      "message": "OpenOffice'i arvutustabel"
+   },
+   "2646734195256984201": {
+      "message": "$1\u200B/$2\u200B-st"
+   },
+   "2704432088262196025": {
+      "message": "Kl\u00F5psake pealkirja muutmiseks ..."
+   },
+   "2705842902318123127": {
+      "message": "J\u00E4rgmise/eelmise m\u00E4rkme/loendi juurde liikumine"
+   },
+   "2722769111953965548": {
+      "message": "Teil pole arhiveeritud m\u00E4rkmeid. $2\u200BTagasi avalehele$1\u200B"
+   },
+   "2742719907061406418": {
+      "message": "XML"
+   },
+   "2789687492331041935": {
+      "message": "Valige kellaaeg"
+   },
+   "2797747720090426200": {
+      "message": "Kahjuks ei ole eelvaade saadaval."
+   },
+   "2814668529404267263": {
+      "message": "Logi sisse"
+   },
+   "2817277146396981386": {
+      "message": "pm"
+   },
+   "2827039933590757722": {
+      "message": "Windowsi otsetee"
+   },
+   "2833524492098518257": {
+      "message": "\u00DChendatud rakendused"
+   },
+   "2842885468107862276": {
+      "message": "Lisage Drive'i ja avage rakendusega"
+   },
+   "289798573180023043": {
+      "message": "OK"
+   },
+   "3029395493413607486": {
+      "message": "Videom\u00E4ngijat ei saa laadida. Proovige lehte uuesti laadida.$1\u200BKui probleem ei lahene, $3\u200Bp\u00F6\u00F6rduge abi saamiseks abikeskuse poole$2\u200B."
+   },
+   "306516303501625305": {
+      "message": "Autentimine eba\u00F5nnestus."
+   },
+   "3073005748126521632": {
+      "message": "Meelde tuletatud kohas $1\u200B"
+   },
+   "3109321241584918345": {
+      "message": "\u00DChenda rohkem rakendusi ..."
+   },
+   "3121560585545725724": {
+      "message": "$1\u200B kell $2\u200B"
+   },
+   "3222929029344613957": {
+      "message": "Kahjuks ilmnes faili avamisel viga. Proovige uuesti."
+   },
+   "3250489229749307913": {
+      "message": "Elektrooniline publikatsioon"
+   },
+   "3265524298292280681": {
+      "message": "paoklahv Esc"
+   },
+   "3267563602179728277": {
+      "message": "kustuta"
+   },
+   "3275029321588462173": {
+      "message": "Puudub"
+   },
+   "330603631583186798": {
+      "message": "Word"
+   },
+   "3306487262690341751": {
+      "message": "Kuup\u00E4ev ja kellaaeg"
+   },
+   "3312545971976531405": {
+      "message": "S\u00F5num"
+   },
+   "3354260708176476985": {
+      "message": "Laadimine&hellip;"
+   },
+   "3368639944474272225": {
+      "message": "Kahjuks ei saa dokumenti k\u00E4tte v\u00F5i puudub teil luba selle dokumendi vaatamiseks."
+   },
+   "3381619429606029445": {
+      "message": "Visio"
+   },
+   "3408219901032480508": {
+      "message": "$2\u200B; $1\u200B"
+   },
+   "3421685394169412932": {
+      "message": "Iga tehtud muudatus salvestatakse automaatselt"
+   },
+   "3446158485617778228": {
+      "message": "Tagasiv\u00F5tmine"
+   },
+   "3449760465250232736": {
+      "message": "Kuva k\u00F5ik"
+   },
+   "3468441711253011521": {
+      "message": "Google'i arvutustabelid"
+   },
+   "3468557655011162775": {
+      "message": "Kahjuks ei saa seda helifaili selles brauseris esitada."
+   },
+   "3518073392823563581": {
+      "message": "Klaviatuuri otseteed"
+   },
+   "3522555889277726107": {
+      "message": "$1\u200B. leht"
+   },
+   "3547194749488601916": {
+      "message": "V\u00E4rskendamine ..."
+   },
+   "3578537640378068716": {
+      "message": "Parooli edastamine"
+   },
+   "3595000514985906359": {
+      "message": "Excel"
+   },
+   "3602920441714068008": {
+      "message": "Meelde tuletatud $1\u200B kell $2\u200B"
+   },
+   "3616146071554077404": {
+      "message": "Suurenda"
+   },
+   "3645728163953189422": {
+      "message": "Kahjuks ei saa dokumenti liiga suure mahu t\u00F5ttu kuvada."
+   },
+   "3657386785336906042": {
+      "message": "kurakaldkriips"
+   },
+   "3664842788764635265": {
+      "message": "Puudub"
+   },
+   "3666123569747918021": {
+      "message": "Selles dokumendis on salvestama muudatusi. Kas soovite sellelt lehelt lahkuda ja loobuda muudatustest?"
+   },
+   "3678477908297567934": {
+      "message": "alljoon"
+   },
+   "3701351750654338878": {
+      "message": "V\u00E4henda"
+   },
+   "3748461364828242354": {
+      "message": "V\u00E4rvi valimine"
+   },
+   "3770795578481676514": {
+      "message": "Kollane"
+   },
+   "381100310424863459": {
+      "message": "Illustrator"
+   },
+   "3842411126100113634": {
+      "message": "lehe v\u00F5rra \u00FCles"
+   },
+   "3869166581651870488": {
+      "message": "Muutmise l\u00F5petamine"
+   },
+   "3988418762222300024": {
+      "message": "punkt"
+   },
+   "3989552504822984034": {
+      "message": "Google'i joonis"
+   },
+   "400095519884819353": {
+      "message": "H\u00FCpikaken"
+   },
+   "4007354186943974092": {
+      "message": "Pealkiri ..."
+   },
+   "4010819960568614518": {
+      "message": "Eelvaadet ei ole."
+   },
+   "4014287326684608407": {
+      "message": "Sinakasroheline"
+   },
+   "4059387791040010947": {
+      "message": "Meta"
+   },
+   "4097921967754832323": {
+      "message": "sidekriips"
+   },
+   "4110142030958917807": {
+      "message": "Arhiveeritud m\u00E4rkmed"
+   },
+   "4134385041569168669": {
+      "message": "Laadimine ..."
+   },
+   "4165433071549564698": {
+      "message": "Faili $1\u200B kuvamine"
+   },
+   "4174786386751618325": {
+      "message": "Fotom\u00E4rge"
+   },
+   "4182427157920112948": {
+      "message": "tilde"
+   },
+   "4205329094859140439": {
+      "message": "am"
+   },
+   "4230101516585408149": {
+      "message": "Uue m\u00E4rkme koostamine"
+   },
+   "429840734875582508": {
+      "message": "..."
+   },
+   "4299690446455033653": {
+      "message": "Works"
+   },
+   "4314643310615423802": {
+      "message": "Olete v\u00E4lja logitud."
+   },
+   "4318861667254318892": {
+      "message": "Google Video"
+   },
+   "4320831042030778": {
+      "message": "T\u00FChista"
+   },
+   "4372755508519489521": {
+      "message": "Ruudustikuvaade"
+   },
+   "4395845663892873002": {
+      "message": "algusesse"
+   },
+   "4564682305303579317": {
+      "message": "J\u00E4tka"
+   },
+   "4748046231232264180": {
+      "message": "Google'i vormid"
+   },
+   "4767722428137216885": {
+      "message": "T\u00FChista"
+   },
+   "477328789314249432": {
+      "message": "M\u00E4rkmete otsing"
+   },
+   "4785794631061168971": {
+      "message": "\u00DChenda"
+   },
+   "4806763987633034948": {
+      "message": "PKCS7 Signature"
+   },
+   "4889853674709731963": {
+      "message": "K\u00F5ik m\u00E4rkmed on salvestatud v\u00F5rgu\u00FChenduseta"
+   },
+   "4901386320110714275": {
+      "message": "Parool on vale. Proovige uuesti."
+   },
+   "490372259452655427": {
+      "message": "Kahjuks ei ole dokument veel vaatamiseks saadaval."
+   },
+   "4943176738805484221": {
+      "message": "muuda"
+   },
+   "4956678140555659175": {
+      "message": "tagasil\u00FCke"
+   },
+   "4957674814179289955": {
+      "message": "J\u00E4rgmise/eelmise loendi \u00FCksuse juurde liikumine"
+   },
+   "509815948423424872": {
+      "message": "Navigeerimine"
+   },
+   "5129218019779162494": {
+      "message": "Google'i dokument"
+   },
+   "5180989337128758117": {
+      "message": "vasak nurksulg"
+   },
+   "5197718200713913936": {
+      "message": "C++"
+   },
+   "5204391636475413312": {
+      "message": "Salvesta"
+   },
+   "5217641707432141671": {
+      "message": "Vabandust, ilmnes viga."
+   },
+   "5288037028604092288": {
+      "message": "XPS"
+   },
+   "5299648222246616124": {
+      "message": "graavis"
+   },
+   "5316658541831864803": {
+      "message": "Kahjuks ei toetata sellist t\u00FC\u00FCpi dokumendi vaatamist."
+   },
+   "5336801339221383042": {
+      "message": "Javascript"
+   },
+   "5353129315502554762": {
+      "message": "Laadileht"
+   },
+   "5372160981898991853": {
+      "message": "Publisher"
+   },
+   "5394142149034044812": {
+      "message": "\u00DChendatud"
+   },
+   "5408091115193390231": {
+      "message": "AutoCAD"
+   },
+   "5438481737351808090": {
+      "message": "L\u00F5una ($1\u200B)"
+   },
+   "5438584181753813038": {
+      "message": "Ava vaikerakenduses"
+   },
+   "5465323999933375616": {
+      "message": "Olete saavutanud ribalaiuse limiidi nende failide vaatamiseks v\u00F5i allalaadimiseks, mis pole Google Docsi vormingus."
+   },
+   "5514516347328112388": {
+      "message": "V\u00F5ite proovida ka originaaldokumendi alla laadida, kl\u00F5psates selleks $2\u200Bsiin$1\u200B."
+   },
+   "5555182241047709329": {
+      "message": "Valige asukoht"
+   },
+   "5561862020931783154": {
+      "message": "$1\u200B/$2\u200B-st"
+   },
+   "5580293639634492604": {
+      "message": "Arhiveeritud."
+   },
+   "5598649706113950710": {
+      "message": "Redigeerija"
+   },
+   "5598877389451818095": {
+      "message": "Avamine rakendusega"
+   },
+   "5600873340302959883": {
+      "message": "Kujutise sisestamine ..."
+   },
+   "5631086126416409232": {
+      "message": "Sinine"
+   },
+   "564165666160590723": {
+      "message": "Windows Media Player"
+   },
+   "5672358806532843305": {
+      "message": "\u00DCksuse $1\u200B kuvamine."
+   },
+   "568072913338360182": {
+      "message": "HTML"
+   },
+   "5706242163161626046": {
+      "message": "Toetatud failit\u00FC\u00FCbid: $1\u200B"
+   },
+   "5714240424645614611": {
+      "message": "Androidi pakett"
+   },
+   "5728640851616538925": {
+      "message": "Roheline"
+   },
+   "5785010887521443923": {
+      "message": "Eemalda"
+   },
+   "5879988349590045594": {
+      "message": "Parool annab juurdep\u00E4\u00E4su \u00FCksusele $1\u200B. Sisestage parool"
+   },
+   "5971400924847413790": {
+      "message": "Teise v\u00F5imalusena v\u00F5ite vaadata $2\u200Btavalist HTML-i$1\u200B (automaatne \u00FCmbersuunamine)."
+   },
+   "5984398071085567332": {
+      "message": "Google'i risttabelid"
+   },
+   "60305871484579258": {
+      "message": "Alt"
+   },
+   "6044366909115009874": {
+      "message": "\u00DCmbernimetamine eba\u00F5nnestus! Proovige hiljem uuesti."
+   },
+   "6064654062949366878": {
+      "message": "Esita"
+   },
+   "6070475007374165567": {
+      "message": "Salvestamine ..."
+   },
+   "6112815042442423467": {
+      "message": "Teie otsingule $3\u200B$2\u200B$1\u200B ei vastanud \u00FCkski m\u00E4rge."
+   },
+   "6113237889871930608": {
+      "message": "T\u00FChi m\u00E4rge"
+   },
+   "6122643025527543706": {
+      "message": "Ctrl"
+   },
+   "6125026684392468184": {
+      "message": "Prindi"
+   },
+   "6131822680770571276": {
+      "message": "PowerPoint"
+   },
+   "6148792237718135476": {
+      "message": "Lubamine"
+   },
+   "6186290899408627510": {
+      "message": "sisestusklahv"
+   },
+   "6203260615455347677": {
+      "message": "Numbers"
+   },
+   "6223207695466118454": {
+      "message": "YouTube"
+   },
+   "6231401379881217113": {
+      "message": "sisestusklahv Insert"
+   },
+   "6244042389101116716": {
+      "message": "Eelvaade pole saadaval. Rakendused on saadaval."
+   },
+   "6252254957484336670": {
+      "message": "Eelmine"
+   },
+   "6253076263700695984": {
+      "message": "Autentimisviga. Laadige uuesti."
+   },
+   "6267063643272327592": {
+      "message": "Proovige hiljem uuesti."
+   },
+   "6300664968211817037": {
+      "message": "Taastatud."
+   },
+   "6324768448533022780": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "6328169385501719003": {
+      "message": "Uus m\u00E4rge"
+   },
+   "6333496730738019575": {
+      "message": "Laadimine ..."
+   },
+   "6362170008350775214": {
+      "message": "Meeldetuletus kohas $1\u200B"
+   },
+   "6386587519843563719": {
+      "message": "Binaarfail"
+   },
+   "6436479735235889890": {
+      "message": "Meeldetuletusaeg: $2\u200B, $1\u200B"
+   },
+   "6459405233858728718": {
+      "message": "Google'i esitlused"
+   },
+   "6466736813846482957": {
+      "message": "Eelmine"
+   },
+   "6479216014938929613": {
+      "message": "\u00D6\u00F6 ($1\u200B)"
+   },
+   "6489419020139804370": {
+      "message": "L\u00F5peta otsing"
+   },
+   "6522917155620379865": {
+      "message": "Laadi alla"
+   },
+   "6524849072392100692": {
+      "message": "Google Drive'i kaust"
+   },
+   "6582388186847564929": {
+      "message": "M\u00E4rkme/loendi kustutamine"
+   },
+   "6588176324871799870": {
+      "message": "Google Apps Script"
+   },
+   "6622304228074863427": {
+      "message": "Rakendus"
+   },
+   "6641337723603310112": {
+      "message": "Kustutatud."
+   },
+   "6644861766016503644": {
+      "message": "Parool on kohustuslik"
+   },
+   "6650837823238391202": {
+      "message": "J\u00E4rgmine"
+   },
+   "6707173584987026005": {
+      "message": "T\u00E4na"
+   },
+   "6718621885152420894": {
+      "message": "Pealkirjata loend"
+   },
+   "6757218172402086688": {
+      "message": "Otsi m\u00E4rkmeid ..."
+   },
+   "6780628488957834429": {
+      "message": "Oran\u017E"
+   },
+   "6926055840246960182": {
+      "message": "K\u00F5igi \u00FCksuste kuvamine"
+   },
+   "6940998537415516791": {
+      "message": "kell"
+   },
+   "6966117577694636785": {
+      "message": "Faili maksimaalne suurus: $1\u200B MB."
+   },
+   "703014642434496879": {
+      "message": "Sisestage m\u00E4rge ..."
+   },
+   "7054631817922169541": {
+      "message": "Google Keepis on salvestamata muudatusi. Kas soovite sellelt lehelt lahkuda ja loobuda muudatustest?"
+   },
+   "7054907873263821": {
+      "message": "Taastamine"
+   },
+   "705833829394544221": {
+      "message": "Drive'is kuvamine"
+   },
+   "7084991134824194740": {
+      "message": "Tuleta mulle meelde"
+   },
+   "7116394962547236971": {
+      "message": "Kas lubada Google Keepi m\u00E4rguannete kuvamine?"
+   },
+   "713754035716193665": {
+      "message": "Uus loend"
+   },
+   "7146242673022399081": {
+      "message": "Tekst"
+   },
+   "7188024175807042621": {
+      "message": "Loendi \u00FCksus ..."
+   },
+   "7188754206068648188": {
+      "message": "Komaeraldusega v\u00E4\u00E4rtused"
+   },
+   "7206429144039020706": {
+      "message": "Rohkem lehti ei \u00F5nnestunud laadida."
+   },
+   "7225837680381806920": {
+      "message": "\u00D5htu ($1\u200B)"
+   },
+   "722702934847795304": {
+      "message": "Project"
+   },
+   "7257381023528410292": {
+      "message": "Kustutamine"
+   },
+   "7326565093670055435": {
+      "message": "Soovitatud rakendused"
+   },
+   "734478884582426793": {
+      "message": "Tihendatud arhiiv"
+   },
+   "7364571366369083618": {
+      "message": "Video"
+   },
+   "7367958022583310325": {
+      "message": "OpenOffice'i esitlus"
+   },
+   "7377239345926788722": {
+      "message": "Toimingud"
+   },
+   "7393771571081973549": {
+      "message": "C"
+   },
+   "740507516967994591": {
+      "message": "Ava"
+   },
+   "7422452809590461532": {
+      "message": "Punane"
+   },
+   "7426603384368095928": {
+      "message": "Uuesti sisselogimiseks ja t\u00F6\u00F6ga j\u00E4tkamiseks laadige leht uuesti."
+   },
+   "7428490253130883654": {
+      "message": "Otsige dokumendist"
+   },
+   "7429084719905985261": {
+      "message": "Objective C"
+   },
+   "7432956605646331928": {
+      "message": "SQL"
+   },
+   "7451573821837395189": {
+      "message": "\u00DCksus lisati $2\u200Bteie Drive'i$1\u200B."
+   },
+   "7488945223835574498": {
+      "message": "Postscript"
+   },
+   "754562894809764325": {
+      "message": "Avamine rakendusega"
+   },
+   "7546994163355383999": {
+      "message": "K\u00F5ik m\u00E4rkmed on salvestatud"
+   },
+   "7561401550697263017": {
+      "message": "\u00DCksuse $1\u200B laadimine."
+   },
+   "7561835096421626440": {
+      "message": "Sulgege leiuriba"
+   },
+   "7602870977118971161": {
+      "message": "Laadi uuesti"
+   },
+   "7614241747607201251": {
+      "message": "Viga \u00FCksuse $1\u200B kuvamisel."
+   },
+   "7616903319374696418": {
+      "message": "Drive'i salvestamine"
+   },
+   "7621335927565458184": {
+      "message": "M\u00E4rge ..."
+   },
+   "7621429484880737652": {
+      "message": "Loobumine"
+   },
+   "7664490637734113846": {
+      "message": "\u00DChenda rohkem rakendusi"
+   },
+   "7692525489619342577": {
+      "message": "Loobu"
+   },
+   "7734578122414851725": {
+      "message": "PHP"
+   },
+   "776065748745885880": {
+      "message": "t\u00FChikuklahv"
+   },
+   "7830513726270865588": {
+      "message": "Calendar"
+   },
+   "7889351669453500220": {
+      "message": "Rohkem lehti ei \u00F5nnestunud laadida. Uuesti proovimine."
+   },
+   "7895643887742936844": {
+      "message": "semikoolon"
+   },
+   "7911084466250509025": {
+      "message": "Vali \u00FCleslaaditav pilt"
+   },
+   "794202635102531782": {
+      "message": "Nende rakenduste abil saate seda faili avada v\u00F5i muuta"
+   },
+   "7945839336462142841": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "7948723884189309228": {
+      "message": "Me ei saa seda faili \u00FCles laadida."
+   },
+   "7962728344554282160": {
+      "message": "Suurenda"
+   },
+   "8069135745789664170": {
+      "message": "Drive'i lisamine"
+   },
+   "8087751641867346064": {
+      "message": "OpenOffice'i dokument"
+   },
+   "8126700207146858047": {
+      "message": "Dokumendi \u00FCmbernimetamine"
+   },
+   "8134417366733972066": {
+      "message": "Eelvaade pole saadaval."
+   },
+   "8193991135666622583": {
+      "message": "keep"
+   },
+   "821942580510564685": {
+      "message": "Dokumendi vaatamiseks sisestage selle parool"
+   },
+   "8267458240960831780": {
+      "message": "Autentimine ..."
+   },
+   "8281141013543828574": {
+      "message": "RAW-pildifail"
+   },
+   "829373983432978641": {
+      "message": "Seda lehte ei saa laadida."
+   },
+   "8299047746309466797": {
+      "message": "Vaataja on lisatud"
+   },
+   "8324195080917648153": {
+      "message": "Video ei mahu siia. Muutke brauseri aken pisut suuremaks."
+   },
+   "8337582740675387693": {
+      "message": "Java"
+   },
+   "8342684858400436871": {
+      "message": "tabulaator"
+   },
+   "834835979652266872": {
+      "message": "$1\u200B/$2\u200B-st"
+   },
+   "8379952094517631162": {
+      "message": "Ei"
+   },
+   "8408756681779291666": {
+      "message": "M\u00E4rkmete otsing"
+   },
+   "8436817383042650304": {
+      "message": "suurt\u00E4helukk Caps Lock"
+   },
+   "8467894483369467251": {
+      "message": "Flash"
+   },
+   "8586521576836841032": {
+      "message": "Kahjuks ilmnes viga. Uuesti proovimine."
+   },
+   "8596257056433048992": {
+      "message": "Tere tulemast rakendusse"
+   },
+   "8621067185485606452": {
+      "message": "ECMAScript"
+   },
+   "8660016472468563221": {
+      "message": "koolon"
+   },
+   "8663507590720636709": {
+      "message": "$1\u200B + veel $2\u200B"
+   },
+   "8674222789100049233": {
+      "message": "Sule"
+   },
+   "8677820266582418177": {
+      "message": "Kahjuks ilmnes viga."
+   },
+   "8709611758728645225": {
+      "message": "lehe v\u00F5rra alla"
+   },
+   "873811949056724870": {
+      "message": "M\u00E4rge on loodud."
+   },
+   "8775097441636640256": {
+      "message": "$2\u200B \u2013 $1\u200B"
+   },
+   "8781837301864053001": {
+      "message": "Rikastekst"
+   },
+   "8798805450232120940": {
+      "message": "Teised \u00FChendatud rakendused"
+   },
+   "8813101408630252335": {
+      "message": "$1\u200B s"
+   },
+   "8822326207328431952": {
+      "message": "Kujutiste \u00FCleslaadimine ei ole saadaval"
+   },
+   "8884900765322249670": {
+      "message": "Loendivaade"
+   },
+   "8889019648958415451": {
+      "message": "Tundmatu fail"
+   },
+   "8916237870980173557": {
+      "message": "\u00DChendamine ..."
+   },
+   "8919660666733306860": {
+      "message": "Kujutis"
+   },
+   "901615442107785480": {
+      "message": "M\u00E4rkme/loendi arhiveerimine"
+   },
+   "9028041601596584772": {
+      "message": "Asukoht"
+   },
+   "9058308423774656474": {
+      "message": "Hanguli tekstiprotsessor"
+   },
+   "9083935734710258396": {
+      "message": "Keeldu"
+   },
+   "911586799466052745": {
+      "message": "OpenOffice'i joonis"
+   },
+   "9146716987301178362": {
+      "message": "Ilmnes viga. Laadige uuesti."
+   },
+   "9182500445937900938": {
+      "message": "Sule"
+   },
+   "9210545340040914022": {
+      "message": "$2\u200BKujutise \u00FCleslaadimine eba\u00F5nnestus.$1\u200B"
+   },
+   "9222674328467536367": {
+      "message": "$2\u200B \u2013 $1\u200B \u00FCksust"
+   },
+   "951963820437151566": {
+      "message": "Google Sites"
+   },
+   "963611681085757795": {
+      "message": "Kahjuks ei ole praegu v\u00F5imalik selle dokumendi vaadet luua."
+   },
+   "964957642315661588": {
+      "message": "Selle lehe laadimine eba\u00F5nnestus. Uuesti proovimine ..."
+   },
+   "973644925431533602": {
+      "message": "Kustutamine"
+   },
+   "975416671454410602": {
+      "message": "$2\u200BProovige uuesti$1\u200B"
+   },
+   "982187142411651629": {
+      "message": "Loobumine"
+   },
+   "985197728509875956": {
+      "message": "Keemiline mudel"
+   },
+   "996381410993745580": {
+      "message": "Photoshop"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "J\u00E4\u00E4dvustage oma m\u00F5tted kiiresti ja tuletage neid meelde olenemata sellest, kus viibite."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Keep"
+   }
+}

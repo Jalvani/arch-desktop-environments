@@ -1,0 +1,16 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "https://www.rescuetime.com/dashboard"
+      },
+      "urls": [ "https://www.rescuetime.com/", "https://www.rescuetime.com/dashboard" ]
+   },
+   "description": "RescueTime is a personal-analytics service that helps you understand how you spend your time.",
+   "icons": {
+      "128": "128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDV/EzNF3RcQK5CgCXpyUrBtl18dZ8BEck4wURfu4S/wQHepMuYRVgSrfFMZ+HACd9HwkxBoFMBfKPghVaRQuoPei4wl5OOmtXVg1NKTTCyiiU+bQBiSOCWfcCKsznWZEv36tjwBhngQ1313Ow3NWOBW8u3Dsz2tuxE8ge2EDA8MQIDAQAB",
+   "name": "RescueTime Dashboard",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1.4"
+}

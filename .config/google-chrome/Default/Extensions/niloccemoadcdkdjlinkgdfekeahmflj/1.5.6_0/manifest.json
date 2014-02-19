@@ -1,0 +1,44 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "img/browser-action-icon-19.png",
+         "38": "img/browser-action-icon-38.png"
+      },
+      "default_title": "Save to Pocket"
+   },
+   "content_scripts": [ {
+      "js": [ "js/keyboard-shortcut.js" ],
+      "matches": [ "*://*/*" ]
+   }, {
+      "css": [ "sites/twitter/twitter.ril.css", "sites/twitter/twitter.ril.chrome.css" ],
+      "js": [ "js/jquery.js", "js/shared.js", "sites/twitter/twitter.ril.js" ],
+      "matches": [ "*://twitter.com/*" ]
+   }, {
+      "js": [ "js/jquery.js", "js/shared.js", "sites/hackernews/hn.pocket.js" ],
+      "matches": [ "http://*.ycombinator.org/*", "https://*.ycombinator.org/*", "http://*.ycombinator.com/*", "https://*.ycombinator.com/*" ]
+   }, {
+      "js": [ "js/jquery.js", "js/shared.js", "sites/reddit/reddit.pocket.js" ],
+      "matches": [ "*://*.reddit.com/*" ]
+   }, {
+      "css": [ "sites/yahoo/yahoo.pocket.css", "sites/yahoo/yahoo.pocket.chrome.css" ],
+      "js": [ "js/jquery.js", "js/shared.js", "sites/yahoo/yahoo.pocket.js", "sites/yahoo/yahoo-share-button.pocket.js" ],
+      "matches": [ "*://*.yahoo.com/*" ]
+   } ],
+   "description": "Pocket Extension for Google Chrome - The best way to save articles, videos and more",
+   "icons": {
+      "128": "img/icon-128.png",
+      "16": "img/icon-16.png",
+      "48": "img/icon-48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKCQwBisK1UcxYMn6MAfDbc8yXWzvbnCzqJwjwbeMaAHji91jdCy3bEzMprTZxW/1Anfk9B4P+hcoTwqUaMUB4WemQMRKRsr9vC45V1iv912nqyGkoGT+cRKZc+niBriAnn4J2GBACHJqkkCiSChphDFt/UNoQEKz4VoqWZDVj/QIDAQAB",
+   "manifest_version": 2,
+   "name": "Pocket (formerly Read It Later)",
+   "options_page": "html/options.html",
+   "permissions": [ "tabs", "contextMenus", "cookies", "notifications", "https://readitlaterlist.com/", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.5.6",
+   "web_accessible_resources": [ "sites/twitter/twitter-mask-large.png", "sites/twitter/twitter-mask.png", "sites/twitter/twitter_web_sprite_bgs.png", "sites/twitter/twttr-sprite-v2.png", "sites/twitter/twttr-sprite.png", "sites/yahoo/ril-icon-white.png", "sites/yahoo/ril-icon-white@2x.png", "img/pocket-logo.png" ]
+}

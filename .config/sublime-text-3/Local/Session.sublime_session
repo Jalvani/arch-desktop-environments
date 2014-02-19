@@ -1,0 +1,1829 @@
+{
+	"folder_history":
+	[
+		"/home/joseph/www/bitzon",
+		"/home/joseph/www/larazon",
+		"/home/joseph/www/larazon/vendor",
+		"/home/joseph/www/larazon/public",
+		"/home/joseph/www/larazon/bootstrap",
+		"/home/joseph/www/larazon/app",
+		"/var/log/apache2",
+		"/var/www",
+		"/etc/apache2",
+		"/etc/apache2/sites-enabled",
+		"/etc/apache2/sites-available",
+		"/etc/apache2/mods-enabled",
+		"/etc/apache2/mods-available",
+		"/etc/apache2/conf.d",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_core/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_core/src",
+		"/home/joseph/www/cdvc.github.io/assets",
+		"/home/joseph/www/cdvc.github.io/_includes",
+		"/home/joseph/www/cdvc.github.io/_layouts",
+		"/home/joseph/www/cdvc.github.io/_site",
+		"/home/joseph/www/cdvc.github.io",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_carrington_build_modules/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_carrington_build_modules/src",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/tests",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/src",
+		"/home/joseph/work/wp-content/plugins/dni_wp_plugin_platform_extensions/nbproject",
+		"/home/joseph/Dropbox/Code/work/batch_sbs_services",
+		"/home/joseph/www/processed/demo",
+		"/home/joseph/www/processed/team",
+		"/home/joseph/www/processed/_site",
+		"/home/joseph/www/processed/sass",
+		"/home/joseph/www/processed/_layouts",
+		"/home/joseph/www/processed/js",
+		"/home/joseph/www/processed/_includes",
+		"/home/joseph/www/processed/img",
+		"/home/joseph/www/processed/fonts",
+		"/home/joseph/www/processed/draw2d",
+		"/home/joseph/www/processed/Documentation",
+		"/home/joseph/www/processed/css",
+		"/home/joseph/www/processed/contact",
+		"/home/joseph/www/processed/about",
+		"/home/joseph/www/processed/screenflow",
+		"/home/joseph/www/processed/ir-transformation",
+		"/home/joseph/www/processed/app",
+		"/home/joseph/www/processedapp.github.io/team",
+		"/home/joseph/www/processedapp.github.io/_site",
+		"/home/joseph/www/processedapp.github.io/_layouts",
+		"/home/joseph/www/processedapp.github.io/js",
+		"/home/joseph/www/processedapp.github.io/_includes",
+		"/home/joseph/www/processedapp.github.io/img",
+		"/home/joseph/www/processedapp.github.io/fonts",
+		"/home/joseph/www/processedapp.github.io/Documentation",
+		"/home/joseph/www/processedapp.github.io/css",
+		"/home/joseph/www/processedapp.github.io/contact",
+		"/home/joseph/www/processedapp.github.io/app",
+		"/home/joseph/www/processedapp.github.io/about",
+		"/home/joseph/www/processedapp.github.io",
+		"/home/joseph/www/processedapp.github.io/processed_site/_posts",
+		"/home/joseph/www/processedapp.github.io/processed_site/_layouts",
+		"/home/joseph/www/processedapp.github.io/processed_site/css",
+		"/home/joseph/bootstrap/less",
+		"/home/joseph/bootstrap/_layouts",
+		"/home/joseph/bootstrap/js",
+		"/home/joseph/bootstrap/_includes",
+		"/home/joseph/bootstrap/fonts",
+		"/home/joseph/bootstrap/examples",
+		"/home/joseph/bootstrap/dist",
+		"/home/joseph/bootstrap/assets",
+		"/home/joseph/www/processedapp.github.io/ir-transformation",
+		"/home/joseph/www/dnipsum",
+		"/home/joseph/www/dnipsum/assets",
+		"/home/joseph/www/goalsproject/user_guide",
+		"/home/joseph/www/goalsproject/system",
+		"/home/joseph/www/goalsproject/js",
+		"/home/joseph/www/goalsproject/img",
+		"/home/joseph/www/goalsproject/css",
+		"/home/joseph/www/goalsproject/application",
+		"/home/joseph/www/sflow/vendor",
+		"/home/joseph/www/sflow/js",
+		"/home/joseph/www/sflow/img",
+		"/home/joseph/www/sflow/css",
+		"/home/joseph/www/goalsproject"
+	],
+	"last_version": 3059,
+	"last_window_id": 68,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Err",
+						"error_reporting"
+					],
+					[
+						"phpi",
+						"phpinfo"
+					]
+				]
+			},
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 117.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/joseph/www/larazon/app/controllers/UserController.php",
+				"/home/joseph/www/larazon/app/views/layout.blade.php",
+				"/home/joseph/www/larazon/app/database/migrations/2014_01_31_001714_create_users_table.php",
+				"/home/joseph/www/larazon/app/models/User.php",
+				"/home/joseph/www/larazon/app/database/larazon.db",
+				"/home/joseph/www/default/index.php",
+				"/home/joseph/www/bitzon/application/views/templates/footer.php",
+				"/home/joseph/www/bitzon/application/views/templates/header.php",
+				"/home/joseph/www/bitzon/application/controllers/bitzon.php",
+				"/home/joseph/www/bitzon/application/config/database.php",
+				"/home/joseph/www/bitzon/js/bitzon.js",
+				"/home/joseph/www/bitzon/bootstrap.zip",
+				"/home/joseph/www/bitzon/index.php",
+				"/home/joseph/www/bitzon/license.txt",
+				"/C/wamp/www/bitzon/js/bitzon.js",
+				"/C/wamp/www/bitzon/application/views/bitzonviews/about.php",
+				"/home/joseph/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"class URL",
+					"class Url",
+					"function to (",
+					"function to",
+					"class Url",
+					"default"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"remote"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 338.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"for",
+						"foreach	foreach …"
+					],
+					[
+						"Err",
+						"error_reporting"
+					],
+					[
+						"phpi",
+						"phpinfo"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "public/testing.php",
+					"settings":
+					{
+						"buffer_size": 19,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "Searching 3486 files for \"class Url\"\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:\n    4  use Symfony\\Component\\HttpFoundation\\Request;\n    5  \n    6: class UrlGenerator {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php:\n    4   * @see \\Illuminate\\Routing\\UrlGenerator\n    5   */\n    6: class URL extends Facade {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:\n   28   * @api\n   29   */\n   30: class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInterface\n   31  {\n   32      /**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php:\n   27   * @api\n   28   */\n   29: class UrlMatcher implements UrlMatcherInterface, RequestMatcherInterface\n   30  {\n   31      const REQUIREMENT_MATCH     = 0;\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php:\n   18  use Symfony\\Component\\Routing\\RequestContext;\n   19  \n   20: class UrlGeneratorTest extends \\PHPUnit_Framework_TestCase\n   21  {\n   22      public function testAbsoluteUrlWithPort80()\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php:\n   19  use Symfony\\Component\\Routing\\RequestContext;\n   20  \n   21: class UrlMatcherTest extends \\PHPUnit_Framework_TestCase\n   22  {\n   23      public function testNoMethodSoAllowed()\n\n6 matches across 6 files\n\n\nSearching 3486 files for \"function to\"\n\n/home/joseph/www/larazon/php.ini:\n 1642  ;assert.bail = Off\n 1643  \n 1644: ; User-function to be called if an assertion fails.\n 1645  ; http://php.net/assert.callback\n 1646  ;assert.callback = 0\n\n/home/joseph/www/larazon/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php:\n  117       * @return string XML\n  118       */\n  119:     private static function toXml($data)\n  120      {\n  121          assert('is_array($data) || $node instanceof Traversable');\n\n/home/joseph/www/larazon/vendor/ircmaxell/password-compat/README.md:\n   66  **Rehashing Passwords**\n   67  \n   68: From time to time you may update your hashing parameters (algorithm, cost, etc). So a function to determine if rehashing is necessary is available:\n   69  \n   70      if (password_verify($password, $hash)) {\n\n/home/joseph/www/larazon/vendor/jeremeamia/SuperClosure/src/Jeremeamia/SuperClosure/ClosureParser.php:\n   56       * ASTs are stored for any file that is parsed to speed up multiple\n   57       * parsings of the same file. If you are worried about the memory consumption of files the ClosureParser has already\n   58:      * parsed, you can call this function to clear the cache. The cache is not persistent and stores ASTs from the\n   59       * current process\n   60       */\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:\n  875  \n  876  		// Now that we have the model names in an array we can just sort them and\n  877: 		// use the implode function to join them together with an underscores,\n  878  		// which is typically used by convention within the database system.\n  879  		sort($models);\n  ...\n 1415  	 * @return void\n 1416  	 */\n 1417: 	public function touchOwners()\n 1418  	{\n 1419  		foreach ($this->touches as $relation)\n ....\n 1429  	 * @return bool\n 1430  	 */\n 1431: 	public function touches($relation)\n 1432  	{\n 1433  		return in_array($relation, $this->touches);\n ....\n 1490  	 * @return bool\n 1491  	 */\n 1492: 	public function touch()\n 1493  	{\n 1494  		$this->updateTimestamps();\n ....\n 1994  	 * @return bool\n 1995  	 */\n 1996: 	public function totallyGuarded()\n 1997  	{\n 1998  		return count($this->fillable) == 0 && $this->guarded == array('*');\n ....\n 2060  	 * @return string\n 2061  	 */\n 2062: 	public function toJson($options = 0)\n 2063  	{\n 2064  		return json_encode($this->toArray(), $options);\n ....\n 2070  	 * @return array\n 2071  	 */\n 2072: 	public function toArray()\n 2073  	{\n 2074  		$attributes = $this->attributesToArray();\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsToMany.php:\n  444  	 * @return void\n  445  	 */\n  446: 	public function touch()\n  447  	{\n  448  		$key = $this->getRelated()->getKeyName();\n  ...\n  820  	 * @return void\n  821  	 */\n  822: 	public function touchIfTouching()\n  823  	{\n  824  	 	if ($this->touchingParent()) $this->getParent()->touch();\n  ...\n  832  	 * @return bool\n  833  	 */\n  834: 	protected function touchingParent()\n  835  	{\n  836  		return $this->getRelated()->touches($this->guessInverseRelation());\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php:\n   99  	 * @return void\n  100  	 */\n  101: 	public function touch()\n  102  	{\n  103  		$column = $this->getRelated()->getUpdatedAtColumn();\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php:\n 1075  	 * @return string\n 1076  	 */\n 1077: 	public function toSql()\n 1078  	{\n 1079  		return $this->grammar->compileSelect($this);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Query/Grammars/Grammar.php:\n  105  		// If the query is actually performing an aggregating select, we will let that\n  106  		// compiler handle the building of the select clauses, as it will need some\n  107: 		// more syntax that is best handled by that function to keep things neat.\n  108  		if ( ! is_null($query->aggregate)) return;\n  109  \n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:\n   72  	 * @return array\n   73  	 */\n   74: 	public function toSql(Connection $connection, Grammar $grammar)\n   75  	{\n   76  		$this->addImpliedCommands();\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Foundation/changes.json:\n  102  		{\"message\": \"Added support for view creators in addition to composers.\", \"backport\": null},\n  103  		{\"message\": \"Allow App::down to be bypassed if the event returns null.\", \"backport\": null},\n  104: 		{\"message\": \"Added Request::format function to get human-readable expected Response format.\", \"backport\": null},\n  105  		{\"message\": \"Allow array sizes to be checked by validator.\", \"backport\": null},\n  106  		{\"message\": \"Added support for where conditions on unique validation rule.\", \"backport\": null},\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Html/FormBuilder.php:\n  181  	 * @return string\n  182  	 */\n  183: 	public function token()\n  184  	{\n  185  		return $this->hidden('_token', $this->csrfToken);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Mail/Message.php:\n   72  	 * @return \\Illuminate\\Mail\\Message\n   73  	 */\n   74: 	public function to($address, $name = null)\n   75  	{\n   76  		return $this->addAddresses($address, $name, 'To');\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Pagination/Paginator.php:\n  471  	 * @return array\n  472  	 */\n  473: 	public function toArray()\n  474  	{\n  475  		return array(\n  ...\n  486  	 * @return string\n  487  	 */\n  488: 	public function toJson($options = 0)\n  489  	{\n  490  		return json_encode($this->toArray(), $options);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php:\n  111  	 * @return \\Illuminate\\Http\\RedirectResponse\n  112  	 */\n  113: 	public function to($path, $status = 302, $headers = array(), $secure = null)\n  114  	{\n  115  		$path = $this->generator->to($path, array(), $secure);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:\n   90  	 * @return string\n   91  	 */\n   92: 	public function to($path, $extra = array(), $secure = null)\n   93  	{\n   94  		// First we will check if the URL is already a valid URL. If it is we will not\n   ..\n  219  	 * @return string\n  220  	 */\n  221: 	protected function toRoute($route, array $parameters, $absolute)\n  222  	{\n  223  		$domain = $this->getRouteDomain($route, $parameters);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Session/Store.php:\n  516  	 * @return string\n  517  	 */\n  518: 	public function token()\n  519  	{\n  520  		return $this->get('_token');\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Collection.php:\n  514  	 * @return array\n  515  	 */\n  516: 	public function toArray()\n  517  	{\n  518  		return array_map(function($value)\n  ...\n  529  	 * @return string\n  530  	 */\n  531: 	public function toJson($options = 0)\n  532  	{\n  533  		return json_encode($this->toArray(), $options);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Fluent.php:\n   60  	 * @return array\n   61  	 */\n   62: 	public function toArray()\n   63  	{\n   64  		return $this->attributes;\n   ..\n   71  	 * @return string\n   72  	 */\n   73: 	public function toJson($options = 0)\n   74  	{\n   75  		return json_encode($this->toArray(), $options);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/MessageBag.php:\n  261  	 * @return array\n  262  	 */\n  263: 	public function toArray()\n  264  	{\n  265  		return $this->getMessages();\n  ...\n  272  	 * @return string\n  273  	 */\n  274: 	public function toJson($options = 0)\n  275  	{\n  276  		return json_encode($this->toArray(), $options);\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Contracts/ArrayableInterface.php:\n    8  	 * @return array\n    9  	 */\n   10: 	public function toArray();\n   11  \n   12  }\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Contracts/JsonableInterface.php:\n    9  	 * @return string\n   10  	 */\n   11: 	public function toJson($options = 0);\n   12  \n   13  }\n\n/home/joseph/www/larazon/vendor/monolog/monolog/src/Monolog/Formatter/NormalizerFormatter.php:\n  118      }\n  119  \n  120:     protected function toJson($data, $ignoreErrors = false)\n  121      {\n  122          // suppress json_encode errors since it's twitchy with some inputs\n\n/home/joseph/www/larazon/vendor/monolog/monolog/src/Monolog/Handler/NativeMailerHandler.php:\n   15  \n   16  /**\n   17:  * NativeMailerHandler uses the mail() function to send the emails\n   18   *\n   19   * @author Christophe Coevoet <stof@notk.org>\n\n/home/joseph/www/larazon/vendor/nesbot/carbon/src/Carbon/Carbon.php:\n  234      * @return Carbon\n  235      */\n  236:    public static function today($tz = null)\n  237     {\n  238        return static::now($tz)->startOfDay();\n  ...\n  246      * @return Carbon\n  247      */\n  248:    public static function tomorrow($tz = null)\n  249     {\n  250        return static::today($tz)->addDay();\n  ...\n  852      * @return string\n  853      */\n  854:    public function toDateString()\n  855     {\n  856        return $this->format('Y-m-d');\n  ...\n  862      * @return string\n  863      */\n  864:    public function toFormattedDateString()\n  865     {\n  866        return $this->format('M j, Y');\n  ...\n  872      * @return string\n  873      */\n  874:    public function toTimeString()\n  875     {\n  876        return $this->format('H:i:s');\n  ...\n  882      * @return string\n  883      */\n  884:    public function toDateTimeString()\n  885     {\n  886        return $this->format('Y-m-d H:i:s');\n  ...\n  892      * @return string\n  893      */\n  894:    public function toDayDateTimeString()\n  895     {\n  896        return $this->format('D, M j, Y g:i A');\n  ...\n  902      * @return string\n  903      */\n  904:    public function toATOMString()\n  905     {\n  906        return $this->format(self::ATOM);\n  ...\n  912      * @return string\n  913      */\n  914:    public function toCOOKIEString()\n  915     {\n  916        return $this->format(self::COOKIE);\n  ...\n  922      * @return string\n  923      */\n  924:    public function toISO8601String()\n  925     {\n  926        return $this->format(self::ISO8601);\n  ...\n  932      * @return string\n  933      */\n  934:    public function toRFC822String()\n  935     {\n  936        return $this->format(self::RFC822);\n  ...\n  942      * @return string\n  943      */\n  944:    public function toRFC850String()\n  945     {\n  946        return $this->format(self::RFC850);\n  ...\n  952      * @return string\n  953      */\n  954:    public function toRFC1036String()\n  955     {\n  956        return $this->format(self::RFC1036);\n  ...\n  962      * @return string\n  963      */\n  964:    public function toRFC1123String()\n  965     {\n  966        return $this->format(self::RFC1123);\n  ...\n  972      * @return string\n  973      */\n  974:    public function toRFC2822String()\n  975     {\n  976        return $this->format(self::RFC2822);\n  ...\n  982      * @return string\n  983      */\n  984:    public function toRFC3339String()\n  985     {\n  986        return $this->format(self::RFC3339);\n  ...\n  992      * @return string\n  993      */\n  994:    public function toRSSString()\n  995     {\n  996        return $this->format(self::RSS);\n  ...\n 1002      * @return string\n 1003      */\n 1004:    public function toW3CString()\n 1005     {\n 1006        return $this->format(self::W3C);\n\n/home/joseph/www/larazon/vendor/nikic/php-parser/lib/PHPParser/Node/Name.php:\n   86       * @return string String representation\n   87       */\n   88:     public function toString($separator = '\\\\') {\n   89          return implode($separator, $this->parts);\n   90      }\n\n/home/joseph/www/larazon/vendor/patchwork/utf8/class/Patchwork/Utf8.php:\n   37      // Generic UTF-8 to ASCII transliteration\n   38  \n   39:     static function toAscii($s, $subst_chr = '?')\n   40      {\n   41          if (preg_match(\"/[\\x80-\\xFF]/\", $s))\n\n/home/joseph/www/larazon/vendor/phpseclib/phpseclib/phpseclib/File/X509.php:\n 4097  \n 4098      /**\n 4099:      * Helper function to build domain array\n 4100       *\n 4101       * @access private\n\n/home/joseph/www/larazon/vendor/phpseclib/phpseclib/phpseclib/Math/BigInteger.php:\n  502       * @internal Converts a base-2**26 number to base-2**8\n  503       */\n  504:     function toBytes($twos_compliment = false)\n  505      {\n  506          if ($twos_compliment) {\n  ...\n  599       * @internal Converts a base-2**26 number to base-2**8\n  600       */\n  601:     function toHex($twos_compliment = false)\n  602      {\n  603          return bin2hex($this->toBytes($twos_compliment));\n  ...\n  626       * @internal Converts a base-2**26 number to base-2**2\n  627       */\n  628:     function toBits($twos_compliment = false)\n  629      {\n  630          $hex = $this->toHex($twos_compliment);\n  ...\n  663       * @internal Converts a base-2**26 number to base-10**7 (which is pretty much base-10)\n  664       */\n  665:     function toString()\n  666      {\n  667          switch ( MATH_BIGINTEGER_MODE ) {\n  ...\n  705       * Copy an object\n  706       *\n  707:      * PHP5 passes objects by reference while PHP4 passes by value.  As such, we need a function to guarantee\n  708       * that all objects are passed by value, when appropriate.  More information can be found here:\n  709       *\n\n/home/joseph/www/larazon/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php:\n 1060       * @access public\n 1061       */\n 1062:     function touch($filename, $time = NULL, $atime = NULL)\n 1063      {\n 1064          if (!($this->bitmap & NET_SSH2_MASK_LOGIN)) {\n\n/home/joseph/www/larazon/vendor/phpseclib/phpseclib/phpseclib/Net/SSH1.php:\n 1202          );\n 1203  \n 1204:         // For this function to yield the same output as PHP's crc32 function, $crc would have to be\n 1205          // set to 0xFFFFFFFF, initially - not 0x00000000 as it currently is.\n 1206          $crc = 0x00000000;\n ....\n 1216  \n 1217          // In addition to having to set $crc to 0xFFFFFFFF, initially, the return value must be XOR'd with\n 1218:         // 0xFFFFFFFF for this function to return the same thing that PHP's crc32 function would.\n 1219          return $crc;\n 1220      }\n\n/home/joseph/www/larazon/vendor/predis/predis/examples/DispatcherLoop.php:\n   60  $dispatcher->attachCallback('events', ($events = new EventsListener()));\n   61  \n   62: // Attach a function to control the dispatcher loop termination with a message.\n   63  $dispatcher->attachCallback('control', function ($payload) use ($dispatcher) {\n   64      if ($payload === 'terminate_dispatcher') {\n\n/home/joseph/www/larazon/vendor/predis/predis/lib/Predis/ServerException.php:\n   36       * @return ResponseError\n   37       */\n   38:     public function toResponseError()\n   39      {\n   40          return new ResponseError($this->getMessage());\n\n/home/joseph/www/larazon/vendor/predis/predis/lib/Predis/Command/AbstractCommand.php:\n  102       * @return string\n  103       */\n  104:     protected function toStringArgumentReducer($accumulator, $argument)\n  105      {\n  106          if (strlen($argument) > 32) {\n\n/home/joseph/www/larazon/vendor/predis/predis/lib/Predis/Command/RawCommand.php:\n  131       * @return string\n  132       */\n  133:     protected function toStringArgumentReducer($accumulator, $argument)\n  134      {\n  135          if (strlen($argument) > 32) {\n\n/home/joseph/www/larazon/vendor/predis/predis/lib/Predis/Connection/ConnectionParameters.php:\n  169       * {@inheritdoc}\n  170       */\n  171:     public function toArray()\n  172      {\n  173          return $this->parameters;\n\n/home/joseph/www/larazon/vendor/predis/predis/lib/Predis/Connection/ConnectionParametersInterface.php:\n   41       * @return array\n   42       */\n   43:     public function toArray();\n   44  }\n   45  \n\n/home/joseph/www/larazon/vendor/predis/predis/tests/PHPUnit/ArrayHasSameValuesConstraint.php:\n   44       * {@inheritdoc}\n   45       */\n   46:     public function toString()\n   47      {\n   48          return 'two arrays contain the same elements.';\n\n/home/joseph/www/larazon/vendor/predis/predis/tests/PHPUnit/RedisCommandConstraint.php:\n   71       *       command do not match.\n   72       */\n   73:     public function toString()\n   74      {\n   75          $string = 'is a Redis command';\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/doc/sending.rst:\n  333  SMTP.\n  334  \n  335: In order for the ``mail()`` function to even work at all ``php.ini`` needs to be\n  336  configured correctly, specifying the location of sendmail or of an SMTP server.\n  337  \n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php:\n   72       * @return string\n   73       */\n   74:     public function toString()\n   75      {\n   76          $this->saveMessage();\n   ..\n   88       * @param Swift_InputByteStream $is\n   89       */\n   90:     public function toByteStream(Swift_InputByteStream $is)\n   91      {\n   92          $this->saveMessage();\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php:\n   92       * @return string\n   93       */\n   94:     public function toString();\n   95  }\n   96  \n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php:\n  168       * @return string\n  169       */\n  170:     public function toString();\n  171  }\n  172  \n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php:\n  107       * @return string\n  108       */\n  109:     public function toString();\n  110  \n  111      /**\n  ...\n  114       * @param Swift_InputByteStream $is to write to\n  115       */\n  116:     public function toByteStream(Swift_InputByteStream $is);\n  117  }\n  118  \n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php:\n  298       * @return string\n  299       */\n  300:     public function toString()\n  301      {\n  302          $string = '';\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php:\n  574       * @return string\n  575       */\n  576:     public function toString()\n  577      {\n  578          if (count($children = $this->getChildren()) > 0 && $this->getBody() != '') {\n  ...\n  604       * @param Swift_InputByteStream $is\n  605       */\n  606:     public function toByteStream(Swift_InputByteStream $is)\n  607      {\n  608          if (count($children = $this->getChildren()) > 0 && $this->getBody() != '') {\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php:\n  466       * @return string\n  467       */\n  468:     public function toString()\n  469      {\n  470          $string = $this->_headers->toString();\n  ...\n  525       * @param Swift_InputByteStream\n  526       */\n  527:     public function toByteStream(Swift_InputByteStream $is)\n  528      {\n  529          $is->write($this->_headers->toString());\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php:\n  205       * @throws Swift_RfcComplianceException\n  206       */\n  207:     public function toString()\n  208      {\n  209          return $this->_tokensToString($this->toTokens());\n  ...\n  320       * @return boolean\n  321       */\n  322:     protected function tokenNeedsEncoding($token)\n  323      {\n  324          return preg_match('~[\\x00-\\x08\\x10-\\x19\\x7F-\\xFF\\r\\n]~', $token);\n  ...\n  449       * @return array An array of tokens as strings\n  450       */\n  451:     protected function toTokens($string = null)\n  452      {\n  453          if (is_null($string)) {\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php:\n  308       * @return boolean\n  309       */\n  310:     protected function tokenNeedsEncoding($token)\n  311      {\n  312          return preg_match('/[,;]/', $token) || parent::tokenNeedsEncoding($token);\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php:\n  157       * @return array An array of tokens as strings\n  158       */\n  159:     protected function toTokens($string = null)\n  160      {\n  161          $tokens = parent::toTokens(parent::getFieldBody());\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php:\n  235       * @param Swift_SignedMessage   $mimeEntity\n  236       */\n  237:     protected function toSMimeByteStream(Swift_InputByteStream $inputStream, Swift_SignedMessage $message)\n  238      {\n  239          $mimeEntity = $this->createMessage($message);\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/notes/rfc/rfc2821.txt:\n 3724     has been used as part of hostile efforts to hide the actual origins\n 3725     of mail.  Some sites have decided to limit the use of the relay\n 3726:    function to known or identifiable sources, and implementations SHOULD\n 3727     provide the capability to perform this type of filtering.  When mail\n 3728     is rejected for these or other policy reasons, a 550 code SHOULD be\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/notes/rfc/rfc4880.txt:\n 4126     Steps:\n 4127  \n 4128:      1. Apply the hash function to the message M to produce a hash value\n 4129          H:\n 4130  \n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/xml.php:\n   55       *    @access public\n   56       */\n   57:     function toParsedXml($text) {\n   58          return str_replace(\n   59                  array('&', '<', '>', '\"', '\\''),\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/extensions/webunit_reporter.php:\n  271  		 *	@return	string\n  272  		 */\n  273: 		function toJsString($str, $preserveCr=false) {\n  274  			$cr = ($preserveCr) ? '\\\\n' : '';\n  275  			return str_replace(\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/extensions/dom_tester/css_selector.php:\n  303    }\n  304  \n  305:   protected function tokenize_selectors($selector)\n  306    {\n  307      // split tokens by , except in an attribute selector\n  ...\n  334    }\n  335  \n  336:   protected function tokenize($selector)\n  337    {\n  338      // split tokens by space except if space is in an attribute selector\n  ...\n  381    }\n  382  \n  383:   protected function tokenize_selector_name($token_name)\n  384    {\n  385      // split custom selector\n  ...\n  501    }\n  502  \n  503:   protected function tokenize_custom_selector($selector)\n  504    {\n  505      if (!preg_match('/\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/interfaces_test.php:\n  121  \n  122  class TestOfInterfaceMocksWithConstruct extends UnitTestCase {\n  123:     function TODO_testBasicConstructOfAnInterface() {   // Fails in PHP 5.3dev\n  124          Mock::generate('SampleInterfaceWithConstruct');\n  125      }\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/simpletest/test/unit_tester_test.php:\n   47      }\n   48  \n   49:     function TODO_testCloneOnScalars() {\n   50          $a = 25;\n   51          $b = 25;\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/yaymock/classes/Yay/Description.php:\n   41     * @return string\n   42     */\n   43:   public function toString();\n   44    \n   45  }\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/lib/yaymock/classes/Yay/SimpleDescription.php:\n   56     * @return string\n   57     */\n   58:   public function toString()\n   59    {\n   60      return $this->_text;\n\n/home/joseph/www/larazon/vendor/swiftmailer/swiftmailer/test-suite/templates/sweety/js/sweety-template.js:\n   37     * @param {Boolean} onoff\n   38     */\n   39:   this.togglePackage = function togglePackage(pkg, onOff) {\n   40      if (typeof _pkgs[pkg] == \"undefined\") {\n   41        _pkgs[pkg] = true;\n\n/home/joseph/www/larazon/vendor/symfony/console/Symfony/Component/Console/Input/StringInput.php:\n   58       * @throws \\InvalidArgumentException When unable to parse input (should never happen)\n   59       */\n   60:     private function tokenize($input)\n   61      {\n   62          $tokens = array();\n\n/home/joseph/www/larazon/vendor/symfony/css-selector/Symfony/Component/CssSelector/CssSelector.php:\n   48       * @api\n   49       */\n   50:     public static function toXPath($cssExpr, $prefix = 'descendant-or-self::')\n   51      {\n   52          $translator = new Translator();\n\n/home/joseph/www/larazon/vendor/symfony/css-selector/Symfony/Component/CssSelector/Parser/Tokenizer/Tokenizer.php:\n   57       * @return TokenStream\n   58       */\n   59:     public function tokenize(Reader $reader)\n   60      {\n   61          $stream = new TokenStream();\n\n/home/joseph/www/larazon/vendor/symfony/debug/Symfony/Component/Debug/Exception/FlattenException.php:\n   61      }\n   62  \n   63:     public function toArray()\n   64      {\n   65          $exceptions = array();\n\n/home/joseph/www/larazon/vendor/symfony/debug/Symfony/Component/Debug/Tests/ErrorHandlerTest.php:\n  152      }\n  153  \n  154:     // dummy function to test trace in error handler.\n  155      private static function triggerNotice($that)\n  156      {\n\n/home/joseph/www/larazon/vendor/symfony/filesystem/Symfony/Component/Filesystem/Filesystem.php:\n  113       * @throws IOException When touch fails\n  114       */\n  115:     public function touch($files, $time = null, $atime = null)\n  116      {\n  117          foreach ($this->toIterator($files) as $file) {\n  ...\n  464       * @return \\Traversable\n  465       */\n  466:     private function toIterator($files)\n  467      {\n  468          if (!$files instanceof \\Traversable) {\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Glob.php:\n   45       * @return string regex The regexp\n   46       */\n   47:     public static function toRegex($glob, $strictLeadingDot = true, $strictWildcardSlash = true)\n   48      {\n   49          $firstByte = true;\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Expression/Glob.php:\n   99       * @return Regex\n  100       */\n  101:     public function toRegex($strictLeadingDot = true, $strictWildcardSlash = true)\n  102      {\n  103          $firstByte = true;\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilecontentFilterIterator.php:\n   70       * @return string regexp corresponding to a given string or regexp\n   71       */\n   72:     protected function toRegex($str)\n   73      {\n   74          return $this->isRegex($str) ? $str : '/'.preg_quote($str, '/').'/';\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Iterator/FilenameFilterIterator.php:\n   62       * @return string regexp corresponding to a given glob or regexp\n   63       */\n   64:     protected function toRegex($str)\n   65      {\n   66          return Expression::create($str)->getRegex()->render();\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Iterator/MultiplePcreFilterIterator.php:\n   63       * @return string regexp corresponding to a given string\n   64       */\n   65:     abstract protected function toRegex($str);\n   66  }\n   67  \n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Iterator/PathFilterIterator.php:\n   69       * @return string regexp corresponding to a given string or regexp\n   70       */\n   71:     protected function toRegex($str)\n   72      {\n   73          return $this->isRegex($str) ? $str : '/'.preg_quote($str, '/').'/';\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Shell/Command.php:\n  114       * @return Command The current Command instance\n  115       */\n  116:     public function top($bit)\n  117      {\n  118          array_unshift($this->bits, $bit);\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Tests/Iterator/MultiplePcreFilterIteratorTest.php:\n   61      }\n   62  \n   63:     public function toRegex($str)\n   64      {\n   65          throw new \\BadFunctionCallException('Not implemented');\n\n/home/joseph/www/larazon/vendor/symfony/finder/Symfony/Component/Finder/Tests/Iterator/RealIteratorTestCase.php:\n   70      }\n   71  \n   72:     protected static function toAbsolute($files = null)\n   73      {\n   74          /*\n   ..\n   95      }\n   96  \n   97:     protected static function toAbsoluteFixtures($files)\n   98      {\n   99          $f = array();\n\n/home/joseph/www/larazon/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/Tests/KernelTest.php:\n  200      {\n  201          if (!function_exists('token_get_all')) {\n  202:             $this->markTestSkipped('The function token_get_all() is not available.');\n  203  \n  204              return;\n\n/home/joseph/www/larazon/vendor/symfony/process/Symfony/Component/Process/README.md:\n   21  \n   22  And if you want to be able to get some feedback in real-time, just pass an\n   23: anonymous function to the ``run()`` method and you will get the output buffer\n   24  as it becomes available:\n   25  \n\n124 matches across 78 files\n\n\nSearching 3486 files for \"function to (\"\n\n0 matches across 0 files\n\n\nSearching 3486 files for \"class Url\"\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:\n    4  use Symfony\\Component\\HttpFoundation\\Request;\n    5  \n    6: class UrlGenerator {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php:\n    4   * @see \\Illuminate\\Routing\\UrlGenerator\n    5   */\n    6: class URL extends Facade {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:\n   28   * @api\n   29   */\n   30: class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInterface\n   31  {\n   32      /**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php:\n   27   * @api\n   28   */\n   29: class UrlMatcher implements UrlMatcherInterface, RequestMatcherInterface\n   30  {\n   31      const REQUIREMENT_MATCH     = 0;\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php:\n   18  use Symfony\\Component\\Routing\\RequestContext;\n   19  \n   20: class UrlGeneratorTest extends \\PHPUnit_Framework_TestCase\n   21  {\n   22      public function testAbsoluteUrlWithPort80()\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php:\n   19  use Symfony\\Component\\Routing\\RequestContext;\n   20  \n   21: class UrlMatcherTest extends \\PHPUnit_Framework_TestCase\n   22  {\n   23      public function testNoMethodSoAllowed()\n\n6 matches across 6 files\n\n\nSearching 3486 files for \"class URL\"\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php:\n    4  use Symfony\\Component\\HttpFoundation\\Request;\n    5  \n    6: class UrlGenerator {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php:\n    4   * @see \\Illuminate\\Routing\\UrlGenerator\n    5   */\n    6: class URL extends Facade {\n    7  \n    8  	/**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Generator/UrlGenerator.php:\n   28   * @api\n   29   */\n   30: class UrlGenerator implements UrlGeneratorInterface, ConfigurableRequirementsInterface\n   31  {\n   32      /**\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Matcher/UrlMatcher.php:\n   27   * @api\n   28   */\n   29: class UrlMatcher implements UrlMatcherInterface, RequestMatcherInterface\n   30  {\n   31      const REQUIREMENT_MATCH     = 0;\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Generator/UrlGeneratorTest.php:\n   18  use Symfony\\Component\\Routing\\RequestContext;\n   19  \n   20: class UrlGeneratorTest extends \\PHPUnit_Framework_TestCase\n   21  {\n   22      public function testAbsoluteUrlWithPort80()\n\n/home/joseph/www/larazon/vendor/symfony/routing/Symfony/Component/Routing/Tests/Matcher/UrlMatcherTest.php:\n   19  use Symfony\\Component\\Routing\\RequestContext;\n   20  \n   21: class UrlMatcherTest extends \\PHPUnit_Framework_TestCase\n   22  {\n   23      public function testNoMethodSoAllowed()\n\n6 matches across 6 files\n\n\nSearching 3486 files for \"class URL\" (case sensitive)\n\n/home/joseph/www/larazon/vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php:\n    4   * @see \\Illuminate\\Routing\\UrlGenerator\n    5   */\n    6: class URL extends Facade {\n    7  \n    8  	/**\n\n1 match in 1 file\n",
+					"settings":
+					{
+						"buffer_size": 34271,
+						"line_ending": "Unix",
+						"name": "Find Results",
+						"scratch": true
+					}
+				},
+				{
+					"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php",
+					"settings":
+					{
+						"buffer_size": 268,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"file": "public/modrewrite.php",
+					"settings":
+					{
+						"buffer_size": 24,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/config/database.php",
+					"settings":
+					{
+						"buffer_size": 3361,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "<?php\n\n/*\n|--------------------------------------------------------------------------\n| Application Routes\n|--------------------------------------------------------------------------\n|\n| Here is where you can register all of the routes for an application.\n| It's a breeze. Simply tell Laravel the URIs it should respond to\n| and give it the Closure to execute when that URI is requested.\n|\n*/\n\nRoute::get('/', function()\n{\n	return View::make('hello');\n});\n\nRoute::get('users', function()\n{\n	$users = User::all();\n\n    return View::make('users')->with('users', $users);\n	\n});\n\nforeach ($variable as $key => $value) {\n	# code...\n}\n\n\nRoute::get('bitzon', 'BitzonController@index');\n\n// $route['default_controller'] = '/bitzon/index';\n// $route['bitzon/index'] = '/bitzon/index';",
+					"file": "app/routes.php",
+					"file_size": 722,
+					"file_write_time": 130364426866229939,
+					"settings":
+					{
+						"buffer_size": 775,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "bootstrap/start.php",
+					"settings":
+					{
+						"buffer_size": 2317,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/start/local.php",
+					"settings":
+					{
+						"buffer_size": 49,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "<?php\n\nreturn array(\n\n	/*\n	|--------------------------------------------------------------------------\n	| Application Path\n	|--------------------------------------------------------------------------\n	|\n	| Here we just defined the path to the application directory. Most likely\n	| you will never need to change this value as the default setup should\n	| work perfectly fine for the vast majority of all our applications.\n	|\n	*/\n\n	'app' => __DIR__.'/../app',\n\n	/*\n	|--------------------------------------------------------------------------\n	| Public Path\n	|--------------------------------------------------------------------------\n	|\n	| The public path contains the assets for your web application, such as\n	| your JavaScript and CSS files, and also contains the primary entry\n	| point for web requests into these applications from the outside.\n	|\n	*/\n\n	'public' => __DIR__.'/../public',\n\n	/*\n	|--------------------------------------------------------------------------\n	| Base Path\n	|--------------------------------------------------------------------------\n	|\n	| The base path is the root of the Laravel installation. Most likely you\n	| will not need to change this value. But, if for some wild reason it\n	| is necessary you will do so here, just proceed with some caution.\n	|\n	*/\n\n	'base' => __DIR__.'/..',\n\n	/*\n	|--------------------------------------------------------------------------\n	| Storage Path\n	|--------------------------------------------------------------------------\n	|\n	| The storage path is used by Laravel to store cached Blade views, logs\n	| and other pieces of information. You may modify the path here when\n	| you want to change the location of this directory for your apps.\n	|\n	*/\n\n	'storage' => __DIR__.'/../app/storage',\n\n);\n",
+					"file": "bootstrap/paths.php",
+					"file_size": 1753,
+					"file_write_time": 130345676970000000,
+					"settings":
+					{
+						"buffer_size": 1753,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/controllers/HomeController.php",
+					"settings":
+					{
+						"buffer_size": 586,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/filters.php",
+					"settings":
+					{
+						"buffer_size": 2103,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/views/users.blade.php",
+					"settings":
+					{
+						"buffer_size": 159,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/database/production.sqlite",
+					"settings":
+					{
+						"buffer_size": 0,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/www/bitzon/application/controllers/bitzon.php",
+					"settings":
+					{
+						"buffer_size": 5154,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "app/controllers/BaseController.php",
+					"settings":
+					{
+						"buffer_size": 255,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/bash_profile",
+					"settings":
+					{
+						"buffer_size": 52,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/README.md",
+					"settings":
+					{
+						"buffer_size": 294,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/sources.list",
+					"settings":
+					{
+						"buffer_size": 3525,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/XFCE-Arch-RPi.sh",
+					"settings":
+					{
+						"buffer_size": 826,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/arch-raspi-build-script/xinitrc",
+					"settings":
+					{
+						"buffer_size": 154,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/joseph/www/bitzon/application/config/routes.php",
+					"settings":
+					{
+						"buffer_size": 1871,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 117.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 575.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/joseph/www/larazon/app/controllers/UserController.php",
+				"/home/joseph/www/larazon/app/views/layout.blade.php",
+				"/home/joseph/www/larazon/app/database/migrations/2014_01_31_001714_create_users_table.php",
+				"/home/joseph/www/larazon/app/models/User.php",
+				"/home/joseph/www/larazon/app/database/larazon.db",
+				"/home/joseph/www/default/index.php",
+				"/home/joseph/www/bitzon/application/views/templates/footer.php",
+				"/home/joseph/www/bitzon/application/views/templates/header.php",
+				"/home/joseph/www/bitzon/application/controllers/bitzon.php",
+				"/home/joseph/www/bitzon/application/config/database.php",
+				"/home/joseph/www/bitzon/js/bitzon.js",
+				"/home/joseph/www/bitzon/bootstrap.zip",
+				"/home/joseph/www/bitzon/index.php",
+				"/home/joseph/www/bitzon/license.txt",
+				"/C/wamp/www/bitzon/js/bitzon.js",
+				"/C/wamp/www/bitzon/application/views/bitzonviews/about.php",
+				"/home/joseph/.config/sublime-text-2/Packages/User/Distraction Free.sublime-settings"
+			],
+			"find":
+			{
+				"height": 25.0
+			},
+			"find_in_files":
+			{
+				"height": 93.0,
+				"where_history":
+				[
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"class URL",
+					"class Url",
+					"function to (",
+					"function to",
+					"class Url",
+					"default"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"remote"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 5,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "public/testing.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 19,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										19,
+										19
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 19,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 34271,
+								"regions":
+								{
+									"match":
+									{
+										"flags": 112,
+										"regions":
+										[
+											[
+												197,
+												206
+											],
+											[
+												395,
+												404
+											],
+											[
+												578,
+												587
+											],
+											[
+												821,
+												830
+											],
+											[
+												1128,
+												1137
+											],
+											[
+												1428,
+												1437
+											],
+											[
+												1695,
+												1706
+											],
+											[
+												1970,
+												1981
+											],
+											[
+												2281,
+												2292
+											],
+											[
+												2754,
+												2765
+											],
+											[
+												3095,
+												3106
+											],
+											[
+												3306,
+												3317
+											],
+											[
+												3443,
+												3454
+											],
+											[
+												3591,
+												3602
+											],
+											[
+												3711,
+												3722
+											],
+											[
+												3883,
+												3894
+											],
+											[
+												4038,
+												4049
+											],
+											[
+												4282,
+												4293
+											],
+											[
+												4417,
+												4428
+											],
+											[
+												4582,
+												4593
+											],
+											[
+												4854,
+												4865
+											],
+											[
+												5090,
+												5101
+											],
+											[
+												5500,
+												5511
+											],
+											[
+												5739,
+												5750
+											],
+											[
+												6181,
+												6192
+											],
+											[
+												6594,
+												6605
+											],
+											[
+												6835,
+												6846
+											],
+											[
+												7085,
+												7096
+											],
+											[
+												7196,
+												7207
+											],
+											[
+												7463,
+												7474
+											],
+											[
+												7752,
+												7763
+											],
+											[
+												7965,
+												7976
+											],
+											[
+												8231,
+												8242
+											],
+											[
+												8438,
+												8449
+											],
+											[
+												8569,
+												8580
+											],
+											[
+												8804,
+												8815
+											],
+											[
+												8927,
+												8938
+											],
+											[
+												9166,
+												9177
+											],
+											[
+												9292,
+												9303
+											],
+											[
+												9549,
+												9560
+											],
+											[
+												9746,
+												9757
+											],
+											[
+												9932,
+												9943
+											],
+											[
+												10232,
+												10243
+											],
+											[
+												10459,
+												10470
+											],
+											[
+												10622,
+												10633
+											],
+											[
+												10779,
+												10790
+											],
+											[
+												10924,
+												10935
+											],
+											[
+												11079,
+												11090
+											],
+											[
+												11224,
+												11235
+											],
+											[
+												11379,
+												11390
+											],
+											[
+												11541,
+												11552
+											],
+											[
+												11689,
+												11700
+											],
+											[
+												11841,
+												11852
+											],
+											[
+												11995,
+												12006
+											],
+											[
+												12147,
+												12158
+											],
+											[
+												12299,
+												12310
+											],
+											[
+												12453,
+												12464
+											],
+											[
+												12607,
+												12618
+											],
+											[
+												12761,
+												12772
+											],
+											[
+												12915,
+												12926
+											],
+											[
+												13061,
+												13072
+											],
+											[
+												13305,
+												13316
+											],
+											[
+												13567,
+												13578
+											],
+											[
+												13793,
+												13804
+											],
+											[
+												14044,
+												14055
+											],
+											[
+												14237,
+												14248
+											],
+											[
+												14454,
+												14465
+											],
+											[
+												14693,
+												14704
+											],
+											[
+												14919,
+												14930
+											],
+											[
+												15194,
+												15205
+											],
+											[
+												15453,
+												15464
+											],
+											[
+												15818,
+												15829
+											],
+											[
+												16109,
+												16120
+											],
+											[
+												16465,
+												16476
+											],
+											[
+												16719,
+												16730
+											],
+											[
+												16982,
+												16993
+											],
+											[
+												17254,
+												17265
+											],
+											[
+												17492,
+												17503
+											],
+											[
+												17685,
+												17696
+											],
+											[
+												17945,
+												17956
+											],
+											[
+												18155,
+												18166
+											],
+											[
+												18459,
+												18470
+											],
+											[
+												18615,
+												18626
+											],
+											[
+												18868,
+												18879
+											],
+											[
+												19063,
+												19074
+											],
+											[
+												19259,
+												19270
+											],
+											[
+												19401,
+												19412
+											],
+											[
+												19631,
+												19642
+											],
+											[
+												19854,
+												19865
+											],
+											[
+												20065,
+												20076
+											],
+											[
+												20383,
+												20394
+											],
+											[
+												20552,
+												20563
+											],
+											[
+												20862,
+												20873
+											],
+											[
+												21032,
+												21043
+											],
+											[
+												21262,
+												21273
+											],
+											[
+												21521,
+												21532
+											],
+											[
+												21867,
+												21878
+											],
+											[
+												22172,
+												22183
+											],
+											[
+												22581,
+												22592
+											],
+											[
+												22943,
+												22954
+											],
+											[
+												23169,
+												23180
+											],
+											[
+												23455,
+												23466
+											],
+											[
+												23737,
+												23748
+											],
+											[
+												23895,
+												23906
+											],
+											[
+												24059,
+												24070
+											],
+											[
+												24195,
+												24206
+											],
+											[
+												24479,
+												24490
+											],
+											[
+												24772,
+												24783
+											],
+											[
+												25022,
+												25033
+											],
+											[
+												25233,
+												25244
+											],
+											[
+												25482,
+												25493
+											],
+											[
+												25831,
+												25842
+											],
+											[
+												26064,
+												26075
+											],
+											[
+												26368,
+												26379
+											],
+											[
+												26601,
+												26612
+											],
+											[
+												26811,
+												26822
+											],
+											[
+												27102,
+												27113
+											],
+											[
+												27304,
+												27315
+											],
+											[
+												27568,
+												27579
+											],
+											[
+												27849,
+												27860
+											],
+											[
+												28195,
+												28206
+											],
+											[
+												28536,
+												28547
+											],
+											[
+												28869,
+												28880
+											],
+											[
+												29130,
+												29141
+											],
+											[
+												29433,
+												29444
+											],
+											[
+												29677,
+												29688
+											],
+											[
+												29947,
+												29958
+											],
+											[
+												30068,
+												30079
+											],
+											[
+												30366,
+												30377
+											],
+											[
+												30640,
+												30651
+											],
+											[
+												31045,
+												31054
+											],
+											[
+												31243,
+												31252
+											],
+											[
+												31426,
+												31435
+											],
+											[
+												31669,
+												31678
+											],
+											[
+												31976,
+												31985
+											],
+											[
+												32276,
+												32285
+											],
+											[
+												32618,
+												32627
+											],
+											[
+												32816,
+												32825
+											],
+											[
+												32999,
+												33008
+											],
+											[
+												33242,
+												33251
+											],
+											[
+												33549,
+												33558
+											],
+											[
+												33849,
+												33858
+											],
+											[
+												34205,
+												34214
+											]
+										],
+										"scope": ""
+									}
+								},
+								"selection":
+								[
+									[
+										34088,
+										34088
+									]
+								],
+								"settings":
+								{
+									"detect_indentation": false,
+									"line_numbers": false,
+									"output_tag": 6,
+									"result_base_dir": "",
+									"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+									"result_line_regex": "^ +([0-9]+):",
+									"scroll_past_end": true,
+									"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 16524.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 18,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "vendor/laravel/framework/src/Illuminate/Support/Facades/URL.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 268,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										245,
+										245
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 17,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "public/modrewrite.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 24,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 20,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "app/config/database.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3361,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										6,
+										6
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 16,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "app/routes.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 775,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										616,
+										616
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "bootstrap/start.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2317,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2317,
+										2317
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 268.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "app/start/local.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 49,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										45,
+										45
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "bootstrap/paths.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1753,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										21,
+										21
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "app/controllers/HomeController.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 586,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 11,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"file": "app/filters.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2103,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										409,
+										409
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 104.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 11,
+							"file": "app/views/users.blade.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 159,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										151,
+										151
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 14,
+							"type": "text"
+						},
+						{
+							"buffer": 12,
+							"file": "app/database/production.sqlite",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 0,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 15,
+							"type": "text"
+						}
+					]
+				},
+				{
+					"selected": 6,
+					"sheets":
+					[
+						{
+							"buffer": 13,
+							"file": "/home/joseph/www/bitzon/application/controllers/bitzon.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5154,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										209,
+										209
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 12,
+							"type": "text"
+						},
+						{
+							"buffer": 14,
+							"file": "app/controllers/BaseController.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 255,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 15,
+							"file": "/home/joseph/arch-raspi-build-script/bash_profile",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 52,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 16,
+							"file": "/home/joseph/arch-raspi-build-script/README.md",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 294,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Markdown/Markdown.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 17,
+							"file": "/home/joseph/arch-raspi-build-script/sources.list",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3525,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 18,
+							"file": "/home/joseph/arch-raspi-build-script/XFCE-Arch-RPi.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 826,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 19,
+							"file": "/home/joseph/arch-raspi-build-script/xinitrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 154,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 20,
+							"file": "/home/joseph/www/bitzon/application/config/routes.php",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1871,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1871,
+										1871
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/PHP/PHP.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 257.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 13,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					0.784046692607,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0,1,0,0,0,0,0,0,0,1366,768",
+			"project": "larazon.sublime-project",
+			"replace":
+			{
+				"height": 46.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 338.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 64,
+			"workspace_name": "/home/joseph/www/larazon/larazon.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/joseph/www/larazon/larazon.sublime-workspace",
+			"/home/joseph/www/bitzon/ajax.sublime-workspace"
+		]
+	}
+}

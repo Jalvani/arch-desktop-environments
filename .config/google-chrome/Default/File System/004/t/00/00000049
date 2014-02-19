@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+VERSION:2.0
+PRODID:-//hacksw/handcal//NONSGML v1.0//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+UID:20130905T153011Z-EN0001-2-9288157@reservation.carlsonwagonlit.com
+DTSTAMP:20130905T153011Z
+ORGANIZER;CN=CWT Travel:MAILTO:CWTCalendar@reservation.carlsonwagonlit.com
+DTSTART:20130915T013000Z
+DTEND:20130915T114000Z
+SUMMARY:FLIGHT AA 973\, JFK->GIG / RSHTWC
+LOCATION:New York J F Kennedy -> Rio de Janeiro
+DESCRIPTION:Flight: AMERICAN AIRLINES - AA973 - Sat 14 September\, 2013\nFrom: New York J F Kennedy - Terminal 8\nTo: Rio de Janeiro - Terminal 2\nDeparture local time: 21:30 - 14/09/2013\nArrival local time: 08:40 - 15/09/2013\nDuration: 10:10(non-stop)\nClass: Economy/Coach (N)\nSeat: not specified \nEquipment: Boeing 767-300 Passenger\nAir E-Ticket Issued: 0014135744499\nBooking Reference: RSHTWC\nRecord Locator: RSHTWC
+X-ALT-DESC;FMTTYPE=text/html:<font size='2'>Flight: AMERICAN AIRLINES - AA973 - Sat&nbsp;14&nbsp;September, 2013<br />From: New York J F Kennedy - Terminal 8<br />To: Rio de Janeiro - Terminal 2<br />Departure local time: 21:30 - 14/09/2013<br />Arrival local time: 08:40 - 15/09/2013<br />Duration: 10:10(non-stop)<br />Class: Economy/Coach (N)<br />Seat: not specified <br />Equipment: Boeing 767-300 Passenger<br />Air E-Ticket Issued: 0014135744499<br />Booking Reference: RSHTWC<br />Record Locator: RSHTWC</font>
+END:VEVENT
+END:VCALENDAR

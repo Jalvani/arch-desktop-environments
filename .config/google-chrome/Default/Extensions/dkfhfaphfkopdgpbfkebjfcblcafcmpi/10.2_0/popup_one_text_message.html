@@ -1,0 +1,1617 @@
+<HTML style="width:295px;max-height:150px;height:140px;padding:3px;background-color:#FFFFE5;background-color:#D0D2D3;bborder:1px solid">
+<title>Text Message - Reply </title>
+<head>
+	<link rel="stylesheet" href="demos.css">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:regular,600,bold' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript">
+	  var debug_mode = 0; // default is do no debugging
+
+	     if (window.localStorage.debugLevel === undefined)
+		{
+		console.log("Debug Level Not Stored Yet, setting to 0 as default");
+		window.localStorage.debugLevel=0;
+		}
+	
+	debug_mode = window.localStorage.debugLevel;
+	console.log("in POPUP page - Debug Mode from Local Storage is: " + debug_mode);
+ 
+	  
+	  
+	  
+	  
+    </script>
+
+
+    <script type="text/javascript" src="chrome_ex_oauthsimple.js"></script>
+    <script type="text/javascript" src="chrome_ex_oauth.js"></script>
+    <script type="text/javascript">
+      var oauth = ChromeExOAuth.initBackgroundPage({
+        'request_url' : 'https://www.google.com/accounts/OAuthGetRequestToken',
+        'authorize_url' : 'https://www.google.com/accounts/OAuthAuthorizeToken',
+        'access_url' : 'https://www.google.com/accounts/OAuthGetAccessToken',
+        'consumer_key' : 'anonymous',
+        'consumer_secret' : 'anonymous',
+        'scope' : 'http://www.google.com/m8/feeds/',
+        'app_name' : 'Texty App'
+      });
+
+      //var contacts = [];  //OAuth from Google Contacts will populate this array.
+
+     
+      function _d6dbb77a4036e0fc337667f1937be7f572e47b956df6e9901232154d96b9c976075be61623f2913b(text, xhr) {
+        contacts = [];
+        var data = JSON.parse(text);
+        for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+          var contact = {
+            'name' : entry['title']['$t'],
+            'id' : entry['id']['$t'],
+            'emails' : [],
+            'phonenums' : []
+          };
+
+          if (entry['gd$email']) {
+            var emails = entry['gd$email'];
+            for (var j = 0, email; email = emails[j]; j++) {
+              contact['emails'].push(email['address']);
+            }
+          }
+
+
+          if (!contact['name']) {
+            contact['name'] = contact['emails'][0] || "<Unknown>";
+          }
+          
+          if (entry['gd$phoneNumber']) {
+            var phonenumbers = entry['gd$phoneNumber'];
+            for (var j = 0, thisphonenum; thisphonenum = phonenumbers[j]; j++) {
+              contact['phonenums'].push(thisphonenum['$t']);
+            }
+
+            }
+
+          if (entry['gd$phoneNumber']) {
+          contacts.push(contact); //MA changed -- we only add it to the master array if there is at least 1 phone number!
+            }
+
+          // MA REMOVING THIS FROM HERE -- only want to generate array element if we have a phone number! contacts.push(contact);
+          
+        }
+
+        //_655192d5d31f0882aed9f26d1af1d96f675a6f505fbdc8ab88676c89b2762cdda82d60d30a615164();
+        _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf();
+
+      };
+
+	
+function OLD__758ec4656f23a1a12e48e9a63b7a23bdcaf1045f1b365ebeb0369226a300e43b0890ad57f98e30fb(phonenum_to_find) {
+  for(var i=0; i<contacts.length; i++) {
+    if (_9e2e6bbbf027cc0ec8670aaf462a121565b10363b9df7e461971221502fafb14768f0390fd670e84(contacts[i]['phonenums'][0]) == phonenum_to_find) 
+    	{
+    	_3e9acece6ab0174ac6006c5b42fe2f0ce3ffbe9c714cfdefa9e9680dd87c852e4df3e3401c54b4a0(phonenum_to_find,contacts[i]['name']);    	
+    	return contacts[i]['name']; //MATCH FOUND
+    	}
+  }
+  return '';  //NO MATCH FOUND -- return null
+}
+
+//function OLD__79dd1b19504163af687a7202cb3b41de37d389d81e90e61568a57942888af04eed2f3f3d6bd15c4d(phonenum_to_find) {
+//  for(var i=0; i<localContactsArray.length; i++) {
+//    if (_9e2e6bbbf027cc0ec8670aaf462a121565b10363b9df7e461971221502fafb14768f0390fd670e84(localContactsArray[i]['phone_num']) == phonenum_to_find) 
+//    	{
+//    	return localContactsArray[i]['contact_name']; //MATCH FOUND
+//    	}
+//  }
+//  return '';  //NO MATCH FOUND -- return null
+//}
+
+
+function _fb8349e02df0524118dfa40dd7bc444597748f6db17a9f9c5d687819fea00580543b4bcba5882b13()
+{
+	  document.getElementById('resultholder').innerHTML = resultdivclean;
+
+}
+function _655192d5d31f0882aed9f26d1af1d96f675a6f505fbdc8ab88676c89b2762cdda82d60d30a615164()
+{
+      var output = document.getElementById('resultholder');
+      for (var i = 0, contact; contact = contacts[i]; i++) {
+        var div = document.createElement('div');
+        var pName = document.createElement('p');
+        var ulEmails = document.createElement('ul');
+
+        pName.innerText = i + ' - ' + contact['name'] + ' - ' + contact['phonenums'][0] + ' - ' +  contact['phonenums'][1] + ' - ' + _9e2e6bbbf027cc0ec8670aaf462a121565b10363b9df7e461971221502fafb14768f0390fd670e84(contact['phonenums'][0]);
+        div.appendChild(pName);
+
+        for (var j = 0, email; email = contact['emails'][j]; j++) {
+          var liEmail = document.createElement('li');
+          liEmail.innerText = email;
+          ulEmails.appendChild(liEmail);
+        }
+
+        //div.appendChild(ulEmails); MA removed - no need to show email addresses anymore
+        output.appendChild(div);
+      }
+
+}
+
+
+      //setIcon();
+      //chrome.browserAction.onClicked.addListener(getContacts);
+
+    </script>
+
+</head>
+
+<link rel="stylesheet" href="jquery-ui-1.8.10.custom/css/ui-lightness/jquery-ui-1.8.10.custom.css">
+
+<style type="text/css">
+
+img.HoverBorder {
+opacity:0.6;
+}
+
+img.HoverBorder:hover {
+opacity:1.0;
+}
+
+body {
+
+  font-family: 'Open Sans', arial, serif;
+  padding: 0px;
+  margin: 3px;
+  overflow: hidden;
+  font-size:12px;
+  height:auto;
+  mmin-height:75px;
+}
+
+p
+{
+font-size:14px;
+margin:0;
+}
+
+td {
+  font-family: 'Open Sans', arial, serif;
+  font-size: 9px;
+  color: black;
+}
+
+ul {
+  font-family: 'Open Sans', arial, serif;
+  font-size: 11px;
+  color: black;
+}
+
+li 
+{ list-style-type:none; }
+
+
+.reply-button {
+background-color: #C3DD82;
+border-bottom: 1px solid #648517;
+border-color: #8CB332 #8CB332 #648517;
+color: #406A24;
+text-shadow: #D4ED95 0px 1px;
+float: left;
+background: #D8D8D8 url(button-chrome-2.gif) repeat-x 0% 0%;
+border-bottom: 1px solid #999;
+border-bottom-left-radius: 3px 3px;
+border-bottom-right-radius: 3px 3px;
+border: 1px solid;
+border-top-left-radius: 3px 3px;
+border-top-right-radius: 3px 3px;
+cursor: pointer;
+display: inline-block;
+font-size: 13px;
+font-weight: bold;
+padding: 3px 10px;
+text-align: center;
+}
+
+.reply-button:hover
+{
+border-color:#666;
+border-bottom:1px solid #444;
+text-decoration:none;}
+
+
+
+
+
+
+#results {
+	hhhheight:400px;
+	oooverflow:auto;
+    font-family: 'Open Sans', arial, serif;
+ 	lline-height: 20px;
+	border:none; /*overriding Jquery UI border*/
+	}
+	
+button{
+background: #F2F2F2 url(buttonbg.png) repeat-x 0% 0%;
+border: 1px solid #CCC;
+border-bottom-left-radius: 11px 11px !important;
+border-bottom-right-radius: 11px 11px !important;
+border-top-left-radius: 11px 11px !important;
+border-top-right-radius: 11px 11px !important;
+color: #333;
+font: normal normal normal 12px/normal 'Open Sans',Arial, Helvetica, sans-serif !important;
+font-weight: bold !important;
+height: 22px !important;
+margin-right: 10px; 
+outline: none;
+padding: 0px 10px !important;
+text-decoration: none !important;
+text-shadow: white 0px 1px 0px;
+}
+
+button:hover{
+border: 1px solid #333333;
+
+
+}
+
+#msg {
+color: green;
+font-size:12px;
+font-weight:bold;
+margin-right: 5px;
+padding: 5px;
+}
+
+	
+.text-message-list{
+
+hhheight:300px;
+overflow:auto;
+background:white;
+border:1px solid #CCC;
+padding:10px;
+
+}
+
+.sender-box
+{
+bbbackground-color: #EEE;
+border-bottom-left-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+border-top-left-radius: 5px 5px;
+border-top-right-radius: 5px 5px;
+border: 1px solid; 
+
+border-top-color:#6FAC38;
+border-bottom-color:#EEE;
+border-left-color: #EEE;
+border-right-color: #EEE;
+
+margin:15px;
+}
+
+.sender-title
+{
+padding:5px;
+bbbackground-color: #6FAC38;
+border-color: #6FAC38;
+border-right-color: #6FAC38;
+
+color:white;
+display:block
+}
+
+
+.sms-time
+{
+color: #999;
+font-size:11px;
+margin-left:5px;
+}
+
+
+.rounded-corners {
+border-bottom-left-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+border-top-left-radius: 5px 5px;
+border-top-right-radius: 5px 5px;
+}
+
+.outbound-state-info
+{
+color: green;
+font-size:8px;
+}
+
+.sms-reply
+{
+margin-left:70px;
+}
+
+
+.sms-body
+{
+margin-top:10px;
+font-size:12px;
+lline-height:28px;
+border:1px solid #000;
+background-color: white;
+border-color: #A8A8A8;
+border-bottom-left-radius: 1em 1em;
+border-bottom-right-radius: 1em 1em;
+border-style: none;
+border-width: thin;
+border-top-left-radius: 1em 1em;
+border-top-right-radius: 1em 1em;
+overflow: hidden;
+padding: 5px;
+resize: both;
+text-align: left;
+-webkit-box-shadow: #BBB 2px 2px 2px;
+
+background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#E0FDFF), from(#55BEC2), to(#0FFFEF));-webkit-box-shadow: #BBB 2px 2px 2px;
+}
+
+
+
+.sms-reply .sms-body
+{
+background-image: -webkit-gradient(linear, 0% 100%, 0% 0%, from(#B9FF69), from(#7EC217), to(#B9FF69));
+}
+
+
+.sms-line-item
+{
+font-size:14px;
+}
+
+.message-action-links
+{
+font-size:11px;
+color:red;
+}
+
+.from-label
+{
+font-size:13px;
+}
+
+
+</style>
+
+<script src="jquery-ui-1.8.10.custom/js/jquery-1.4.4.min.js"></script>
+
+
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.core.js"></script> 
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.widget.js"></script> 
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.tabs.js"></script> 
+
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.draggable.js"></script> 
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.position.js"></script> 
+	<script src="jquery-ui-1.8.10.custom/development-bundle/ui/jquery.ui.dialog.js"></script> 
+
+
+	<script>
+	$(function() {
+		// a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
+		$( "#dialog:ui-dialog" ).dialog( "destroy" );
+	
+		$( "#dialog-message" ).dialog({
+			modal: true,
+			buttons: {
+				Ok: function() {
+					$( this ).dialog( "close" );
+				}
+			}
+		});
+	});
+	</script>
+
+
+
+
+<script src="texty.js#42f"></script>
+
+<script>
+var textcontent='STARTING_TEXT_MSG';
+var selected_tab=0;
+var sign_in_state = 0;
+var google_login_status = false;
+var smsarray = new Array();
+var which_msgid_from_hash_tag_in_url=window.location.hash.substr(1); // MA NOTE -- get rid of the #
+var reply_url_global='';
+
+_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("hash is " + which_msgid_from_hash_tag_in_url);
+console.log("URL is " + window.location);
+
+
+function OLD__2fb999eaaa0d765b16c5715e2163b7fb772a5c3678ab44e2518c62ffc04ad044f4a07f1369a59523(named_textarea,target_phone_num_from_send_button,indexsendbox)
+{
+var curr_date_time = new Date();
+var text_reply_content = document.getElementById(named_textarea).value;
+var google_username ='';
+
+if (smsarray.length>0) // in case there are 0 text messages locally
+	{
+	google_username=smsarray[0]['googleusername'];  /// should replace with actual logged-in username
+	}
+else
+	{
+	google_username='placeholder@test.com';
+	}
+
+if (text_reply_content=='')
+	{
+	document.getElementById(which_error_div).innerHTML='Text Message is Blank!'; 
+	return;
+	}
+
+
+if (text_reply_content.length>160)
+	{
+	document.getElementById(which_error_div).innerHTML='Text Message is too long. ' + text_reply_content.length + ' (max is 160)'; 
+	return;
+	}
+
+
+if (text_reply_content=='DEBUG')
+	{
+	
+	}
+
+
+dest_num = target_phone_num_from_send_button;
+_418e65c7f1f62262b60dc739346bd800704e080573b441869d64f4376dbc9e23a7de0a2e344999a9(text_reply_content);
+document.getElementById(named_textarea).value=''; //clears textarea input box
+db.transaction(function(tx) {
+   var msgid_random = Math.floor(Math.random()*10000000000) + 'A';
+   var currentTime = new Date();
+   currentTime = _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594(currentTime);
+   tx.executeSql("INSERT INTO Messages (googleusername,msgid,time_client,time_server,from_phone_num,body,type,status,source) VALUES (?,?,?,?,?,?,?,?,?)",[google_username,msgid_random,currentTime,currentTime,target_phone_num_from_send_button,text_reply_content,1,-99,2],
+  function(tx, result) {
+    just_added_msg_id = msgid_random;
+  }, _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+		        });
+		        		        
+}
+
+
+function OLD_WITH_MA_AT_HACK__3e9acece6ab0174ac6006c5b42fe2f0ce3ffbe9c714cfdefa9e9680dd87c852e4df3e3401c54b4a0(phone_num_to_insert, contact_name_to_insert)
+{
+db.transaction(function(tx) {
+  tx.executeSql("INSERT INTO LocalGoogleContacts (googleusername,phone_num,contact_name) VALUES (?,?,?)",["ma@",phone_num_to_insert, contact_name_to_insert],
+  function(tx, result) {
+    //document.getElementById('msg').innerHTML += 'Added  Contact to local SQL: ' + contact_name_to_insert;
+  }, _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+		        });
+}
+
+
+
+function _418e65c7f1f62262b60dc739346bd800704e080573b441869d64f4376dbc9e23a7de0a2e344999a9(sms_content) {
+  textcontent=sms_content;
+  document.getElementById('msg').innerHTML = 'Sending to phone number: ' + dest_num + '<br>Message: "' +  sms_content + '"<br>';
+  //document.getElementById('help').innerHTML = chrome.i18n.getMessage('help_message');
+  //document.getElementById('signout').innerHTML = chrome.i18n.getMessage('sign_out_message');
+  
+  
+  //MA Removed - this removes the restriction that "executescript" can only be called from a chrome-extension-tab
+  
+  //chrome.tabs.getSelected(null, function(tab) {
+  //chrome.tabs.executeScript(null, {file: "content_script.js"}); //previously this was checking if user was on an http/https page - i removed it.
+  //});
+  //chrome.tabs.executeScript(null, {file: "content_script.js"});
+    
+  //_39fccac3bd647bbd6a94ad525e04394eb12baa0d4da258b39e9375beeb2251e6e3809efd2607f5e4('was_title', 'http://test.com', 'selection', 'ma_selection_holder',_b4cd17caf320955ae5b369db712968ca8f6c995421cd80e652de41466c53d751e33530c341543ab6);
+
+}
+
+function _b4cd17caf320955ae5b369db712968ca8f6c995421cd80e652de41466c53d751e33530c341543ab6(status) 
+{
+  if (status == STATUS_SUCCESS) 
+  
+  {
+    document.getElementById('msg').innerHTML +=  chrome.i18n.getMessage('sent_message');
+    _60dc2da5d58a9cadc7f3cfc78f07f5a13edd71053d848f02fa72e73d0f77e17dc9399d7fc6317144(just_added_msg_id);
+    //_26332bf8a8ece570bbf4a2740ac3b3c8e575f9120581e7c94c284870d30659a6c0e449a9a7ab4ed1();  
+  } 
+  
+  else if (status == STATUS_LOGIN_REQUIRED) 
+  {
+    var link = '<a href="#" onclick="chrome.tabs.create({url: \'' + signInUrl + '\'})">' +
+        chrome.i18n.getMessage('sign_in_message') + '</a>';
+    document.getElementById('msg').innerHTML =
+        chrome.i18n.getMessage('sign_in_required_message', link);
+    //_2e7317b060ef68743b71d6ebad284f51273510a24242167bf9a241fd0c6b6dc31f4870d353c48b65(false);
+  } 
+  
+  else if (status == STATUS_DEVICE_NOT_REGISTERED) {
+    document.getElementById('msg').innerHTML = chrome.i18n.getMessage('device_not_registered_message');
+    //_26332bf8a8ece570bbf4a2740ac3b3c8e575f9120581e7c94c284870d30659a6c0e449a9a7ab4ed1();
+  } 
+  
+  else { 
+    document.getElementById('msg').innerHTML =  
+        chrome.i18n.getMessage('error_sending_message', req.responseText);
+    //_26332bf8a8ece570bbf4a2740ac3b3c8e575f9120581e7c94c284870d30659a6c0e449a9a7ab4ed1();
+  }
+}
+
+
+
+var dest_num='PLACEHOLDER_FOR_MARK_READ_CALL_TO_SENDTOPHONE';
+
+function _06fbbf5befca69777d6c7458f0db99d19bc90ccff7f700e6fe18641bdb75cb645e4e436e0f1150f4(sms_text,sms_number)
+	{
+	
+	// - mark_single_message_read  (takes a normalized # and a string) -- pipe separated example:  "4082092929|Hello how are you"
+
+	console.log('attempting to mark message read on phone: ' + sms_text + '---  ' + sms_number);
+
+
+	sms_text=unescape(sms_text);
+	
+	var concat_msg=sms_number + '|' + sms_text;
+	
+	console.log('attempting to mark message read on phone: ' + sms_text + '---  ' + sms_number);
+
+	
+    _c756eab9ce592e40f8804fc303e9ce6bfd66d5b7ae894a77d383b8377c090b8fe01ed4197ec10d97("mark_single_message_read",concat_msg,"msgid_local - not needed actually",_2499293f66ce5077d3f16bdbd38866eaacfc26eca01af6570994c21195dd64752579b95f6d5a2526);
+	}
+
+
+function _1dd4b9d8e432a99a58165a17dd67e5bd8791272ea16ace76c38ecf64e43c45cfb2f9fc5c29cde1e7(sms_number)
+	{
+	
+	console.log('attempting to mark entire thread read on phone: ' + sms_number);
+	
+    _c756eab9ce592e40f8804fc303e9ce6bfd66d5b7ae894a77d383b8377c090b8fe01ed4197ec10d97("mark_whole_thread_read",sms_number,"msgid_local - not needed actually",_2499293f66ce5077d3f16bdbd38866eaacfc26eca01af6570994c21195dd64752579b95f6d5a2526);
+	}
+
+
+
+
+
+function _2499293f66ce5077d3f16bdbd38866eaacfc26eca01af6570994c21195dd64752579b95f6d5a2526(status,UNNEC_VAR_PLACEHOLDER,req) 
+{
+  if (status == STATUS_SUCCESS) 
+  
+  {
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Successfully posted to server (mark as read on phone...)");
+	
+  } 
+  
+  else if (status == STATUS_LOGIN_REQUIRED) 
+  {
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Can't mark as read on phone Status LOGIN REQUIRED!");
+
+  } 
+  
+  else if (status == STATUS_DEVICE_NOT_REGISTERED) {
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Can't mark as read on phone Status DEVICE NOT REGISTERED!");
+  } 
+  
+  else { 
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa(req.responseText);
+  }
+  
+}
+
+
+
+
+
+function _26332bf8a8ece570bbf4a2740ac3b3c8e575f9120581e7c94c284870d30659a6c0e449a9a7ab4ed1() {
+  //_2e7317b060ef68743b71d6ebad284f51273510a24242167bf9a241fd0c6b6dc31f4870d353c48b65(true);
+  //var signOutLink = document.getElementById('signout');
+  //signOutLink.innerHTML = 'Sign Out';
+  //signOutLink.style.color = 'blue';
+  //signOutLink.onclick = function() {
+    //chrome.tabs.create({url: signOutUrl});
+  //};
+}
+
+function _2e7317b060ef68743b71d6ebad284f51273510a24242167bf9a241fd0c6b6dc31f4870d353c48b65(visible) {
+  //var signOutLink = document.getElementById('signout');
+  //signOutLink.style.visibility = visible;
+  //var sep = document.getElementById('sep');
+  //sep.style.visibility = visible ? 'visible' : 'hidden';
+}
+
+function _5a2c3dc53f1708a967560f343357e11afe3c1f2b981d546da95929317628c3de6f3ad1ed0f942e3a(milliseconds) {
+  var start = new Date().getTime();
+  for (var i = 0; i < 1e7; i++) {
+    if ((new Date().getTime() - start) > milliseconds){
+      break;
+    }
+  }
+}
+
+function _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf(post_refresh_message)
+	{
+	var t;
+
+
+	
+	//window.setTimeout('_b1a1ef93b58f517ff44c6cf9db088813347ab9508caf5e8dc26b9ec4b2d3d2090559ef93df3eca87(false)', 10);//gets new texts from server, inserts into local sql
+
+	selected_tab = 0;
+	//$("#results").tabs('option', 'selected');
+	
+	if (selected_tab.length != undefined) // when there is no selected tab (initial app load), then there is a .length of this value that gets set
+	
+		{
+		 selected_tab=0;  // if we are brand new app refresh, make the selected tab 0, so the auto scroll logic works, etc
+		}
+		
+	if (!db)
+		{
+		db = openDatabase("Texty", "1.0", "HTML5 Database API example", 200000);
+		}
+		
+	_dc216f727b50f44be5cabfa8693d2f83e615d6847d388f3f6eba94948f963ca71b354036386717d6();
+	_27e52d5b34cd3db63d3bfe61f718321dc1055b7de7df733cbacaabbd29e7806c1bbdb30ea8164b63();
+	
+	_12cb3e46b90bb7f134aa525746cf143333af3270c65b79a71ffdd196d7fe6f821126e9c77d881dd7();
+	
+	//NOTE: wanted to do it this way because we want to populate latest G Contacts before we go through and build DOM of text messages (find local matches, then find g-contact matches)
+	//PRO: user always gets a built in auto-refresh-latest-g-contacts-from-background
+	//CON1: it's possible that all SMS threads have local contacts and there's no need to look up to Google Contacts
+	//CON2: still not getting REAL TIME contact info from google (depending on background's polling frequency)
+	
+	_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("SMSarray count is " + smsarray.length);
+	
+	window.setTimeout('_761a594fa53fc44004db606743eb4fe4e9c8615c31c0303c5ea0fd7fbdd82c1ec354cc259931dddf()', 400);
+	
+	}
+
+
+function _f9d6ae78da9bfce16eb910d614c5aa3a5844dd4f32eaf788b718d56c5ff719754d4a97f114936689()
+	{
+		if ((smsarray.length > 0))
+		{
+		document.getElementById('message-when-no-texts').innerHTML = '';
+		_8d3ed00f7add123c51dfc19dab0c05cf5e05031740bbdc9dbc9b1963b083ef798b1128447d750992("resultholder","visible","auto");
+		}
+	
+	else
+		{
+		document.getElementById('message-when-no-texts').innerHTML = '<span style="margin-left:20px;font-size:16px;color:maroon"><B>Text Message: </B></span>' + wait_delay;
+		_8d3ed00f7add123c51dfc19dab0c05cf5e05031740bbdc9dbc9b1963b083ef798b1128447d750992("resultholder","hidden","0px");
+		}
+}
+
+
+function _8d3ed00f7add123c51dfc19dab0c05cf5e05031740bbdc9dbc9b1963b083ef798b1128447d750992(div_name,visible_state,height)
+	{
+	document.getElementById(div_name).style.visibility= visible_state;
+	document.getElementById(div_name).style.height= height;
+	}
+	
+	
+function _12cb3e46b90bb7f134aa525746cf143333af3270c65b79a71ffdd196d7fe6f821126e9c77d881dd7()
+	{
+	  		_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("about to call BG function to get google contacts info...");
+			
+			_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Getting LATEST GOOGLE CONTACTS from BACKGROUND PAGE...");
+			chrome.extension.sendRequest({greeting: "call_from_popup_to_check_contact_info"}, function(response) {
+  		
+  		_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Google Contacts Token status per the BG page is: " + response.google_contacts_token_status);
+  		
+  		
+  		if (response.google_contacts_token_status=='ACTIVE_GOOGLE_CONTACTS_TOKEN_STORED_LOCALLY') 
+  			// there is an active OAUTH CONTACTS token, as reported by BG page.
+  			
+  			{
+  			
+		  		if (response.farewell==null)
+		  			{
+		  			_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("There was an active token, but no Google Contacts in BG page (array is null)");
+		  			}
+		  		else //there are google contacts in the array from BG page
+		  			{
+		  			_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Getting LATEST GOOGLE CONTACTS from BACKGROUND PAGE..." + response.farewell.length + " contacts in array...");
+		  			contacts=response.farewell;  		
+		  			//NOTE: This is the local cache of the Google Contacts (from OAuth)
+		  			}
+  			}
+  		
+  		else  //no active OAUTH Contacts token -- show warning box, prompting user to go get new contacts token
+  			{
+  			
+  						
+			//  var link = '<img  align=BOTTOM src="error_icon.png" width=18 height=16 /> <span style="color:red"> Contacts Not Synced.</span> 
+			// <a href="#" onclick="window.close();should_get_contacts_token_in_new_tab=true;setTimeout(\'_acf6d7982c834b2cd796a45e0810821afa13bc356535203199ec30d1792d2e1cf224d439481f5a40();\',1000);"> Sync Now with your Google Contacts</a> to see names instead of numbers';
+			
+
+  			}
+  			
+  	    
+  	    SINGLE_MESSAGE__b76ab6b46e566dc6a81b92c3d7d74f9ad546706c326ebca10f7d586cf0cc96fe960636824b717d45();
+
+		_f9d6ae78da9bfce16eb910d614c5aa3a5844dd4f32eaf788b718d56c5ff719754d4a97f114936689();
+		
+		var wait_delay=0;
+		
+		//_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("wait delay is: " + wait_delay);
+		
+		//window.setTimeout('_f9d6ae78da9bfce16eb910d614c5aa3a5844dd4f32eaf788b718d56c5ff719754d4a97f114936689();',wait_delay); // we call this here as result of callback -- because it checks value of smsarray.length
+		//we need SetTimeout because the value of smsarray.length wasn't populating in time for this eval!	
+								
+		
+		});
+
+	}
+	
+
+
+	
+function _bc1f0589240b84028382e9f180ac8d367fbacd537379be29531557adec86fdfa5ba362b28b88864a(){}
+	
+</script>
+
+<body onload="
+_a9b0b2c7f905c29c8f7a595084b6078811aef17e00dda602eeb0b87283e18cfa338328358aa983d9();
+_3ef3502c75e676853cf0bd7231e3975b1c9258fce4d993ba300e7773704a11b46a793c3e1153e069();
+_d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf();
+">
+
+
+	<script> 
+
+
+
+
+	$(function() {
+	// a workaround for a flaw in the demo system (http://dev.jqueryui.com/ticket/4375), ignore!
+		$( "#dialog:ui-dialog" ).dialog( "destroy" );
+	
+		$( "#dialog-confirm" ).dialog({
+			autoOpen: false,
+			modal: true,
+			buttons: {
+				"Delete all items": function() {
+					_2d789a4b680ee04a085080c592c7e728a3502889b2237af3cbdeb4cbaa554b478c12d7f6dfbd14d3('xyz');
+					$( this ).dialog( "close" );
+				},
+				Cancel: function() {
+					$( this ).dialog( "close" );
+				}
+			}
+		});
+		
+		$( "#opener" ).click(function() {
+		$( "#dialog-confirm" ).dialog( "option", "position", [550,234] );
+		$( "#dialog-confirm" ).dialog( "open" );
+			return false;
+		});
+		
+	});
+		
+	</script> 
+
+
+
+
+<div id="resultholder" style="margin-bottom:20px">
+	<div id="results"> 
+	</div>
+</div>
+
+<div id="message-when-no-texts" style=""></div>
+
+<p id="log" style="color: blue"></p>
+
+<script>
+		//removed this in dec 2010: 
+		
+      var resultdivclean = '<div id="results" style="display:none"></div>';
+
+      var db;
+      //var smsarray = new Array();
+      var text_message_array = new Array();
+
+      var localContactsArray = new Array();
+      var log = document.getElementById('log');
+	  var just_added_msg_id='';
+	  
+	  var google_username_currently_logged_in='contact@contact.com';
+
+function _27e52d5b34cd3db63d3bfe61f718321dc1055b7de7df733cbacaabbd29e7806c1bbdb30ea8164b63()
+	{
+	
+      smsarray = _969f82a7c88c5f8cfba91edcdb635465254e70956885836de9ca277349a6805333531d10328c13c8();
+      document.getElementById('results').addEventListener('click', function(e) { e.preventDefault(); }, false);
+ 	  
+	}
+
+function _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0(tx, error) 
+	  {
+        log.innerHTML += '<p>' + error.message + '</p>';
+      }
+      
+      // select all records and display them
+      
+function _969f82a7c88c5f8cfba91edcdb635465254e70956885836de9ca277349a6805333531d10328c13c8() {
+        var localsmsarray = [];
+        db.transaction(function(tx) {
+          tx.executeSql("SELECT *,substr(from_phone_num,-7) AS right_digits_phone_num FROM Messages WHERE msgid=? ORDER BY from_phone_num,time_server", [which_msgid_from_hash_tag_in_url], function(tx, result) {
+            for (var i = 0, item = null; i < result.rows.length; i++) {
+              item = result.rows.item(i);
+		      localsmsarray[i]= item;
+		      text_message_array[i]=item;
+            }
+          }
+
+          );
+
+        });
+
+
+      return(localsmsarray);
+}
+
+
+function _a9b0b2c7f905c29c8f7a595084b6078811aef17e00dda602eeb0b87283e18cfa338328358aa983d9()
+	{
+                
+        if (!db)
+		{
+		db = openDatabase("Texty", "1.0", "HTML5 Database API example", 200000);
+		}
+		
+        db.transaction(function(tx) {
+          tx.executeSql("SELECT COUNT(*) as cnt FROM sqlite_master where name='Messages'", [],
+              function(tx,result) 
+              	{ 
+              		
+              	var count=result.rows.item(0).cnt; 
+              	_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Row Count of Messages is " + count);
+              	
+              	if (count==0)
+              		{
+              		_a9ae320f8763bfc990fd092c089671c878f69390a31afc8a7f96c56b43f6a1f6ef7541af57466aea();
+              		_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Couldnt find table...creating...");
+              		}
+              	},
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+        
+
+        db.transaction(function(tx) {
+          tx.executeSql("SELECT COUNT(*) as cnt FROM sqlite_master where name='LocalGoogleContacts'", [],
+              function(tx,result) 
+              	{ 
+              		
+              	var count=result.rows.item(0).cnt; 
+              	_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Row Count of LocalGoogleContacts is " + count);
+              	
+              	if (count==0)
+              		{
+              		_a9ae320f8763bfc990fd092c089671c878f69390a31afc8a7f96c56b43f6a1f6ef7541af57466aea();
+              		_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Couldnt find table...creating...");
+              		}
+              	},
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+
+
+	
+	}
+
+      
+      function _a9ae320f8763bfc990fd092c089671c878f69390a31afc8a7f96c56b43f6a1f6ef7541af57466aea() {
+        db.transaction(function(tx) {
+          tx.executeSql("CREATE TABLE Messages (id INTEGER PRIMARY KEY AUTOINCREMENT, googleusername TEXT, msgid TEXT UNIQUE, time_client DATE, time_server DATE, from_phone_num TEXT, body TEXT, type INTEGER, status INTEGER, source INTEGER)", [],
+              function(tx) { _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("table Messages created"); },
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+
+
+        db.transaction(function(tx) {
+          tx.executeSql("CREATE TABLE LocalGoogleContacts (id INTEGER PRIMARY KEY AUTOINCREMENT, googleusername TEXT, phone_num TEXT UNIQUE, contact_name TEXT)", [],
+              function(tx) { _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("table LocalGoogleContacts created"); },
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+
+      }
+      
+      // add record with random values
+      function _c870dc5d699a188e02178ad3ce06c1899cace8abb37dfa2bcc5faaa73ad57573098b3f73edf5b977() {
+        //var num = Math.round(Math.random() * 100000); // random data
+        db.transaction(function(tx) {
+          tx.executeSql("INSERT INTO Messages (googleusername,msgid,time_client,time_server,from_phone_num,body,status,source) VALUES (?,?,?,?,?,?,?)",['m@gmail.com',1150731792,'02 October 2010, 0:58:00:01','02 October 2010, 0:58:00:01','+14042092929','Lets go grab a coffee ok?',0,0],
+              function(tx, result) {
+                log.innerHTML = 'record added';
+                _969f82a7c88c5f8cfba91edcdb635465254e70956885836de9ca277349a6805333531d10328c13c8();
+              }, 
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+      
+      function _488066f8bbfc5a9cdb1b7763b3f31d4e98595e6d9d2ce512a1528e8cfb83bd7903bc30842af0224c(id, textEl) {
+        db.transaction(function(tx) {
+          tx.executeSql("UPDATE Messages SET googleusername = ? WHERE id = ?", [textEl.innerHTML, id], null, _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+      
+      function _86d4e525dd4757c1296c69074eb2d3102a643184de8627f75ba1abcfafd00a0e75ad189105cfdc21(msgid) {
+        db.transaction(function(tx) {
+          tx.executeSql("DELETE FROM Messages WHERE msgid=?", [msgid],
+              function(tx, result) { 
+              						_d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf('Deleted it!'); 
+              						}, 
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+
+      function _2d789a4b680ee04a085080c592c7e728a3502889b2237af3cbdeb4cbaa554b478c12d7f6dfbd14d3(sender_phone_num) {
+        db.transaction(function(tx) {
+          tx.executeSql("DELETE FROM Messages WHERE from_phone_num=?", [sender_phone_num],
+              function(tx, result) { _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf('Deleted all text messages from this person'); }, 
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+
+
+      function _ef437df7a3794d1d16cb372fe9ef986e1df9ff4ba25c5379f43115096f0824a94dffe5009df6ee71(msgid) {
+        _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa('in mark Read function');
+        db.transaction(function(tx) {
+          tx.executeSql("UPDATE Messages SET status=1 WHERE msgid=?", [msgid], function(tx, result) { _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf(); }, _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+
+ function _60dc2da5d58a9cadc7f3cfc78f07f5a13edd71053d848f02fa72e73d0f77e17dc9399d7fc6317144(msgid) {
+        //_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa('in mark success function');
+        db.transaction(function(tx) {
+          tx.executeSql("UPDATE Messages SET status=51 WHERE msgid=? and status=-99", [msgid], function(tx, result) { _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf(); }, _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      }
+
+      
+// delete table from db
+function _b8b48abb790393ce30dc805819193853ba1118ff75f338a6d72868fbeb53ed525ff7f88f35b31b99() {
+      
+        db.transaction(function(tx) {
+          tx.executeSql("DROP TABLE Messagestttt", [],
+              function(tx) { _d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf(); }, 
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      
+      
+        db.transaction(function(tx) {
+          tx.executeSql("DROP TABLE LocalGoogleContacts", [],
+              function(tx) {localContactsArray=[];_d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf();}, 
+              _900be5532bab124f8ee846acf4c0eb84a1a9359e6b6ca6fce3ceae0c3804ce7954530baa32c41df0);
+        });
+      
+      
+      
+      
+      
+      }
+      
+      
+    </script>
+
+
+
+
+
+</body>
+
+
+<script>
+
+
+function _dc216f727b50f44be5cabfa8693d2f83e615d6847d388f3f6eba94948f963ca71b354036386717d6() 
+{
+        db.transaction(function(tx) {
+          tx.executeSql("SELECT * FROM LocalGoogleContacts", [], function(tx, result) {
+            for (var i = 0, item = null; i < result.rows.length; i++) {
+              item = result.rows.item(i);
+		      localContactsArray[i]= item;
+            }
+            //document.getElementById('msg').innerHTML='Found ' + result.rows.length +  ' local contacts successfully' ; 
+          }, function(tx, result) {document.getElementById('msg').innerHTML='FAILED to select fromLocalGoogleContacts -- create this table?';}
+
+          );
+
+        });
+
+}
+
+
+function _bbefc3a36f2b1ccccb4b1ffb2dbfc3efef0d1aef832365ffc0906ff7757c14921b850b2728b7de2f()
+{
+_8d3ed00f7add123c51dfc19dab0c05cf5e05031740bbdc9dbc9b1963b083ef798b1128447d750992("resultholder","visible","300px");
+
+document.getElementById('results').innerHTML = '';
+
+document.getElementById('results').innerHTML += '<div id="compose-single-text" style="clear:both;font-size:18px">';
+document.getElementById('results').innerHTML += '<p><B>Send To:</B></p> <input id="compose-number" type="text" name="compose-number" style="border:1px solid #CCC;margin:5px;padding:5px;font-size:14px" value="+13109862220"/><br><br>';
+
+document.getElementById('results').innerHTML += '<p><B>Message:</B></p> <textarea id="send-one-text" value="starting val" onfocus="document.getElementById(\'error-text-content-single-text\').innerHTML=\'\';" style="hheight:60px;border:1px solid #CCC;margin:5px;padding:5px;font-size:14px"></textarea>';
+
+document.getElementById('results').innerHTML += '<button style="font-size:12px;margin:0px;padding:10px;clear:both" onclick="_f8fa97d5c484b1b808a0591ce28cb1f9c877781412a796c9e0c9574dd545d447b75f34a6f2e47227();"> Send</button>';
+
+document.getElementById('results').innerHTML += '</div>';
+
+document.getElementById('results').innerHTML += '<br><div id="error-text-content-single-text" style="font-weight:bold;color:red;font-size:14px"></div>';
+
+	
+}
+
+
+function _fa0c37b61e8ee7bea960e7fde6a4faced411856dbc5767c17eb77d6b49ca1592af93475e39234d12()
+	{
+	if (google_login_status)
+		{
+		return true;
+		}
+	else
+		{
+		document.getElementById('msg').innerHTML = '<br><span style="color:maroon;background-color:#FFF1A8">** Unable to send any new text messages until you sign in **</span>'
+		
+		return false;
+		}
+	}
+	
+function _3ef3502c75e676853cf0bd7231e3975b1c9258fce4d993ba300e7773704a11b46a793c3e1153e069()
+{
+//document.getElementById('user-actions').innerHTML = '';
+//document.getElementById('user-actions').innerHTML += '<button onclick="_d800ee7506d71c692bd7419a6ba67ce2e21a94749d792e066983d74398e8f7abcd110ac2b2b666bf();">Refresh</button>';
+//document.getElementById('user-actions').innerHTML += '<button onclick="if(_fa0c37b61e8ee7bea960e7fde6a4faced411856dbc5767c17eb77d6b49ca1592af93475e39234d12()) {alert("hi");_bbefc3a36f2b1ccccb4b1ffb2dbfc3efef0d1aef832365ffc0906ff7757c14921b850b2728b7de2f();}">Compose New</button>';       
+}
+
+function _fae4e0290de22f7feeab84f89e542419b3881e88c543ff723ec96ced0dee85de7e6d6c9743442b86()
+{
+
+}
+
+
+function _f8fa97d5c484b1b808a0591ce28cb1f9c877781412a796c9e0c9574dd545d447b75f34a6f2e47227()
+{
+var phonenumtosend = document.getElementById('compose-number').value;
+phonenumtosend = _9e2e6bbbf027cc0ec8670aaf462a121565b10363b9df7e461971221502fafb14768f0390fd670e84(phonenumtosend);
+_2fb999eaaa0d765b16c5715e2163b7fb772a5c3678ab44e2518c62ffc04ad044f4a07f1369a59523("send-one-text",phonenumtosend,"single-text");   //the last param is used to identify which error box div to set/clear
+}
+
+
+
+
+function SINGLE_MESSAGE__b76ab6b46e566dc6a81b92c3d7d74f9ad546706c326ebca10f7d586cf0cc96fe960636824b717d45()
+{
+
+var notif_style=3;  //decide whether user wants to see full verbose single text message, or just sender_name, or just "you got a text"
+					//default is to set to verbose, then check Setting in Localstorage..
+ if (window.localStorage == null) {
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa('Local storage is not turned on...');
+  		}
+ else 
+	   	{
+	  	
+	  	_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa('Notif level from Local Storage is: ' + window.localStorage.notifLevel);
+ 		
+ 		
+ 		notif_style=window.localStorage.notifLevel;
+ 		
+ 		if (notif_style==undefined)
+ 			{
+ 			notif_style=3;
+ 			}
+ 		}  
+
+
+
+var objDiv = new Array();
+document.getElementById('resultholder').innerHTML = resultdivclean;
+
+        db.transaction(function(tx) {
+        
+          tx.executeSql("SELECT *,substr(from_phone_num,-7) AS right_digits_phone_num FROM Messages WHERE msgid=? ORDER BY from_phone_num,time_server", [which_msgid_from_hash_tag_in_url], function(tx, result) {
+            for (var i = 0, item = null; i < 1; i++) {  // MA note -- have to keep this in fake for loop :(
+			
+      var indexinputsms = 'inputsms-0';
+      var count_sms_group=0;
+      var phonenum_or_name='';
+	  var current_date_time;
+	  
+	  var this_message_unread=new Boolean(false);
+      
+      _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("sms array length is " + smsarray.length);
+      
+      for (var i=0, current_phone_num = 'initial'; (i < smsarray.length); i++) 
+      {
+        
+        
+     // in case this incoming message has a contact thats not known yet, we need to set the google-username for the Local Contact insert
+     // this global variable is used in texty.js by the function _c4dec3733644f3de659d251030e405fb39877ee818b4c67f046f7ae9f6125a21000d6eb2b3affbbd()
+     
+        google_username_currently_logged_in = smsarray[0]['googleusername'];
+        
+        this_message_unread=false;
+		
+      	if ((i==smsarray.length) || (current_phone_num != smsarray[i]['from_phone_num'])  )  //either we are at a NEW phone num block, or at the last message in this phone num block....so show the send sms input box
+      		{
+      			
+			
+			_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Looking up rightmost digits: " + smsarray[i]['right_digits_phone_num'] + " -- in local contacts array");  
+
+
+
+
+
+
+			var localContactInfoBothNameAndNumber = _79dd1b19504163af687a7202cb3b41de37d389d81e90e61568a57942888af04eed2f3f3d6bd15c4d(smsarray[i]['right_digits_phone_num']);
+			
+			
+			if (!(localContactInfoBothNameAndNumber==""))  //FOUND # in local contacts db
+				{
+				_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa(smsarray[i]['right_digits_phone_num'] + " WAS  FOUND in Local Contacts DB");
+				
+				phonenum_or_name = localContactInfoBothNameAndNumber.contactNameLocalDB;
+				
+				}
+			
+			else //This contact was NOT found in local SQL DB Contacts table
+				{
+					_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa(smsarray[i]['right_digits_phone_num'] + " NOT FOUND in Local Contacts DB -- getting latest Temp Synced G Contacts from Background Page");
+
+
+					_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Before refreshing from BG page: " + contacts.length + " contacts in Locally Temp Synced G Contacts OAuth array");  
+
+                   
+ 
+					_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("AFTER refreshing from BG page: " + contacts.length + " contacts in Locally Temp Synced G Contacts OAuth array");  
+					
+
+					_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Currently: " + contacts.length + " contacts in Locally Temp Synced G Contacts OAuth array");  
+
+					if (contacts.length==0) // no oauth contacts loaded into Google Contacts Temp Array this chrome extension user session
+						{
+						phonenum_or_name = smsarray[i]['from_phone_num'];
+						_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Will just display phone number - " + smsarray[i]['from_phone_num'] + " to user...");  
+
+						//_acf6d7982c834b2cd796a45e0810821afa13bc356535203199ec30d1792d2e1cf224d439481f5a40();
+						}
+						
+					if (contacts.length>0)
+						{
+					    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Looking up: " + smsarray[i]['right_digits_phone_num'] + " -- in Locally Temp Synced G Contacts OAuth array");  
+						//now, try google-contacts-synced array for a match...
+						
+						
+					
+						//returns an array of the local name/number, or "" if not found locally
+						var googleContactsInfoBothNameAndNumber = _758ec4656f23a1a12e48e9a63b7a23bdcaf1045f1b365ebeb0369226a300e43b0890ad57f98e30fb(smsarray[i]['right_digits_phone_num'],smsarray[i]['from_phone_num']);
+
+
+						//no Google Contact for this # in local g contacts syncd array
+						if (googleContactsInfoBothNameAndNumber == '') 
+							{
+							_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa(smsarray[i]['right_digits_phone_num'] + " NOT FOUND in Locally Temp Synced G Contacts OAuth array");				
+							_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Will just display phone number (last # in thread): " + smsarray[i]['from_phone_num']);
+							
+							//still no match, just show phone number
+							phonenum_or_name = smsarray[i]['from_phone_num'];
+							}
+							
+						else // A Google Contact WAS found in Locally Temp Synced G Contacts Oauth
+						
+							{
+							phonenum_or_name = googleContactsInfoBothNameAndNumber.contactNamefromGoogleContactsArray;
+							}
+						
+											
+				
+						}
+	
+				}
+						
+      	
+      		}
+	
+		
+	    if ( (smsarray[i]['status'])==0) // MA says - dont think we are using this anymore
+	    	{
+	    	this_message_unread=true;
+	    	}
+
+		var msg_type = smsarray[i]['type'];
+		_7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa('msgtype is: ' + msg_type);
+	
+     	buildTextList = '<li class="sms-line-item">';
+
+
+	    if  (msg_type==0) //incoming SMS 
+	    	 
+	    	{
+	        _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Processing incoming SMS Notif");
+	      	if (notif_style==3) //full notif content from Options (user preference)
+	      		{
+	      		buildTextList += '<span style="color:#0087D2;font-size:15px"><B>' + phonenum_or_name + ':  </B></span>' + '<span class="sms-bodyy" style="font-size:14px">' + _28208c04e0c9ed0ff7eb2e2e2ab8ebcf7979e9c8cafa8114e40d0f3e5e5af125dc4f9f349cb22ea4(smsarray[i]['body']) + '</span>  ' +
+	        '<span class="sms-time">' + _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(smsarray[i]['time_client']) + '</span>';
+	      		}
+	      	else if (notif_style==2)  // hide text content (user can click Show to see who texted them)
+	      		{
+	      		buildTextList += 'Text Message from ' + '<span style="color:#0087D2;font-size:15px"><B>' + phonenum_or_name + ':</B></span>' +  '<br><br> <a id="prompt-show" href="#" style="font-size:12px" onclick="_a075aff70d409ccc6e0d4cec052f235e7fe208da020c4877362530fccadf006a858f56ee9637177d();"> (show) </a>' + 
+	      		'<span id="sms-content-show-or-hide" class="sms-bodyy" style="color:black;font-size:14px;display:none">' + smsarray[i]['body'] + '</span>  ' +
+	        '<span class="sms-time">' + _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(smsarray[i]['time_client']) + '</span>';
+	      		}
+	
+	        buildTextList += '</li>';
+	        
+	        var reply_url = 'popup.html' + '#' + smsarray[i]['from_phone_num'];
+	      	
+	      	reply_url_global = reply_url;	//MA says we probably dont use this anymore as of June 2011	
+	
+			document.getElementById('resultholder').innerHTML += buildTextList;
+	
+			document.getElementById('resultholder').innerHTML += '<br>';
+	
+			
+			var body_helper_full = smsarray[i]['body'];
+			
+	        
+	        //need to clear CR/LF - MA had to make this a regex with G option to replace ALL instances of \n (previously was just doing regular replace() which was only clearing the 1st instance of \n)
+			//var regex_pattern_string = "\n"; 
+			//var re_newline = new RegExp(regex_pattern_string, "g");
+			//var cleaned_newline_using_regex = body_helper_full.replace(re_newline,""); // there was a trailing CR/LF for some reason.
+			//console.log("using regex - position of CRLF should be -1 since we removed all CRLFs. it is actually: " + cleaned_newline_using_regex.search("\n"));
+			//console.log("First character: " + cleaned_newline_using_regex.charCodeAt(0));
+			//console.log("Last character: " + cleaned_newline_using_regex.charCodeAt(cleaned_newline_using_regex.length-1));
+	
+			
+			var cleaned_newline_using_regex = body_helper_full;
+			
+			cleaned_newline_using_regex = escape(cleaned_newline_using_regex);  // MA says -- escaping worked better than all regex stuff above
+	
+			document.getElementById('resultholder').innerHTML += '<a href="#" class="reply-button" style="margin-right:10px; text-decoration:none" onclick="_06fbbf5befca69777d6c7458f0db99d19bc90ccff7f700e6fe18641bdb75cb645e4e436e0f1150f4(\'' + cleaned_newline_using_regex + '\', \'' + smsarray[i]['right_digits_phone_num'] + '\');_4513df2f7316180df2b697244fb8e9b49acf2211850f9209ee53be07ce3a1c91546480c89b4bb456(\'' + reply_url + '\');_8cc0f2c580afae15ac1cab401296bc6b1c5f0335ffde83c2358105597c66dd47394cded5a6dd1de1();window.close();"  >Reply</a>';
+	
+	document.getElementById('resultholder').innerHTML += '<a class="reply-button" style="color:#9A3030" onclick="_06fbbf5befca69777d6c7458f0db99d19bc90ccff7f700e6fe18641bdb75cb645e4e436e0f1150f4(\'' + cleaned_newline_using_regex + '\', \'' + smsarray[i]['right_digits_phone_num'] + '\');_8fb6ffff3345746f4fa1db3a7ef3ebb2f05cf2bbdca9ec9fdba2232866c5da9616b028b0019b787b();window.close();">Close</a>';
+	
+	document.getElementById('resultholder').innerHTML += '<br>';
+	
+	//document.getElementById('resultholder').innerHTML += '<a class="reply-button" style="margin-top:20px" onclick="_1dd4b9d8e432a99a58165a17dd67e5bd8791272ea16ace76c38ecf64e43c45cfb2f9fc5c29cde1e7(\'' + smsarray[i]['right_digits_phone_num'] + '\');window.close();">testing: mark whole thread as read</a>';
+
+			} //end-if msgtype==0
+			
+
+	    else if ( (msg_type==80) || (msg_type==81) ) //calling now 
+	    	 
+	    	{
+	        _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("Processing -- Incoming Call or Missed Call --  Notif");
+	        
+	      	if (notif_style<=3) //full notif content from Options (user preference)
+	      		{
+	      		
+	      		if (msg_type==80) //calling now
+	      		{
+	      			setTimeout("window.close();",10000); //close this notif after about 10 seconds -- since its a calling now notif
+	      			
+	      			buildTextList += '<img align="left" height=50 width=50 src="img/phone-ringing.png">Incoming Call from<br><span style="color:#0087D2;font-size:17px"><B>' + phonenum_or_name + '</B></span>'  + '<br><span class="sms-time">' + _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(smsarray[i]['time_client']) + '</span>';
+	      			
+	      		    
+
+	      		}
+	      		
+	      		else if (msg_type==81) //missed call
+	      		{
+	      		
+	      			buildTextList += '<img align="left" height=40 width=40 src="img/missed-call.png">Missed Call from<br><span style="color:#0087D2;font-size:17px"><B>' + phonenum_or_name + '</B></span>'  + '<br><span class="sms-time" style="margin-left:45px">' + _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(smsarray[i]['time_client']) + '</span>';
+	      		}
+	      		
+	      		
+	      		}
+	      	
+	      	else if (notif_style==2)  // hide text content (user can click Show to see who texted them)
+	      		{
+	      		bbbbbbbbbuildTextList += 'Text Message from ' + '<span style="color:#0087D2;font-size:15px"><B>' + phonenum_or_name + ':</B></span>' +  '<br><br> <a id="prompt-show" href="#" style="font-size:12px" onclick="_a075aff70d409ccc6e0d4cec052f235e7fe208da020c4877362530fccadf006a858f56ee9637177d();"> (show) </a>' + 
+	      		'<span id="sms-content-show-or-hide" class="sms-bodyy" style="color:black;font-size:14px;display:none">' + smsarray[i]['body'] + '</span>  ' +
+	        '<span class="sms-time">' + _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(smsarray[i]['time_client']) + '</span>';
+	      		}
+	
+	        buildTextList += '</li>';
+	        
+	        var reply_url = 'popup.html' + '#' + smsarray[i]['from_phone_num'];
+	      	
+	
+			document.getElementById('resultholder').innerHTML += buildTextList;
+	
+			document.getElementById('resultholder').innerHTML += '<br>';
+
+
+			document.getElementById('resultholder').innerHTML += '<a href="#" class="reply-button" style="margin-right:10px; text-decoration:none" onclick="_4513df2f7316180df2b697244fb8e9b49acf2211850f9209ee53be07ce3a1c91546480c89b4bb456(\'' + reply_url + '\');_8cc0f2c580afae15ac1cab401296bc6b1c5f0335ffde83c2358105597c66dd47394cded5a6dd1de1();window.close();"  >Send SMS</a>';
+			
+			document.getElementById('resultholder').innerHTML += '<a class="reply-button" style="color:#9A3030" onclick="_8fb6ffff3345746f4fa1db3a7ef3ebb2f05cf2bbdca9ec9fdba2232866c5da9616b028b0019b787b();window.close();">Close</a>';
+			}
+
+
+
+
+
+
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+					
+		 }
+		
+
+		
+
+    }
+          }
+
+          );
+
+        });
+
+
+}
+
+
+function _8cc0f2c580afae15ac1cab401296bc6b1c5f0335ffde83c2358105597c66dd47394cded5a6dd1de1()
+{
+_gaq.push(["_trackEvent","Alert-Notif-Popup","Reply-Click","",1]);
+}
+
+
+function _8fb6ffff3345746f4fa1db3a7ef3ebb2f05cf2bbdca9ec9fdba2232866c5da9616b028b0019b787b()
+{
+_gaq.push(["_trackEvent","Alert-Notif-Popup","Close-Notif-Click","",1]);
+}
+
+
+function _a075aff70d409ccc6e0d4cec052f235e7fe208da020c4877362530fccadf006a858f56ee9637177d()
+	{
+	$('#prompt-show').hide();
+
+	$('#sms-content-show-or-hide').show();
+
+	}
+	
+	
+	
+	
+function _3c8444dc31f37fca3ea5ba9cd0cc5b5d473cbae11749e00b294522e5a35f798a614395d417b46ba6() {
+  chrome.tabs.getAllInWindow(undefined,function(tabs) {
+    for (var i = 0, tab; tab = tabs[i]; i++) {
+    _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa("hi");
+	document.getElementById('resultholder').innerHTML += 'ha';
+
+    }
+  });
+}
+
+function _7c95da89607abee9b2ebe703f8cb9b57f3d8d5eb7dd058dd320cbccdf196f7874c1c86c9428e3141() {
+
+chrome.windows.getAll({populate : true}, function (window_list) {
+        var list = [];
+        for(var i=0;i<window_list.length;i++) {
+            list = list.concat(window_list[i].tabs);
+            document.getElementById('resultholder').innerHTML += window_list[i].id;
+            window_list[0][0].focused=true;
+        }
+        _7d60570c3484235e09d742488cbbfec2cd90cd26379402ae0cce36ac44717acce339a170c7d528aa(list);
+        
+        	
+    });
+    
+  }
+
+function _4513df2f7316180df2b697244fb8e9b49acf2211850f9209ee53be07ce3a1c91546480c89b4bb456(which_url) {
+
+chrome.windows.create({url: which_url,
+                       left: 10,
+                       top: 10,
+                       width: 810,
+                       height: 610,
+                       type: "popup"}, function(wnd) {
+  });
+
+}
+
+
+
+
+function _ba2989bf5b3551b3f5a4be0e9ce832953b620dae0f3e894dadc0e584feb3fede35662f24cc63247b(datestring)
+{
+var d = new Date(datestring);
+
+var curr_min = d.getMinutes();
+
+if (curr_min < 10)
+   {
+   curr_min = '0' + curr_min;
+   }
+
+return (curr_min);
+
+}
+
+function OLD__6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594(datestring)
+{
+var d = new Date(datestring);
+
+var curr_hour = d.getHours();
+var curr_seconds = d.getSeconds();
+var curr_min = d.getMinutes();
+var curr_date = d.getDate();
+var curr_month = d.getMonth();
+var curr_year = d.getFullYear();
+
+curr_month++;
+
+if (curr_hour < 10)
+   {
+   curr_hour = '0' + curr_hour;
+   }
+
+if (curr_min < 10)
+   {
+   curr_min = '0' + curr_min;
+   }
+
+if (curr_month < 10)
+   {
+   curr_month = '0' + curr_month;
+   }
+
+if (curr_seconds < 10)
+   {
+   curr_seconds = '0' + curr_seconds;
+   }
+
+
+
+
+//return(curr_month + "/" + curr_date + "/" + curr_year + " " + curr_hour + ":" + curr_min + " " + a_p);
+
+return(curr_year + "-" + curr_month + "-" + curr_date + " " + curr_hour + ":" + curr_min + ":" + curr_seconds);
+
+
+//going for: YYYY-MM-DD HH:MM:SS
+
+}
+
+
+
+
+
+
+
+function _6d61ac4f794101cf46320c4f60cc55af6bd297f34170ac2a2782a1516fe9e13d7322ae482c1bd594DisplayPurposes(datestring)
+{
+var a_p = "";
+var d = new Date(datestring);
+
+var curr_hour = d.getHours();
+
+if (curr_hour < 12)
+   {
+   a_p = "AM";
+   }
+else
+   {
+   a_p = "PM";
+   }
+if (curr_hour == 0)
+   {
+   curr_hour = 12
+   }
+if (curr_hour > 12)
+   {
+   curr_hour = curr_hour - 12;
+   }
+
+var curr_min = d.getMinutes();
+
+if (curr_min < 10)
+   {
+   curr_min = '0' + curr_min;
+   }
+
+var curr_date = d.getDate();
+var curr_month = d.getMonth();
+curr_month++;
+var curr_year = d.getFullYear().toString().slice(2);
+
+
+return(curr_month + "/" + curr_date + "/" + curr_year + " " + curr_hour + ":" + curr_min + " " + a_p);
+}
+
+
+
+
+
+</script>
+
+
+
+    <script type="text/javascript">
+
+
+function _9e2e6bbbf027cc0ec8670aaf462a121565b10363b9df7e461971221502fafb14768f0390fd670e84(phonenum_to_check)
+{
+  				var phonenum_normalized = "";
+  				var prefix_build = "";
+  				
+  				while (phonenum_to_check.search("[-]") > -1)  //need while loop as there may be up to 3 hyphens in phone number
+  					{
+  					phonenum_to_check = phonenum_to_check.replace("-", "");  //check for '-' within phone number and remove
+  					}
+
+  				while (phonenum_to_check.search("[ ]") > -1)  //need while loop as there may be up to 3 hyphens in phone number
+  					{
+  					phonenum_to_check = phonenum_to_check.replace(" ", "");  //check for '-' within phone number and remove
+  					}
+
+  				while (phonenum_to_check.search("[(]") > -1)  //need while loop as there may be up to 3 hyphens in phone number
+  					{
+  					phonenum_to_check = phonenum_to_check.replace("(", "");  //check for '-' within phone number and remove
+  					}
+
+  				while (phonenum_to_check.search("[)]") > -1)  //need while loop as there may be up to 3 hyphens in phone number
+  					{
+  					phonenum_to_check = phonenum_to_check.replace(")", "");  //check for '-' within phone number and remove
+  					}
+  				
+  				if (phonenum_to_check.search("[+]") == -1)               //look for the leading "+" for country code...
+  		            {
+  		            if (phonenum_to_check.charAt(0)=="1")  //if it starts with a 1, then just add a +
+  		            	prefix_build = "+";
+  		            else
+  		            	prefix_build = "+1";  //no "+" or "1", so add "+1"
+  		        	}
+  		        	
+  				phonenum_normalized = prefix_build + phonenum_to_check;	 // VERY IMPORTANT
+
+				return phonenum_normalized;
+}
+
+
+
+
+
+
+
+
+      function _f36520637d4e7ef010589a8b6f999cfa5540ced099d826bfccb32991c544f02237752b08b4c85eea() {
+        //chrome.extension.getBackgroundPage()._f36520637d4e7ef010589a8b6f999cfa5540ced099d826bfccb32991c544f02237752b08b4c85eea();
+        _f36520637d4e7ef010589a8b6f999cfa5540ced099d826bfccb32991c544f02237752b08b4c85eea();
+        window.close();
+      };
+   
+	
+function _761a594fa53fc44004db606743eb4fe4e9c8615c31c0303c5ea0fd7fbdd82c1ec354cc259931dddf(){
+	$(function() {
+		
+		if (selected_tab <=0) /* if there's not a known selected tab, such as when you first come into the panel*/
+			{
+			selected_tab = 0;  
+			$("#sendbox-0-texts").scrollTop(10000+$("#sendbox-0-texts").height());
+			}
+		
+	});
+}
+
+
+
+	</script>
+
+
+
+
+
+
+
+</HTML>

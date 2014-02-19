@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "toolbar-button.png",
+      "default_popup": "popover.html",
+      "default_title": "RescueTime"
+   },
+   "content_scripts": [ {
+      "js": [ "detect_focus.js" ],
+      "matches": [ "\u003Call_urls\u003E" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self'; object-src 'self'",
+   "description": "Keep track of the time you spend in your browser, and get a clear picture of what you were doing all day.",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDaOq2puATygCWTP0Bk4vbZtkC8pCqh75jqQdJojXzka4ykyRhnNZD93gHdGSME8iu+SjjhIJNsQwKt0pQMe/2vO7MmOW7IjKtodDG4mAwLeHaekmCtiiGu4nmFdezJlRAmSKQig+MAYL9/6LIgecLIND2glA39lrrs5yUMOZciwIDAQAB",
+   "manifest_version": 2,
+   "name": "RescueTime for Google Chrome\u2122",
+   "offline_enabled": false,
+   "permissions": [ "background", "idle", "webRequest", "tabs", "bookmarks", "http://*/", "https://*/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.16"
+}

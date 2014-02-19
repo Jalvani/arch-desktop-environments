@@ -1,0 +1,29 @@
+{
+
+	"com.google.android.apps.plus":            "googleplus.png",
+	"com.facebook.katana":                     "facebook.png",
+	"com.facebook.orca":                       "facebook_messenger.png",
+	"com.google.android.gm":                   "gmail.png",
+	"com.twitter.android":                     "twitter.png",
+	"com.google.android.calendar":             "googlecalendar.png",
+	"com.whatsapp":                            "whatsapp.png",
+	"com.skype.raider":                        "skype.png",
+	"com.instagram.android":                   "instagram.png",
+	"com.viber.voip":                          "viber.png",
+	"com.spotify.mobile.android.ui":           "spotify.png",
+	"com.dropbox.android":                     "dropbox.png",
+	"com.snapchat.android":                    "snapchat.png",
+	"kik.android":                             "kik.png",
+	"com.anydo":                               "anydo.png",
+	"com.google.android.music":                "googlemusic.png",
+	"com.jb.gosms":                            "gosmspro.png",
+	"com.sand.airdroid":                       "airdroid.png",
+	"com.google.android.apps.googlevoice":     "googlevoice.png",
+	"com.outlook.Z7":                          "outlook.png",
+	"com.fsck.k9":                             "k9.png",
+	"com.joelapenna.foursquared":              "foursquare.png",
+	"com.google.android.googlequicksearchbox": "googlesearch.png",
+	"org.hcilab.projects.notification":        "desktopnotifications.png",
+	"com.google.android.talk":                 "hangouts.png"
+
+}

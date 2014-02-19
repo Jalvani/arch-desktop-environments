@@ -1,0 +1,78 @@
+{
+   "AUTHORIZE_BUTTON_LABEL": {
+      "description": "Authorize button text",
+      "message": "AUTHORIZE WITH LAST.FM"
+   },
+   "AUTHORIZE_DESCRIPTION": {
+      "description": "Authorize description",
+      "message": "scroblr requires authorization from last.fm to post track information on your behalf."
+   },
+   "DONTSCROBBLE_TRACK_TITLE": {
+      "description": "Don't scrobble track title text",
+      "message": "Don't scrobble this track?"
+   },
+   "EDIT_TRACK_ALBUM_TEXT": {
+      "description": "Album text label",
+      "message": "Album"
+   },
+   "EDIT_TRACK_ARTIST_TEXT": {
+      "description": "Artist text label",
+      "message": "Artist"
+   },
+   "EDIT_TRACK_LABEL": {
+      "description": "Edit track section label",
+      "message": "Edit Track Information"
+   },
+   "EDIT_TRACK_REQUIRED_LABEL": {
+      "description": "Edit track required section label",
+      "message": "Confirm Track Information"
+   },
+   "EDIT_TRACK_TITLE": {
+      "description": "Edit track title text",
+      "message": "Edit track information"
+   },
+   "EDIT_TRACK_TITLE_TEXT": {
+      "description": "Title text label",
+      "message": "Track"
+   },
+   "LAUNCHER_LABEL": {
+      "description": "Launcher section label",
+      "message": "Where's the Music?"
+   },
+   "LOVE_TRACK_TITLE": {
+      "description": "Love track title text",
+      "message": "Love this track?"
+   },
+   "NOW_PLAYING_LABEL": {
+      "description": "Now playing section label",
+      "message": "Now Playing"
+   },
+   "SAVE_BUTTON_LABEL": {
+      "description": "Save button text label",
+      "message": "SAVE"
+   },
+   "SETTINGS_LABEL": {
+      "description": "Settings section label",
+      "message": "Settings"
+   },
+   "SETTINGS_OPTION_AUTODISMISS": {
+      "description": "Autodismiss option text",
+      "message": "Auto-dismiss notifications after 5 seconds"
+   },
+   "SETTINGS_OPTION_NOTIFICATIONS": {
+      "description": "Notifications option text",
+      "message": "Enable notifications"
+   },
+   "SETTINGS_OPTION_SCROBBLING": {
+      "description": "Scrobbling option text",
+      "message": "Enable scrobbling"
+   },
+   "SETTINGS_SIGNED_IN": {
+      "description": "Signed in text",
+      "message": "You are signed in as '{name}'."
+   },
+   "SETTINGS_SIGN_OUT": {
+      "description": "Sign out text label",
+      "message": "Sign out"
+   }
+}

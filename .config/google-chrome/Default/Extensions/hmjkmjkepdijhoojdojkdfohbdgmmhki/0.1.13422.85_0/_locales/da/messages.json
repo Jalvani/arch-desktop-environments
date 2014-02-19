@@ -1,0 +1,1003 @@
+{
+   "1093196373615461508": {
+      "message": "Vi kan desv\u00E6rre ikke vise billedet p\u00E5 nuv\u00E6rende tidspunkt."
+   },
+   "1098726677907695030": {
+      "message": "Stemmeoptagelse: "
+   },
+   "1160186203475556062": {
+      "message": "$2\u200BFjern billede$1\u200B"
+   },
+   "1185164838496022543": {
+      "message": "Klik her for at genindl\u00E6se siden."
+   },
+   "1263685395252160366": {
+      "message": "LaTeX"
+   },
+   "1398025099726122129": {
+      "message": "Der opstod en fejl ved visning af $1\u200B. Pr\u00F8ver igen."
+   },
+   "139942704574044780": {
+      "message": "Accept\u00E9r"
+   },
+   "1419896259743862406": {
+      "message": "\u00C5bn med"
+   },
+   "1435613501685026676": {
+      "message": "Luk"
+   },
+   "1446829548948002072": {
+      "message": "komma"
+   },
+   "1454684154234137497": {
+      "message": "pause"
+   },
+   "1462902182020106181": {
+      "message": "Tilf\u00F8j en titel..."
+   },
+   "1484121429181423440": {
+      "message": "Du er ikke logget ind. Genindl\u00E6s siden."
+   },
+   "1499433769420882987": {
+      "message": "Viser $1\u200B"
+   },
+   "1527836113392558206": {
+      "message": "Indl\u00E6ser..."
+   },
+   "1536051766421561160": {
+      "message": "lig med"
+   },
+   "156992719062713230": {
+      "message": "Gr\u00E5"
+   },
+   "1700522311470719738": {
+      "message": "P\u00E5mind mig"
+   },
+   "1709410429018687341": {
+      "message": "Formiddag ($1\u200B)"
+   },
+   "1791115075948268631": {
+      "message": "\u00C5bn hj\u00E6lp til tastaturgenveje"
+   },
+   "1808245543551507519": {
+      "message": "Lyd"
+   },
+   "1815108332424147305": {
+      "message": "Du kan ogs\u00E5 pr\u00F8ve en foresl\u00E5et app"
+   },
+   "1823222042913714987": {
+      "message": "Send adgangskode"
+   },
+   "1847413775362184342": {
+      "message": "\u00C5bn"
+   },
+   "1856444915090632305": {
+      "message": "Dette dokument er krypteret. Indtast adgangskode."
+   },
+   "187077078156858455": {
+      "message": "Lydnote"
+   },
+   "1900571668686750716": {
+      "message": "vCard"
+   },
+   "1900829747616936506": {
+      "message": "Tilbage til Start"
+   },
+   "1918176455405610789": {
+      "message": "F\u00E6rdig"
+   },
+   "1920189655549476211": {
+      "message": "ukendt l\u00E6ngde"
+   },
+   "1935425718037933511": {
+      "message": "Angiv et nyt dokumentnavn:"
+   },
+   "1965626377712226216": {
+      "message": "Keynote"
+   },
+   "2055388154421214950": {
+      "message": "Tilknyt flere apps"
+   },
+   "2061440050632248160": {
+      "message": "Arkiv"
+   },
+   "2068023589621557589": {
+      "message": "TrueType-skrifttype"
+   },
+   "210610357717331623": {
+      "message": "Flere"
+   },
+   "212796670323571824": {
+      "message": "OK"
+   },
+   "2154372123324862271": {
+      "message": "skr\u00E5streg"
+   },
+   "2185270915942408270": {
+      "message": "Zoom efter indhold"
+   },
+   "2187239650627580457": {
+      "message": "Send"
+   },
+   "2198096971937872560": {
+      "message": "P\u00E5mindelse:"
+   },
+   "221715292685577880": {
+      "message": "Ja"
+   },
+   "2220005860896049129": {
+      "message": "Det tog desv\u00E6rre for lang tid at finde dokumentet p\u00E5 den oprindelige placering."
+   },
+   "2228413078211839077": {
+      "message": "Vi har desv\u00E6rre et problem med at vise dokumentet p\u00E5 nuv\u00E6rende tidspunkt."
+   },
+   "2257303402199718039": {
+      "message": "Vi kunne desv\u00E6rre ikke finde dokumentet p\u00E5 den oprindelige placering. Bekr\u00E6ft, at dokumentet stadig findes."
+   },
+   "2289812403593835836": {
+      "message": "Pages"
+   },
+   "229177484946387188": {
+      "message": "Google Earth"
+   },
+   "2307106955255567860": {
+      "message": "Udf\u00F8r"
+   },
+   "2329167963662998826": {
+      "message": "Google Keep vil gerne bruge din placering til at forbedre stedsforslag til placeringsp\u00E5mindelser."
+   },
+   "2341472379592330773": {
+      "message": "Titel..."
+   },
+   "2359614137862708172": {
+      "message": "Shift"
+   },
+   "2370656573843123707": {
+      "message": "h\u00F8jreparentes"
+   },
+   "2412314804333167252": {
+      "message": "Dette regneark er for stort. Klik p\u00E5 $3\u200Bdownload$1\u200B eller $4\u200Brediger i Google Regneark$1\u200B."
+   },
+   "2415274561162670983": {
+      "message": "Vi kan desv\u00E6rre ikke vise videoen p\u00E5 nuv\u00E6rende tidspunkt."
+   },
+   "2449254824382583885": {
+      "message": "Pop ud"
+   },
+   "2450327925369898841": {
+      "message": "Der opstod en fejl, da elementet skulle f\u00F8jes til Drev. Pr\u00F8v igen."
+   },
+   "2455753442347598108": {
+      "message": "Du har afsluttet fremviseren"
+   },
+   "2475181823688399272": {
+      "message": "N\u00E6ste"
+   },
+   "2510929871271209216": {
+      "message": "Dette regneark er for stort. Klik $2\u200Bher$1\u200B for at downloade det."
+   },
+   "2513437337377210144": {
+      "message": "end"
+   },
+   "257317112834806705": {
+      "message": "Skift mellem listevisning og gittervisning"
+   },
+   "2609409316752026806": {
+      "message": "PDF"
+   },
+   "2611879390264566852": {
+      "message": "OpenOffice Calc"
+   },
+   "2646734195256984201": {
+      "message": "$1\u200B af $2\u200B"
+   },
+   "2704432088262196025": {
+      "message": "Klik for at redigere titlen..."
+   },
+   "2705842902318123127": {
+      "message": "Naviger til n\u00E6ste/forrige note/liste"
+   },
+   "2722769111953965548": {
+      "message": "Du har ingen arkiverede noter. $2\u200BTilbage til Start$1\u200B"
+   },
+   "2742719907061406418": {
+      "message": "XML"
+   },
+   "2789687492331041935": {
+      "message": "V\u00E6lg et tidspunkt"
+   },
+   "2797747720090426200": {
+      "message": "Der er ingen tilg\u00E6ngelig eksempelvisning."
+   },
+   "2814668529404267263": {
+      "message": "Log ind"
+   },
+   "2817277146396981386": {
+      "message": "pm"
+   },
+   "2827039933590757722": {
+      "message": "Windows-genvej"
+   },
+   "2833524492098518257": {
+      "message": "Tilknyttede apps"
+   },
+   "2842885468107862276": {
+      "message": "F\u00F8j til Drev, og \u00E5bn med"
+   },
+   "289798573180023043": {
+      "message": "OK"
+   },
+   "3029395493413607486": {
+      "message": "Videoafspilleren kunne ikke indl\u00E6ses. Pr\u00F8v at genindl\u00E6se siden.$1\u200BHvis problemet forts\u00E6tter, kan du $3\u200Bf\u00E5 flere oplysninger i Hj\u00E6lp$2\u200B."
+   },
+   "306516303501625305": {
+      "message": "Godkendelsen mislykkedes."
+   },
+   "3073005748126521632": {
+      "message": "P\u00E5mindelse ved $1\u200B"
+   },
+   "3109321241584918345": {
+      "message": "Tilknyt flere apps..."
+   },
+   "3121560585545725724": {
+      "message": "$1\u200B, $2\u200B"
+   },
+   "3222929029344613957": {
+      "message": "Der opstod en fejl i forbindelse med \u00E5bning af filen. Pr\u00F8v igen."
+   },
+   "3250489229749307913": {
+      "message": "Elektronisk publikation"
+   },
+   "3265524298292280681": {
+      "message": "esc"
+   },
+   "3267563602179728277": {
+      "message": "delete"
+   },
+   "3275029321588462173": {
+      "message": "Ingen"
+   },
+   "330603631583186798": {
+      "message": "Word"
+   },
+   "3306487262690341751": {
+      "message": "Dato og klokkesl\u00E6t"
+   },
+   "3312545971976531405": {
+      "message": "Meddelelse"
+   },
+   "3354260708176476985": {
+      "message": "Indl\u00E6ser&hellip;"
+   },
+   "3368639944474272225": {
+      "message": "Beklager, men vi kunne ikke hente dokumentet til visning, eller ogs\u00E5 har du ikke tilladelse til at se dokumentet."
+   },
+   "3381619429606029445": {
+      "message": "Visio"
+   },
+   "3408219901032480508": {
+      "message": "$2\u200B, $1\u200B"
+   },
+   "3421685394169412932": {
+      "message": "Alle \u00E6ndringer gemmes automatisk"
+   },
+   "3446158485617778228": {
+      "message": "Fortryd"
+   },
+   "3449760465250232736": {
+      "message": "Se alle"
+   },
+   "3468441711253011521": {
+      "message": "Google Regneark"
+   },
+   "3468557655011162775": {
+      "message": "Denne lydfil kan ikke afspilles i denne browser."
+   },
+   "3518073392823563581": {
+      "message": "Tastaturgenveje"
+   },
+   "3522555889277726107": {
+      "message": "Side $1\u200B"
+   },
+   "3547194749488601916": {
+      "message": "Opdaterer..."
+   },
+   "3578537640378068716": {
+      "message": "Send adgangskode"
+   },
+   "3595000514985906359": {
+      "message": "Excel"
+   },
+   "3602920441714068008": {
+      "message": "P\u00E5mindelse d. $1\u200B kl. $2\u200B"
+   },
+   "3616146071554077404": {
+      "message": "Zoom ind"
+   },
+   "3645728163953189422": {
+      "message": "Vi kunne desv\u00E6rre ikke hente dokumentet til visning, fordi det er for stort."
+   },
+   "3657386785336906042": {
+      "message": "backslash"
+   },
+   "3664842788764635265": {
+      "message": "Ingen"
+   },
+   "3666123569747918021": {
+      "message": "Dette dokument indeholder \u00E6ndringer, der ikke er gemt. Vil du forlade denne side og kassere dine \u00E6ndringer?"
+   },
+   "3678477908297567934": {
+      "message": "understregning"
+   },
+   "3701351750654338878": {
+      "message": "Zoom ud"
+   },
+   "3748461364828242354": {
+      "message": "V\u00E6lg farve"
+   },
+   "3770795578481676514": {
+      "message": "Gul"
+   },
+   "381100310424863459": {
+      "message": "Illustrator"
+   },
+   "3842411126100113634": {
+      "message": "pg-up"
+   },
+   "3869166581651870488": {
+      "message": "Afslut redigering"
+   },
+   "3988418762222300024": {
+      "message": "punktum"
+   },
+   "3989552504822984034": {
+      "message": "Google Tegninger"
+   },
+   "400095519884819353": {
+      "message": "Pop ud"
+   },
+   "4007354186943974092": {
+      "message": "Titel..."
+   },
+   "4010819960568614518": {
+      "message": "Ups! Der er ingen eksempelvisning."
+   },
+   "4014287326684608407": {
+      "message": "Gr\u00F8nbl\u00E5"
+   },
+   "4059387791040010947": {
+      "message": "Meta"
+   },
+   "4097921967754832323": {
+      "message": "bindestreg"
+   },
+   "4110142030958917807": {
+      "message": "Arkiverede noter"
+   },
+   "4134385041569168669": {
+      "message": "Indl\u00E6ser..."
+   },
+   "4165433071549564698": {
+      "message": "Viser $1\u200B"
+   },
+   "4174786386751618325": {
+      "message": "Billednote"
+   },
+   "4182427157920112948": {
+      "message": "tilde"
+   },
+   "4205329094859140439": {
+      "message": "am"
+   },
+   "4230101516585408149": {
+      "message": "Skriv en ny note"
+   },
+   "429840734875582508": {
+      "message": "..."
+   },
+   "4299690446455033653": {
+      "message": "Works"
+   },
+   "4314643310615423802": {
+      "message": "Du er logget ud."
+   },
+   "4318861667254318892": {
+      "message": "Google Video"
+   },
+   "4320831042030778": {
+      "message": "Annuller"
+   },
+   "4372755508519489521": {
+      "message": "Gittervisning"
+   },
+   "4395845663892873002": {
+      "message": "home"
+   },
+   "4564682305303579317": {
+      "message": "Forts\u00E6t"
+   },
+   "4748046231232264180": {
+      "message": "Google Formularer"
+   },
+   "4767722428137216885": {
+      "message": "Annuller"
+   },
+   "477328789314249432": {
+      "message": "S\u00F8g i noter"
+   },
+   "4785794631061168971": {
+      "message": "Tilknyt"
+   },
+   "4806763987633034948": {
+      "message": "PKCS7-signatur"
+   },
+   "4889853674709731963": {
+      "message": "Alle noter er gemt offline"
+   },
+   "4901386320110714275": {
+      "message": "Forkert adgangskode. Pr\u00F8v igen."
+   },
+   "490372259452655427": {
+      "message": "Visning af dette dokument er endnu ikke muligt."
+   },
+   "4943176738805484221": {
+      "message": "rediger"
+   },
+   "4956678140555659175": {
+      "message": "Backspace"
+   },
+   "4957674814179289955": {
+      "message": "Naviger til n\u00E6ste/forrige listeemne"
+   },
+   "509815948423424872": {
+      "message": "Navigation"
+   },
+   "5129218019779162494": {
+      "message": "Google Dokumenter"
+   },
+   "5180989337128758117": {
+      "message": "venstreparentes"
+   },
+   "5197718200713913936": {
+      "message": "C++"
+   },
+   "5204391636475413312": {
+      "message": "Gem"
+   },
+   "5217641707432141671": {
+      "message": "Ups! Der opstod en fejl."
+   },
+   "5288037028604092288": {
+      "message": "XPS"
+   },
+   "5299648222246616124": {
+      "message": "backtick"
+   },
+   "5316658541831864803": {
+      "message": "Visning af denne dokumenttype underst\u00F8ttes desv\u00E6rre ikke."
+   },
+   "5336801339221383042": {
+      "message": "JavaScript"
+   },
+   "5353129315502554762": {
+      "message": "Typografiark"
+   },
+   "5372160981898991853": {
+      "message": "Publisher"
+   },
+   "5394142149034044812": {
+      "message": "Tilknyttet"
+   },
+   "5408091115193390231": {
+      "message": "AutoCAD"
+   },
+   "5438481737351808090": {
+      "message": "Eftermiddag ($1\u200B)"
+   },
+   "5438584181753813038": {
+      "message": "\u00C5bn i standardapplikation"
+   },
+   "5465323999933375616": {
+      "message": "Du har n\u00E5et b\u00E5ndbreddegr\u00E6nsen for visning eller download af filer, der ikke er i Google Dokumenter-format."
+   },
+   "5514516347328112388": {
+      "message": "Du kan ogs\u00E5 pr\u00F8ve at downloade det oprindelige dokument ved at klikke $2\u200Bher$1\u200B."
+   },
+   "5555182241047709329": {
+      "message": "V\u00E6lg en placering"
+   },
+   "5561862020931783154": {
+      "message": "$1\u200B af $2\u200B"
+   },
+   "5580293639634492604": {
+      "message": "Arkiveret."
+   },
+   "5598649706113950710": {
+      "message": "Redigeringsv\u00E6rkt\u00F8j"
+   },
+   "5598877389451818095": {
+      "message": "\u00C5bn med"
+   },
+   "5600873340302959883": {
+      "message": "Inds\u00E6t et billede..."
+   },
+   "5631086126416409232": {
+      "message": "Bl\u00E5"
+   },
+   "564165666160590723": {
+      "message": "Windows Media Player"
+   },
+   "5672358806532843305": {
+      "message": "Viser $1\u200B."
+   },
+   "568072913338360182": {
+      "message": "HTML"
+   },
+   "5706242163161626046": {
+      "message": "F\u00F8lgende filtyper underst\u00F8ttes: $1\u200B"
+   },
+   "5714240424645614611": {
+      "message": "Android-pakke"
+   },
+   "5728640851616538925": {
+      "message": "Gr\u00F8n"
+   },
+   "5785010887521443923": {
+      "message": "Fjern"
+   },
+   "5879988349590045594": {
+      "message": "Du skal angive en adgangskode for at \u00E5bne $1\u200B. Indtast adgangskoden"
+   },
+   "5971400924847413790": {
+      "message": "Du kan ogs\u00E5 se den $2\u200Brene HTML-kode$1\u200B (omdirigerer automatisk)."
+   },
+   "5984398071085567332": {
+      "message": "Google Fusion Tables"
+   },
+   "60305871484579258": {
+      "message": "Alt"
+   },
+   "6044366909115009874": {
+      "message": "Omd\u00F8bningen mislykkedes! Pr\u00F8v igen senere."
+   },
+   "6064654062949366878": {
+      "message": "Afspil"
+   },
+   "6070475007374165567": {
+      "message": "Gemmer..."
+   },
+   "6112815042442423467": {
+      "message": "Din s\u00F8gning efter $3\u200B$2\u200B$1\u200B matchede ingen noter."
+   },
+   "6113237889871930608": {
+      "message": "Tom note"
+   },
+   "6122643025527543706": {
+      "message": "Ctrl"
+   },
+   "6125026684392468184": {
+      "message": "Udskriv"
+   },
+   "6131822680770571276": {
+      "message": "PowerPoint"
+   },
+   "6148792237718135476": {
+      "message": "Tillad"
+   },
+   "6186290899408627510": {
+      "message": "enter"
+   },
+   "6203260615455347677": {
+      "message": "Numbers"
+   },
+   "6223207695466118454": {
+      "message": "YouTube"
+   },
+   "6231401379881217113": {
+      "message": "insert"
+   },
+   "6244042389101116716": {
+      "message": "Der er ingen tilg\u00E6ngelig eksempelvisning. Der er tilg\u00E6ngelige applikationer."
+   },
+   "6252254957484336670": {
+      "message": "Forrige"
+   },
+   "6253076263700695984": {
+      "message": "Der opstod en godkendelsesfejl. Genindl\u00E6s siden."
+   },
+   "6267063643272327592": {
+      "message": "Pr\u00F8v igen senere."
+   },
+   "6300664968211817037": {
+      "message": "Gendannet."
+   },
+   "6324768448533022780": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "6328169385501719003": {
+      "message": "Ny note"
+   },
+   "6333496730738019575": {
+      "message": "Indl\u00E6ser..."
+   },
+   "6362170008350775214": {
+      "message": "P\u00E5mindelse ved $1\u200B"
+   },
+   "6386587519843563719": {
+      "message": "Bin\u00E6r fil"
+   },
+   "6436479735235889890": {
+      "message": "P\u00E5mindelse kl. $2\u200B d. $1\u200B"
+   },
+   "6459405233858728718": {
+      "message": "Google Pr\u00E6sentationer"
+   },
+   "6466736813846482957": {
+      "message": "Forrige"
+   },
+   "6479216014938929613": {
+      "message": "Nat ($1\u200B)"
+   },
+   "6489419020139804370": {
+      "message": "Afslut s\u00F8gning"
+   },
+   "6522917155620379865": {
+      "message": "Download"
+   },
+   "6524849072392100692": {
+      "message": "Google Drev-mappe"
+   },
+   "6582388186847564929": {
+      "message": "Slet note/liste"
+   },
+   "6588176324871799870": {
+      "message": "Google Apps Script"
+   },
+   "6622304228074863427": {
+      "message": "Applikation"
+   },
+   "6641337723603310112": {
+      "message": "Slettet."
+   },
+   "6644861766016503644": {
+      "message": "Adgangskode er p\u00E5kr\u00E6vet"
+   },
+   "6650837823238391202": {
+      "message": "N\u00E6ste"
+   },
+   "6707173584987026005": {
+      "message": "I dag"
+   },
+   "6718621885152420894": {
+      "message": "Ikke-navngivet liste"
+   },
+   "6757218172402086688": {
+      "message": "S\u00F8g i noter..."
+   },
+   "6780628488957834429": {
+      "message": "Orange"
+   },
+   "6926055840246960182": {
+      "message": "Vis alle elementer"
+   },
+   "6940998537415516791": {
+      "message": "kl."
+   },
+   "6966117577694636785": {
+      "message": "Maksimal filst\u00F8rrelse: $1\u200B MB."
+   },
+   "703014642434496879": {
+      "message": "Skriv note..."
+   },
+   "7054631817922169541": {
+      "message": "Der er \u00E6ndringer i Google Keep, som ikke er gemt. Vil du forlade siden og annullere \u00E6ndringerne?"
+   },
+   "7054907873263821": {
+      "message": "Gendan"
+   },
+   "705833829394544221": {
+      "message": "Vis i Drev"
+   },
+   "7084991134824194740": {
+      "message": "P\u00E5mind mig"
+   },
+   "7116394962547236971": {
+      "message": "M\u00E5 Google Keep vise underretninger?"
+   },
+   "713754035716193665": {
+      "message": "Ny liste"
+   },
+   "7146242673022399081": {
+      "message": "Text"
+   },
+   "7188024175807042621": {
+      "message": "Listeelement..."
+   },
+   "7188754206068648188": {
+      "message": "Kommaseparerede data"
+   },
+   "7206429144039020706": {
+      "message": "Kunne ikke indl\u00E6se flere sider."
+   },
+   "7225837680381806920": {
+      "message": "Aften ($1\u200B)"
+   },
+   "722702934847795304": {
+      "message": "Project"
+   },
+   "7257381023528410292": {
+      "message": "Slet"
+   },
+   "7326565093670055435": {
+      "message": "Foresl\u00E5ede apps"
+   },
+   "734478884582426793": {
+      "message": "Komprimeret arkiv"
+   },
+   "7364571366369083618": {
+      "message": "Video"
+   },
+   "7367958022583310325": {
+      "message": "OpenOffice Impress"
+   },
+   "7377239345926788722": {
+      "message": "Handlinger"
+   },
+   "7393771571081973549": {
+      "message": "C"
+   },
+   "740507516967994591": {
+      "message": "\u00C5bn"
+   },
+   "7422452809590461532": {
+      "message": "R\u00F8d"
+   },
+   "7426603384368095928": {
+      "message": "Genindl\u00E6s siden for at logge ind igen og forts\u00E6tte dit arbejde."
+   },
+   "7428490253130883654": {
+      "message": "S\u00F8g i dokumentet"
+   },
+   "7429084719905985261": {
+      "message": "Objective C"
+   },
+   "7432956605646331928": {
+      "message": "SQL"
+   },
+   "7451573821837395189": {
+      "message": "Elementet er blevet f\u00F8jet til $2\u200Bdit Drev$1\u200B."
+   },
+   "7488945223835574498": {
+      "message": "PostScript"
+   },
+   "754562894809764325": {
+      "message": "\u00C5bner med"
+   },
+   "7546994163355383999": {
+      "message": "Alle noter er gemt"
+   },
+   "7561401550697263017": {
+      "message": "Indl\u00E6ser $1\u200B."
+   },
+   "7561835096421626440": {
+      "message": "Luk bj\u00E6lken med funktionen Find"
+   },
+   "7602870977118971161": {
+      "message": "Genindl\u00E6s"
+   },
+   "7614241747607201251": {
+      "message": "Der opstod en fejl ved visning af $1\u200B."
+   },
+   "7616903319374696418": {
+      "message": "Gem i Drev"
+   },
+   "7621335927565458184": {
+      "message": "Note..."
+   },
+   "7621429484880737652": {
+      "message": "Annuller"
+   },
+   "7664490637734113846": {
+      "message": "Tilknyt flere apps"
+   },
+   "7692525489619342577": {
+      "message": "Annuller"
+   },
+   "7734578122414851725": {
+      "message": "PHP"
+   },
+   "776065748745885880": {
+      "message": "mellemrum"
+   },
+   "7830513726270865588": {
+      "message": "Kalender"
+   },
+   "7889351669453500220": {
+      "message": "Kunne ikke indl\u00E6se flere sider. Pr\u00F8ver igen."
+   },
+   "7895643887742936844": {
+      "message": "semikolon"
+   },
+   "7911084466250509025": {
+      "message": "V\u00E6lg et billede til upload"
+   },
+   "794202635102531782": {
+      "message": "Disse apps kan \u00E5bne eller redigere filen"
+   },
+   "7945839336462142841": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "7948723884189309228": {
+      "message": "Filen kan ikke uploades."
+   },
+   "7962728344554282160": {
+      "message": "Zoom ind"
+   },
+   "8069135745789664170": {
+      "message": "F\u00F8jer til Drev"
+   },
+   "8087751641867346064": {
+      "message": "OpenOffice-dokument"
+   },
+   "8126700207146858047": {
+      "message": "Omd\u00F8b dokument"
+   },
+   "8134417366733972066": {
+      "message": "Der er ingen tilg\u00E6ngelig eksempelvisning."
+   },
+   "8193991135666622583": {
+      "message": "Keep"
+   },
+   "821942580510564685": {
+      "message": "Angiv adgangskoden for dette dokument for at se det"
+   },
+   "8267458240960831780": {
+      "message": "Godkender..."
+   },
+   "8281141013543828574": {
+      "message": "RAW-billede"
+   },
+   "829373983432978641": {
+      "message": "Kunne ikke indl\u00E6se denne side."
+   },
+   "8299047746309466797": {
+      "message": "Du har startet fremviseren"
+   },
+   "8324195080917648153": {
+      "message": "Der er ikke plads til videoen her. G\u00F8r browservinduet lidt st\u00F8rre."
+   },
+   "8337582740675387693": {
+      "message": "Java"
+   },
+   "8342684858400436871": {
+      "message": "tabulator"
+   },
+   "834835979652266872": {
+      "message": "$1\u200B af $2\u200B"
+   },
+   "8379952094517631162": {
+      "message": "Nej"
+   },
+   "8408756681779291666": {
+      "message": "S\u00F8g i noter"
+   },
+   "8436817383042650304": {
+      "message": "capslock"
+   },
+   "8467894483369467251": {
+      "message": "Flash"
+   },
+   "8586521576836841032": {
+      "message": "Der opstod en fejl. Pr\u00F8ver igen."
+   },
+   "8596257056433048992": {
+      "message": "Velkommen til"
+   },
+   "8621067185485606452": {
+      "message": "ECMAScript"
+   },
+   "8660016472468563221": {
+      "message": "kolon"
+   },
+   "8663507590720636709": {
+      "message": "$1\u200B +$2\u200B andre"
+   },
+   "8674222789100049233": {
+      "message": "Luk"
+   },
+   "8677820266582418177": {
+      "message": "Der opstod en fejl."
+   },
+   "8709611758728645225": {
+      "message": "pg-down"
+   },
+   "873811949056724870": {
+      "message": "Der blev oprettet en note."
+   },
+   "8775097441636640256": {
+      "message": "$2\u200B \u2013 $1\u200B"
+   },
+   "8781837301864053001": {
+      "message": "Rich Text"
+   },
+   "8798805450232120940": {
+      "message": "Andre tilknyttede apps"
+   },
+   "8813101408630252335": {
+      "message": "$1\u200B sek."
+   },
+   "8822326207328431952": {
+      "message": "Billeduploads er ikke tilg\u00E6ngelige"
+   },
+   "8884900765322249670": {
+      "message": "Listevisning"
+   },
+   "8889019648958415451": {
+      "message": "Ukendt fil"
+   },
+   "8916237870980173557": {
+      "message": "Opretter forbindelse..."
+   },
+   "8919660666733306860": {
+      "message": "Billede"
+   },
+   "901615442107785480": {
+      "message": "Arkiv\u00E9r note/liste"
+   },
+   "9028041601596584772": {
+      "message": "Placering"
+   },
+   "9058308423774656474": {
+      "message": "Hangul-tekstbehandling"
+   },
+   "9083935734710258396": {
+      "message": "Afvis"
+   },
+   "911586799466052745": {
+      "message": "OpenOffice Draw"
+   },
+   "9146716987301178362": {
+      "message": "Der er opst\u00E5et en fejl. Genindl\u00E6s siden."
+   },
+   "9182500445937900938": {
+      "message": "Luk"
+   },
+   "9210545340040914022": {
+      "message": "$2\u200BUpload af billedet mislykkedes.$1\u200B"
+   },
+   "9222674328467536367": {
+      "message": "$2\u200B \u2013 $1\u200B emner"
+   },
+   "951963820437151566": {
+      "message": "Google Sites"
+   },
+   "963611681085757795": {
+      "message": "Det er desv\u00E6rre ikke muligt at vise dokumentet p\u00E5 nuv\u00E6rende tidspunkt."
+   },
+   "964957642315661588": {
+      "message": "Denne side kunne ikke indl\u00E6ses. Pr\u00F8ver igen..."
+   },
+   "973644925431533602": {
+      "message": "Slet"
+   },
+   "975416671454410602": {
+      "message": "$2\u200BPr\u00F8v igen$1\u200B"
+   },
+   "982187142411651629": {
+      "message": "Annuller"
+   },
+   "985197728509875956": {
+      "message": "Chemical Model"
+   },
+   "996381410993745580": {
+      "message": "Photoshop"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Not\u00E9r hurtigt det, du t\u00E6nker p\u00E5, og find det nemt frem igen, uanset hvor du befinder dig."
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Keep"
+   }
+}

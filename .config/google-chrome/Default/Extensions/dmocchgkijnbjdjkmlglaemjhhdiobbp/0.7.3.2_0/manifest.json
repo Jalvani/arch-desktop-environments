@@ -1,0 +1,31 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "KeyRocket_Icon_16.png",
+      "default_popup": "browser_action/index.html",
+      "default_title": "KeyRocket"
+   },
+   "content_scripts": [ {
+      "css": [ "js/Notify.css" ],
+      "js": [ "js/jquery-1.7.2.min.js", "keyrocket_utils.js", "keyrocket_chrome.js" ],
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "icons": {
+      "128": "KeyRocket_Icon_128.png",
+      "16": "KeyRocket_Icon_16.png",
+      "48": "KeyRocket_Icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBjotNALf04mnorzEu6PhQswRG7Xt0ydIq8P8X+4Qi6XtbZrEXM47lVoZaGg4UNU7zENicxKV9P+5E5W5Lt2jkrNdtrqMh1lJ2fiB9+tfhgLkrMzXikb5DjTY2keEf6WSJgk9BU43ICmwXmFfbqTm9Z80EK+DZ9pHmH/qW73Tv9wIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extensionName__",
+   "permissions": [ "*://*.google.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.7.3.2",
+   "web_accessible_resources": [ "images/close_information.png" ]
+}

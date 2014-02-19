@@ -1,0 +1,27 @@
+20:41:16 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:34:53 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:35:11 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:36:41 GMT+0000 (GMT) (WARN) /background.html: chrome tabs query did not return a result while changing window focus
+    at LogReceiver.warn (/js/common/Log.js:8:386)
+    at Object.callback (/js/main/Extension.js:15:62)
+    at Function.target.(anonymous function) (extensions::SafeBuiltins:19:14)
+    at safeCallbackApply (extensions::sendRequest:21:15)
+    at handleResponse (extensions::sendRequest:76:7)
+21:37:01 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:37:03 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:37:16 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:37:19 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+21:40:31 GMT+0000 (GMT) (ERROR) /background.html: Couldn't contact either bootstrap server. Using what we've got...
+    at LogReceiver.error (/js/common/Log.js:8:267)
+    at b (/js/common/Bootstrap.js:2:470)
+21:41:26 GMT+0000 (GMT) (WARN) /background.html: HTTP Error checking version. Assuming OK.
+    at LogReceiver.warn (/js/common/Log.js:8:386)
+    at Object.a [as cb] (/js/common/Bootstrap.js:2:55)
+    at JSONRpcClient._async_handler (/third_party/jsonrpc.js:15:227)
+21:41:26 GMT+0000 (GMT) (ERROR) /background.html: Couldn't contact either bootstrap server. Using what we've got...
+    at LogReceiver.error (/js/common/Log.js:8:267)
+    at Object.b [as cb] (/js/common/Bootstrap.js:2:470)
+    at JSONRpcClient._async_handler (/third_party/jsonrpc.js:15:227)
+23:25:11 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
+23:25:46 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+23:31:01 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)

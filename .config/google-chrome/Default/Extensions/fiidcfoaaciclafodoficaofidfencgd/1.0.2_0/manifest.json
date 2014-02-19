@@ -1,0 +1,28 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "Toggle Patriarchy"
+   },
+   "content_scripts": [ {
+      "js": [ "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "default-src 'none'; script-src 'self'",
+   "description": "Genderswaps your view of the web.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHB+qBC+SgoWJQA9Ox1Jf1gSd6b5BYHQrQviaKkFCATdAjxfXL42uR2eOAU/JWK9dQTTdLyuOW6IJz/yS3PxDpFWm6CUh3Kj09eMLcj77zuuS1dHRu2kfHcnP3IZ1FVj0Q4Au4jwRft3MbAP0BJxPVe0vaxwIJakvNEABqiaR6JwIDAQAB",
+   "manifest_version": 2,
+   "name": "Jailbreak the Patriarchy",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.2"
+}

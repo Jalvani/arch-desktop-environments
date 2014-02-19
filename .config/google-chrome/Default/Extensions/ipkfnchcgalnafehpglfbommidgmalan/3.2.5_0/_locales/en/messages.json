@@ -1,0 +1,337 @@
+{
+   "button_home": {
+      "description": "",
+      "message": "My Klips"
+   },
+   "button_ok": {
+      "description": "",
+      "message": "OK"
+   },
+   "button_save": {
+      "description": "",
+      "message": "Save"
+   },
+   "button_send": {
+      "description": "",
+      "message": "Send"
+   },
+   "button_setting": {
+      "description": "",
+      "message": "Setting"
+   },
+   "button_whatsnew": {
+      "description": "",
+      "message": "\u003Cspan\u003EWhat's New\u003C/span\u003E\u003Chr style=\"border-bottom: .1em solid;clear: both;display: block;float: none;height: 0;margin: 0.5em 0;padding: 0;\"/\u003E\u003Cspan style=\"font-size:12px;\"\u003EGoogle Reader\u003C/span\u003E"
+   },
+   "error_1": {
+      "description": "",
+      "message": "Once the extension is installed, it will only work on newly opened pages (or you can refresh the page)"
+   },
+   "error_2": {
+      "description": "",
+      "message": "This extension doesn't work on this page"
+   },
+   "error_3": {
+      "description": "",
+      "message": "This extension doesn't work on Google Chrome extension gallery pages (including this page)"
+   },
+   "extDesc": {
+      "description": "",
+      "message": "Push web articles to your Kindle"
+   },
+   "extId": {
+      "description": "",
+      "message": "SendToKindle"
+   },
+   "extLanguage": {
+      "description": "",
+      "message": "en"
+   },
+   "extName": {
+      "description": "",
+      "message": "Send to Kindle (by Klip.me)"
+   },
+   "extTitle": {
+      "description": "",
+      "message": "Send to Kindle (by Klip.me)"
+   },
+   "message_1": {
+      "description": "",
+      "message": "A verification message has been sent, please check your Email."
+   },
+   "message_10": {
+      "description": "",
+      "message": "The highlighted text is too short.\u003Cbr/\u003E\u003Cbr/\u003EPlease reselect."
+   },
+   "message_11": {
+      "description": "",
+      "message": "You have reached daily usage limitation: #%1#/day.\r\n\r\nWe will adjust limitation according to server resource.\r\n\r\nIf you need send a lot of articles, please use \"Save\" function."
+   },
+   "message_12": {
+      "description": "",
+      "message": "Sorry, this bookmarklet doesn't support IE#%1# or IE#%2# mode."
+   },
+   "message_13": {
+      "description": "",
+      "message": "Please setting your Kindle's email address in \u003Ca style=\"color:red;\" href=\"#%1#\"\u003EOptions\u003C/a\u003E page"
+   },
+   "message_14": {
+      "description": "",
+      "message": "Please setting your Email address in \u003Ca style=\"color:red;\" href=\"#%1#\"\u003EOptions\u003C/a\u003E page"
+   },
+   "message_15": {
+      "description": "",
+      "message": "Today Usage: #%1#\r\nDaily Limit: #%2#"
+   },
+   "message_16": {
+      "description": "",
+      "message": "Click \"#%1#\" button on a blank page will popup a list of saved items (#%2#)"
+   },
+   "message_17": {
+      "description": "",
+      "message": "Click this button on a blank page \nwill popup list of saved items"
+   },
+   "message_18": {
+      "description": "",
+      "message": "This article can't send to #%1#"
+   },
+   "message_19": {
+      "description": "",
+      "message": "Article successfully sent to #%1#"
+   },
+   "message_2": {
+      "description": "",
+      "message": "Please enter a valid email address (name@domain.com):"
+   },
+   "message_20": {
+      "description": "",
+      "message": "This article can't send to #%1#\u003Cbr/\u003EError code: #%2#"
+   },
+   "message_21": {
+      "description": "",
+      "message": "This page size is too large."
+   },
+   "message_22": {
+      "description": "",
+      "message": "Article successfully saved."
+   },
+   "message_23": {
+      "description": "",
+      "message": "Please input your Email address:"
+   },
+   "message_24": {
+      "description": "",
+      "message": "Article successfully saved to Klip.me"
+   },
+   "message_25": {
+      "description": "",
+      "message": "This article can't save to Klip.me\u003Cbr/\u003EError code: #%1#"
+   },
+   "message_26": {
+      "description": "",
+      "message": "Please connect to 'Klip.me' in \u003Ca style=\"color:red;\" href=\"#%1#\"\u003EOptions\u003C/a\u003E page"
+   },
+   "message_27": {
+      "description": "",
+      "message": "Would you like to save current highlight area?\n\n* This will improve text extraction on this site."
+   },
+   "message_28": {
+      "description": "",
+      "message": "Title and text are editable; click dark area to return. \u003Ca id=\"klip_tips_close\" href=\"#\"\u003E[Close]\u003C/\u003E"
+   },
+   "message_29": {
+      "description": "",
+      "message": " "
+   },
+   "message_3": {
+      "description": "",
+      "message": "Sending a verification message to your address..."
+   },
+   "message_30": {
+      "description": "",
+      "message": "\u003Cspan style=\"float:right;\"\u003EBackground\uFF1A\u003Ca id=\"klip_format_light\"\u003E[Light]\u003C/a\u003E\uFF0C\u003Ca id=\"klip_format_ivory\"\u003E[Ivory]\u003C/a\u003E\uFF0C\u003Ca id=\"klip_format_dark\"\u003E[Dark]\u003C/a\u003E\u003C/span\u003E \u003Cspan style=\"display:none;\"\u003E\u003Ca id=\"klip_export_summary\"\u003E\u003C/a\u003E\u003Ca id=\"klip_export_fulltext\"\u003E\u003C/a\u003E\u003Ca id=\"klip_export_pictures\"\u003E\u003C/a\u003E\u003Ca id=\"klip_export_pictures+\"\u003E\u003C/a\u003E\u003C/span\u003E"
+   },
+   "message_31": {
+      "message": "\u9875\u9762\u56FE\u50CF\u751F\u6210\u5931\u8D25\uFF0C\u8BF7\u5237\u65B0\u9875\u9762\u7136\u540E\u91CD\u65B0\u5C1D\u8BD5\u3002"
+   },
+   "message_32": {
+      "message": "\u56FE\u50CF\u592A\u5927\uFF0C\u8BF7\u5220\u9664\u90E8\u5206\u5185\u5BB9\u3002"
+   },
+   "message_33": {
+      "message": "\u56FE\u6587\u5DF2\u7ECF\u6210\u529F\u5206\u4EAB\u5230\u65B0\u6D6A\u5FAE\u535A\u3002"
+   },
+   "message_34": {
+      "message": "\u56FE\u6587\u5DF2\u7ECF\u6210\u529F\u5206\u4EAB\u5230\u817E\u8BAF\u5FAE\u535A\u3002"
+   },
+   "message_35": {
+      "message": "\u6CA1\u6709\u627E\u5230\u9002\u5408\u7684\u56FE\u50CF\u3002"
+   },
+   "message_4": {
+      "description": "",
+      "message": "Please enter a valid Evernote's email address (name.xxxxx@m.evernote.com)."
+   },
+   "message_5": {
+      "description": "",
+      "message": "Please enter a valid Instapaper's email address (name.xxxxx@instapaper.com)."
+   },
+   "message_6": {
+      "description": "",
+      "message": "Go to Google Account..."
+   },
+   "message_7": {
+      "description": "",
+      "message": "Please input your Evernote's email address (xxx.xxxx@m.evernote.com):"
+   },
+   "message_8": {
+      "description": "",
+      "message": "Please input your Instapaper's email address (xxx.xxxx@instapaper.com):"
+   },
+   "message_9": {
+      "description": "",
+      "message": "Sorry, unable to grab content from this page.\u003Cbr/\u003E\u003Cbr/\u003EPlease highlight the text you want."
+   },
+   "options_button_clear": {
+      "description": "",
+      "message": "Change Email Address"
+   },
+   "options_button_input": {
+      "description": "",
+      "message": "Input"
+   },
+   "options_button_reset": {
+      "description": "",
+      "message": "Reset"
+   },
+   "options_button_save": {
+      "description": "",
+      "message": "Save"
+   },
+   "options_button_verify": {
+      "description": "",
+      "message": "Verify"
+   },
+   "options_explain_free_kindle": {
+      "description": "",
+      "message": "\u003Cb\u003E@free.kindle.com: \u003C/b\u003EWorks only with the Kindle 3, and only send over the Wi-Fi network.\u003Cbr/\u003E\u003Cbr/\u003EThe free.kindle.com option will not incur any data usage charges from Amazon.\u003Cbr/\u003E\u003Cbr/\u003EIf you have an earlier version of the Kindle, you'll receive the emails but the \"Send to Kindle\" documents will not be delivered to your Kindle."
+   },
+   "options_explain_kindle": {
+      "description": "",
+      "message": "\u003Cb\u003E@kindle.com: \u003C/b\u003EWorks with all Kindle models over 3G and Wi-Fi.\u003Cbr/\u003E\u003Cbr/\u003E\u003Cspan style=\"font-weight: bold;\"\u003EWhich will \u003Ca style=\"text-decoration: underline;\" href=\"http://www.amazon.com/gp/help/customer/display.html?nodeId=200505520&amp;#fees\"\u003Eincur charges for 3G delivery\u003C/a\u003E by Amazon.\u003C/span\u003E\u003Cbr/\u003E\u003Cbr/\u003E\"Send to Kindle\" assumes no responsibility for charges incurred by your use of this feature."
+   },
+   "options_instructions": {
+      "description": "",
+      "message": "\u003Ch2 style=\"text-align: left;\"\u003EInstructions\u003C/h2\u003E\u003Cp\u003EFirst, you \u003Cb style=\"color:red\"\u003Emust\u003C/b\u003E tell Amazon to allow \"kindle@klip.me\" email to reach your Kindle:\u003C/p\u003E\u003Col\u003E\u003Cli\u003EGo to \u003Ca href=\"https://www.amazon.com/gp/digital/fiona/manage?ie=UTF8#pdocSettings\" target=\"_blank\"\u003Eyour Kindle management page\u003C/a\u003E.\u003C/li\u003E\u003Cbr/\u003E\u003Cli\u003EUnder \u003Cb\u003EYour Kindle approved e-mail list\u003C/b\u003E, add the following address:\u003Cpre id=\"sender_address\" style=\"font-size:18px;font-family:Arial Black;\"\u003Ekindle@klip.me\u003C/pre\u003E\u003C/li\u003E\u003Cli\u003EUnder \u003Cb\u003EYour Kindle(s)\u003C/b\u003E, find the \u003Cb\u003EKindle E-mail Address\u003C/b\u003E and enter that in the box below.\u003C/li\u003E\u003C/ol\u003E\u003Cp style=\"color:red;font-weight:bold;\"\u003EPlease make sure that you have done this correctly.\u003C/p\u003E"
+   },
+   "options_label_1_click": {
+      "description": "",
+      "message": "1-Click  Send (When click \u003Cimg alt=\"icon\" src=\"images/icon16.png\"/\u003E button)"
+   },
+   "options_label_byEmail": {
+      "description": "",
+      "message": "Email: Will send a verification message to your address."
+   },
+   "options_label_byGoogleAccount": {
+      "description": "",
+      "message": "Google Account: Verify your email address \u003Cb\u003Einstantly\u003C/b\u003E."
+   },
+   "options_label_checking": {
+      "description": "",
+      "message": "Checking..."
+   },
+   "options_label_credit": {
+      "description": "",
+      "message": ""
+   },
+   "options_label_credit_detail": {
+      "description": "",
+      "message": ""
+   },
+   "options_label_experimental": {
+      "description": "",
+      "message": "experimental"
+   },
+   "options_label_findEvernoteEmail": {
+      "description": "",
+      "message": "Finding your Evernote Email Address"
+   },
+   "options_label_findInstapaperEmail": {
+      "description": "",
+      "message": "Finding your Instapaper Email Address"
+   },
+   "options_label_keepBlank": {
+      "description": "",
+      "message": "* Keep the value blank to disable shortcut"
+   },
+   "options_label_keep_images": {
+      "description": "",
+      "message": "Keep Images"
+   },
+   "options_label_keep_images_info": {
+      "description": "",
+      "message": "* When page size is too large, only send text"
+   },
+   "options_label_keep_paragraph_spacing": {
+      "description": "",
+      "message": "Increase Paragraphs Spacing"
+   },
+   "options_label_keyboradShorcuts": {
+      "description": "",
+      "message": "Keyboard Shortcuts:"
+   },
+   "options_label_myEmailAddress": {
+      "description": "",
+      "message": "My Email address:"
+   },
+   "options_label_my_kindle_email": {
+      "description": "",
+      "message": "My Kindle's email address:"
+   },
+   "options_label_others": {
+      "description": "",
+      "message": "Others:"
+   },
+   "options_label_preview": {
+      "description": "",
+      "message": "Preview:"
+   },
+   "options_label_pushtophone": {
+      "description": "",
+      "message": "Push web articles to your Email for reading later:"
+   },
+   "options_label_saved": {
+      "description": "",
+      "message": "Options saved"
+   },
+   "options_label_see_instructions": {
+      "description": "",
+      "message": "See \u003Cb\u003EInstructions\u003C/b\u003E above."
+   },
+   "options_label_send": {
+      "description": "",
+      "message": "Send:"
+   },
+   "options_label_send_email": {
+      "description": "",
+      "message": "Send to Email:"
+   },
+   "options_label_send_kindle": {
+      "description": "",
+      "message": "Send to Kindle:"
+   },
+   "options_label_send_kindle_email": {
+      "description": "",
+      "message": "Send to Kindle + Email:"
+   },
+   "options_label_throughwall": {
+      "description": "",
+      "message": "Through the \"\u003Ca href=\"http://en.wikipedia.org/wiki/Golden_Shield_Project\" target=\"_blank\"\u003EGreat Firewall\u003C/a\u003E\" (for China users)"
+   },
+   "options_label_verifyInfo": {
+      "description": "",
+      "message": "Verify your email address to confirm that you own the email."
+   },
+   "options_title": {
+      "description": "",
+      "message": "Send to Kindle Options"
+   }
+}

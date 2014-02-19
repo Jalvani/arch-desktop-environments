@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title i18n-content="options_title">Send to Kindle Options</title>
+		<link rel="Shortcut Icon" type="image/png" href="images/icon16.png">
+		<link rel="stylesheet" type="text/css" href="options.css">
+		<script type="text/javascript" src="lib/mootools-core.js"></script>
+		<script type="text/javascript" src="lib/mootools-more.js"></script>
+
+		<script type="text/javascript" src="options.js"></script>
+	</head>
+	<body>
+		<div id="head" class="box">
+			<h1 i18n-content="options_title">Send to Kindle Options</h1>
+		</div>
+
+		<div id="instructions" i18n-content="options_instructions" class="box" style="background-color:white;border-radius: 10px">
+	        <h2 style="text-align: left;">Instructions</h2>
+	        <p>
+	            First, you <b style="color:red">must</b> tell Amazon to allow "kindle@klip.me" email to reach your Kindle:
+	        </p>
+	        <ol>
+	            <li>Go to <a href="https://www.amazon.com/gp/digital/fiona/manage" target="_blank">your Kindle management page</a>.</li><br/>
+	            <li>
+	                Under <b>Your Kindle approved e-mail list</b>, add the following address:
+	                <pre id="sender_address" style="font-size:18px;font-family:Arial Black;">kindle@klip.me</pre>
+	            </li>
+	            <li>Under <b>Your Kindle(s)</b>, find the <b>Kindle E-mail Address</b> and enter that in the box below.</li>
+	        </ol>
+	        <p style="color:red;font-weight:bold;">
+	            Please make sure that you have done this correctly.
+	        </p>
+	    </div>
+
+		<div id="content" class="box">
+			<div style="padding:20px;">
+				<span style="font-weight:bold;" i18n-content="options_label_my_kindle_email">My Kindle's email address:</span><br/>
+				<div style="padding:10px;">
+					<input type="text" id="address_name" style="width:150px;padding:5px;background-color:#ffc;font-size:16px;font-weight:bold;" value=""/><span style="color:#E33100; font-weight:bold;font-size:16px;"> @ </span>
+					<select id="address_domain" style="font-size:16px;padding:5px;">
+	                    <option value="free.kindle.com" selected="selected">free.kindle.com</option>
+	                    <option value="kindle.com">kindle.com</option>
+	                    <option value="kindle.cn">kindle.cn</option>
+	                    <option value="iduokan.com">iduokan.com</option>
+	                </select>
+					<span i18n-content="options_label_see_instructions">
+                		See <b>Instructions</b> above.
+            		</span>
+				</div>
+				<ul style="list-style-type: none; padding: 10px;">
+                    <li id="free_kindle_com" class="explain selected" i18n-content="options_explain_free_kindle">
+						<b>@free.kindle.com: </b>
+						Works only with the Kindle 3, and only send over the Wi-Fi network.
+						<br/><br/>
+						The free.kindle.com option will not incur any data usage charges from Amazon.
+						<br/><br/>
+						If you have an earlier version of the Kindle, you'll receive the emails but the 'Send to Kindle' documents will not be delivered to your Kindle.
+                    </li>
+					<br/>
+                    <li id="kindle_com" class="explain unselected" i18n-content="options_explain_kindle">
+						<b>@kindle.com: </b>
+						Works with all Kindle models over 3G and Wi-Fi.
+						<br/><br/>
+						<span style="font-weight: bold;">
+						    Which will <a style="text-decoration: underline;" href="http://www.amazon.com/gp/help/customer/display.html?nodeId=200505520&amp;#fees">incur charges for 3G delivery</a> by Amazon.
+						</span>
+						<br/><br/>
+						'Send to Kindle' assumes no responsibility for charges incurred by your use of this feature.
+                    </li>
+                </ul>
+
+				<br/>
+				<table><tr>
+				<td style="width:360px;">
+					<span style="font-weight:bold;" i18n-content="options_label_keyboradShorcuts">Keyboard Shortcuts:</span><br/>
+					<div style="padding: 10px;">
+						<br/>
+						<div class="option_picker">
+							<span class="shortcut_name" i18n-content="options_label_preview">Preview: </span><input class="shortcut_value" id="key_preview" type="text" value=""/><br/>
+							<span class="shortcut_name" i18n-content="options_label_send_kindle">Send to Kindle: </span><input class="shortcut_value" id="key_send" type="text" value=""/><br/>
+							<span class="shortcut_name" i18n-content="options_label_send_later">Save: </span><input class="shortcut_value" id="key_save" type="text" value=""/><br/>
+							<div id="shortcuts_extra" style="padding:10px 0px;">
+								<span class="shortcut_name" i18n-content="options_label_send_mail">Send to Email: </span><input class="shortcut_value" id="key_send_mail" type="text" value=""/><br/>
+							</div>
+							<br/>
+							<span style="color:#888" i18n-content="options_label_keepBlank">* Keep the value blank to disable shortcut</span>
+						</div>
+					</div>
+	
+					<br/>
+					<span style="font-weight:bold;" i18n-content="options_label_others">Others:</span><br/>
+					<div style="padding: 10px;">
+						<br/>
+						<input type="checkbox" id="1-click" />
+						<label id="1-click_label" for="1-click" i18n-content="options_label_1_click">1-Click Send (When click <img alt="icon" src="images/icon16.png"/> button)</label>
+						<br/><br/>
+						<input type="checkbox" id="keep_images" />
+						<label id="keep_images_label" for="keep_images" i18n-content="options_label_keep_images">Keep Images</label>
+	                    <br/>
+						<p style="margin-left:4px;color:#888;" i18n-content="options_label_keep_images_info">* When page size is too large, only send text</p>
+						<br/>
+						<input type="checkbox" id="keep_paragraph_spacing" />
+						<label id="keep_paragraph_spacing_label" for="keep_paragraph_spacing" i18n-content="options_label_keep_paragraph_spacing">Increase Paragraphs Spacing</label>
+	                    <br/><br/>
+						<input type="checkbox" id="throughwall" />
+						<label style="color:#444;" id="throughwall_label" for="throughwall" i18n-content="options_label_throughwall">Through the "<a href="http://en.wikipedia.org/wiki/Golden_Shield_Project" target="_blank">Great Firewall</a>" (for China users)</label>
+					</div>
+				</td>
+				<td style="width:240px;vertical-align:top;">
+				<div style="background-color:#fe8;border-radius:10px;padding:10px 20px;">
+					<h2 style="text-align:center;">Save to Cloud</h2>
+					<hr/>
+					<p style="line-height:1.5em;">Klip.me running on <a target="_blank" href="http://code.google.com/appengine/">Google App Engine</a>. You can save all your Klips to Cloud for reading later.</p>
+					<h4 style="margin:4px;">* Sync with Kindle</h4>
+					<h4 style="margin:4px;">* Read on iOS/Android</h4>
+					<br/><br/>
+					<div style="text-align:center">
+						<a class="medium orange button" id="favSignin" href="#" title="Sign In with your Google Account" style="display:none;margin-bottom:20px;">Sign In »</a>
+						<a class="medium green button" id="favHome" href="#" title="Home" style="display:none;margin-bottom:20px;">My Klips</a>
+						<a class="medium grey button" id="favSignout" href="#" title="Sign Out" style="display:none;margin-bottom:20px;">Sign Out</a>
+					</div>
+					<h4>* Recommended, but not required.</h4>
+				</div>
+				</td>
+				</tr></table>
+			</div>
+
+			<div class="buttons">
+				<span id="save_status" i18n-content="options_label_saved">Options saved.</span>
+				<button id="save_button" i18n-content="options_button_save" style="font-size:20px;padding:2px 10px;">Save</button>
+				<button id="reset_button" i18n-content="options_button_reset" style="font-size:20px;padding:2px 10px;">Reset</button>
+			</div>
+			
+			<div id="credits" style="padding:20px;">
+				<hr/>
+				<span style="font-weight:bold;" i18n-content="options_label_credit"></span>
+				<span i18n-content="options_label_credit_detail"></span>
+			</div>
+		</div>
+
+		<div id="content2" class="box">
+			<div style="padding:20px;">
+				<span style="font-weight:bold;height: 50px;" i18n-content="options_label_pushtophone">Push web articles to your Email for reading later:</span> (<span style="color:red" i18n-content="options_label_experimental">experimental</span>) <br/><br/>
+				<span style="font-weight:bold;height: 50px;" i18n-content="options_label_myEmailAddress">My Email address:</span>
+				<span id="myEmailVerified" style="padding:10px 0px;display:none;">
+					<span id="myEmail" style="color:#00c;" i18n-content="options_label_checking">Checking...</span>
+					<button id="clearEmail" style="display:none;" href="#" i18n-content="options_button_clear">Clear</button>
+				</span>
+				<div style="padding:20px 0px;">
+					<div id="myEmailDescription" class="myEmailDescription enabled">
+						<div id="myEmailType" style="line-height:2em;">
+							<div>
+								<input type="radio" name="verifyType" id="verifyByEvernote" value="evernote" checked="true"/>
+								<label for="verifyByEvernote">Evernote</label>
+								<a id="findEmailEvernote" style="display:none;" target="_blank" href="https://www.evernote.com/User.action#summary" i18n-content="options_label_findEvernoteEmail">Finding your Evernote Email Address</a>
+								<button id="inputEvernoteEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
+							</div>
+							
+							<div>
+								<input type="radio" name="verifyType" id="verifyByInstapaper" value="instapaper" checked="fase"/>
+								<label for="verifyByInstapaper">Instapaper</label>
+								<a id="findEmailInstapaper" style="display:none;" target="_blank" href="http://www.instapaper.com/extras" i18n-content="options_label_findInstapaperEmail">Finding your Instapaper Email Address</a>
+								<button id="inputInstapaperEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_input">Input</button>
+							</div>
+
+							<hr style="margin:10px 0px;"/>
+						
+							<div>
+								<input type="radio" name="verifyType" id="verifyByGoogleAccount" value="gmail" checked="false"/>
+								<label for="verifyByGoogleAccount" i18n-content="options_label_byGoogleAccount">Google Account: Verify your email address <b>instantly</b>.</label>
+								<button id="verifyGmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_verify">Verify</button>
+							</div>
+
+							<div>
+								<input type="radio" name="verifyType" id="verifyByEmail" value="email"/>
+								<label for="verifyByEmail" i18n-content="options_label_byEmail">Email: Will send a verification message to your address.</label>
+								<button id="verifyEmail" style="display:none;float:right;width:80px;height:24px;font-weight:bold;" href="#" i18n-content="options_button_verify">Verify</button>
+							</div>
+						</div>
+						
+						<div id="myEmailStatus" style="display:none;padding:10px;background-color:#FFF1A8;"></div>
+						<div id="myEmailAlert" style="display:none;padding:10px;background-color:#FFF1A8;"></div>
+
+						<div id="myEmailNotVerified" style="padding:10px 0px;display:none;">
+							<span i18n-content="options_label_verifyInfo" style="color:#444;">Verify your email address to confirm that you own the email.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

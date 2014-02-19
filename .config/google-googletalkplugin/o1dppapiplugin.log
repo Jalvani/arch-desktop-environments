@@ -1,0 +1,74 @@
+[000:000] [o1d17562-1] Listening for HELLO.
+[000:002] [o1d17562-2] Listening for HELLO.
+[000:033] [o1d17562-1] Client connected.
+[000:034] [o1d17562-1] Registered new shared memory segment at 100
+[000:131] [o1d17562-1] Sending rendering size change: 181x102
+[000:131] [o1d17562-1] Unmapping shared mem: 100
+[000:132] Created new pool buffer at 0x143741a9a000, 57600 bytes
+[000:132] [o1d17562-1] Registered new shared memory segment at 101
+[002:754] [o1d17562-2] Shutting down instance.
+[002:754] [o1d17562-2] Client disconnected.
+[002:755] [o1d17562-1] Shutting down instance.
+[002:755] [o1d17562-1] Attached client while shutting down; sending shutdown notification.
+[002:755] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Connection reset by peer
+[002:755] [o1d17562-1] Client disconnected.
+[003:394] [o1d17562-3] Listening for HELLO.
+[003:397] [o1d17562-4] Listening for HELLO.
+[003:426] [o1d17562-5] Listening for HELLO.
+[003:429] [o1d17562-6] Listening for HELLO.
+[004:189] [o1d17562-6] Client connected.
+[004:190] [o1d17562-6] Registered new shared memory segment at 102
+[004:191] [o1d17562-4] Client connected.
+[004:192] [o1d17562-4] Registered new shared memory segment at 103
+[004:238] Error(plugin.cc:262): libyuv scale failed (-1)
+[004:239] [o1d17562-7] Listening for HELLO.
+[004:244] [o1d17562-8] Listening for HELLO.
+[004:256] [o1d17562-6] Sending rendering size change: 101x0
+[004:256] [o1d17562-6] Unmapping shared mem: 102
+[004:256] Created new pool buffer at 0x143741ab7000, 57600 bytes
+[004:256] [o1d17562-6] Registered new shared memory segment at 104
+[004:277] [o1d17562-8] Client connected.
+[004:277] [o1d17562-8] Registered new shared memory segment at 105
+[004:290] Error(plugin.cc:262): libyuv scale failed (-1)
+[004:292] [o1d17562-6] Sending rendering size change: 179x100
+[005:852] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:852] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:885] [o1d17562-4] Sending rendering size change: 101x0
+[005:885] [o1d17562-4] Unmapping shared mem: 103
+[005:885] Created new pool buffer at 0x143741ac6000, 57600 bytes
+[005:885] [o1d17562-4] Registered new shared memory segment at 106
+[005:885] [o1d17562-8] Sending rendering size change: 1182x0
+[005:885] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:918] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:919] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:984] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:989] Error(plugin.cc:262): libyuv scale failed (-1)
+[005:989] [o1d17562-4] Sending rendering size change: 179x100
+[006:004] [o1d17562-8] Sending rendering size change: 825x464
+[013:284] Error(naclhelpers.cc:170): nacl::ReceiveMessage failed : Connection reset by peer
+[013:284] Error(flutemessagelistener.cc:316): [o1d17562-6] Failure to receive datagrams.
+[013:317] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Broken pipe
+[013:350] [o1d17562-6] Client disconnected.
+[013:350] Created new pool buffer at 0x143741ae1000, 230400 bytes
+[013:350] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Broken pipe
+[042:200] Error(naclhelpers.cc:170): nacl::ReceiveMessage failed : Connection reset by peer
+[042:200] Error(flutemessagelistener.cc:316): [o1d17562-4] Failure to receive datagrams.
+[042:210] Error(naclhelpers.cc:170): nacl::ReceiveMessage failed : Connection reset by peer
+[042:210] Error(flutemessagelistener.cc:316): [o1d17562-8] Failure to receive datagrams.
+[042:233] [o1d17562-4] Client disconnected.
+[042:233] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Broken pipe
+[042:243] [o1d17562-8] Client disconnected.
+[042:243] Created new pool buffer at 0x143741b22000, 57600 bytes
+[042:243] Error(naclhelpers.cc:62): nacl::SendDatagram failed : Broken pipe
+[043:008] [o1d17562-4] Shutting down instance.
+[043:008] [o1d17562-4] Client disconnected.
+[043:009] [o1d17562-3] Shutting down instance.
+[043:009] [o1d17562-3] Client disconnected.
+[075:479] [o1d17562-7] Shutting down instance.
+[075:479] [o1d17562-7] Client disconnected.
+[075:479] [o1d17562-8] Shutting down instance.
+[075:479] [o1d17562-8] Client disconnected.
+[496:541] [o1d17562-6] Shutting down instance.
+[496:542] [o1d17562-6] Client disconnected.
+[496:543] [o1d17562-5] Shutting down instance.
+[496:543] [o1d17562-5] Client disconnected.

@@ -1,0 +1,86 @@
+{
+   "browserActionPopup_download": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "T\u00E9l\u00E9charger KeyRocket"
+   },
+   "browserActionPopup_download_excel": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... pour Microsoft Excel"
+   },
+   "browserActionPopup_download_outlook": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... pour Microsoft Outlook"
+   },
+   "browserActionPopup_download_powerpoint": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... pour Microsoft PowerPoint"
+   },
+   "browserActionPopup_download_win": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... pour Windows 7, XP ou Vista"
+   },
+   "browserActionPopup_download_word": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "... pour Microsoft Word"
+   },
+   "browserActionPopup_feedback": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "Aide - Signaler un probl\u00E8me ou faire un retour !"
+   },
+   "browserActionPopup_review": {
+      "description": "Label in the Popup of the Browser Action.",
+      "message": "Noter et commenter KeyRocket !"
+   },
+   "extensionDescription": {
+      "description": "The description of the extension in Chrome (not the big one in the Store).",
+      "message": "La meilleure fa\u00E7on d'apprendre les raccourcis clavier pendant que vous travaillez avec Gmail\u2122 par http://www.keyrocket.com."
+   },
+   "extensionName": {
+      "description": "The name/title of the extension in Chrome and the Chrome Webstore",
+      "message": "KeyRocket pour Gmail\u2122"
+   },
+   "gmailSettingsMessage_Done": {
+      "description": "Button text of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "C'est fait !"
+   },
+   "gmailSettingsMessage_Not_Now": {
+      "description": "Button text of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Pas maintenant, rappelez-le-moi plus tard."
+   },
+   "gmailSettingsMessage_Part_01": {
+      "description": "The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Pour que KeyRocket pour Gmail\u2122 fonctionne bien, veuillez :"
+   },
+   "gmailSettingsMessage_Part_02_optional_Settings": {
+      "description": "Name of the 'Settings' category in Gmail. Shown if hint is not shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Param\u00E8tres"
+   },
+   "gmailSettingsMessage_Part_02_optional_goTo": {
+      "description": "Hint to switch to the 'Settings' category in Gmail. Shown if hint is not shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Aller \u00E0"
+   },
+   "gmailSettingsMessage_Part_03_optional_Set_Display_Language": {
+      "description": "Hint to change display language to a English. Shown on the Settings page Optional Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Mettre votre 'Langue d'affichage de Gmail' sur 'Fran\u00E7ais'"
+   },
+   "gmailSettingsMessage_Part_04_Set_KeyboardShortcuts_On": {
+      "description": "Hint to set keyboard shortcuts to on. Shown as Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Mettre 'Raccourcis clavier' sur 'Activer les raccourcis clavier'"
+   },
+   "gmailSettingsMessage_Part_05_Save_Settings": {
+      "description": "Hint to save settings. Shown as Part of The message shown for Gmail settings to make the extension show notifications.",
+      "message": "Enregistrer vos param\u00E8tres."
+   },
+   "notificationMiss_Or": {
+      "description": "Linking part between alternative of the Missed Notifaction 'Press x or y to Go to Inbox.",
+      "message": "ou"
+   },
+   "notificationMiss_Press": {
+      "description": "Starting part of the Missed Notifaction 'Press g then i to Go to Inbox.",
+      "message": "Pressez"
+   },
+   "notificationMiss_Then": {
+      "description": "Linking part between sequences of the Missed Notifaction 'Press g then i to Go to Inbox.",
+      "message": "puis"
+   }
+}

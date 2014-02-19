@@ -1,0 +1,1003 @@
+{
+   "1093196373615461508": {
+      "message": "Spiacenti, al momento non \u00E8 possibile visualizzare l'immagine."
+   },
+   "1098726677907695030": {
+      "message": "Registrazione vocale: "
+   },
+   "1160186203475556062": {
+      "message": "$2\u200BRimuovi immagine$1\u200B"
+   },
+   "1185164838496022543": {
+      "message": "Fai clic qui per ricaricare la pagina."
+   },
+   "1263685395252160366": {
+      "message": "LaTeX"
+   },
+   "1398025099726122129": {
+      "message": "Errore durante la visualizzazione di $1\u200B. Nuovo tentativo in corso."
+   },
+   "139942704574044780": {
+      "message": "Accetta"
+   },
+   "1419896259743862406": {
+      "message": "Apri con"
+   },
+   "1435613501685026676": {
+      "message": "Chiudi"
+   },
+   "1446829548948002072": {
+      "message": "virgola"
+   },
+   "1454684154234137497": {
+      "message": "pausa"
+   },
+   "1462902182020106181": {
+      "message": "Aggiungi un titolo..."
+   },
+   "1484121429181423440": {
+      "message": "Non connesso. Ricarica."
+   },
+   "1499433769420882987": {
+      "message": "Visualizzazione di $1\u200B"
+   },
+   "1527836113392558206": {
+      "message": "Caricamento in corso..."
+   },
+   "1536051766421561160": {
+      "message": "uguale"
+   },
+   "156992719062713230": {
+      "message": "Grigio"
+   },
+   "1700522311470719738": {
+      "message": "Ricordami"
+   },
+   "1709410429018687341": {
+      "message": "Mattina ($1\u200B)"
+   },
+   "1791115075948268631": {
+      "message": "Apri la guida per le scorciatoie da tastiera"
+   },
+   "1808245543551507519": {
+      "message": "Audio"
+   },
+   "1815108332424147305": {
+      "message": "Oppure prova un'applicazione consigliata"
+   },
+   "1823222042913714987": {
+      "message": "Invia password"
+   },
+   "1847413775362184342": {
+      "message": "Apri"
+   },
+   "1856444915090632305": {
+      "message": "Il documento \u00E8 criptato. Inserisci una password."
+   },
+   "187077078156858455": {
+      "message": "Nota audio"
+   },
+   "1900571668686750716": {
+      "message": "vCard"
+   },
+   "1900829747616936506": {
+      "message": "Torna alla home page"
+   },
+   "1918176455405610789": {
+      "message": "Fine"
+   },
+   "1920189655549476211": {
+      "message": "durata sconosciuta"
+   },
+   "1935425718037933511": {
+      "message": "Inserisci un nuovo nome per il documento:"
+   },
+   "1965626377712226216": {
+      "message": "Keynote"
+   },
+   "2055388154421214950": {
+      "message": "Collega altre applicazioni"
+   },
+   "2061440050632248160": {
+      "message": "Archivia"
+   },
+   "2068023589621557589": {
+      "message": "Carattere TrueType"
+   },
+   "210610357717331623": {
+      "message": "Altro"
+   },
+   "212796670323571824": {
+      "message": "OK"
+   },
+   "2154372123324862271": {
+      "message": "barra"
+   },
+   "2185270915942408270": {
+      "message": "Esegui zoom e adatta"
+   },
+   "2187239650627580457": {
+      "message": "Invia"
+   },
+   "2198096971937872560": {
+      "message": "Promemoria:"
+   },
+   "221715292685577880": {
+      "message": "S\u00EC"
+   },
+   "2220005860896049129": {
+      "message": "Spiacenti. La ricerca del documento presso la posizione originale ha richiesto troppo tempo."
+   },
+   "2228413078211839077": {
+      "message": "Siamo spiacenti, stiamo riscontrando un problema temporaneo nella generazione della visualizzazione del documento."
+   },
+   "2257303402199718039": {
+      "message": "Spiacenti. Impossibile trovare il documento nella posizione originale. Verifica che il documento esista ancora."
+   },
+   "2289812403593835836": {
+      "message": "Pages"
+   },
+   "229177484946387188": {
+      "message": "Google Earth"
+   },
+   "2307106955255567860": {
+      "message": "Fine"
+   },
+   "2329167963662998826": {
+      "message": "Google Keep vorrebbe utilizzare la tua posizione per migliorare i suggerimenti nei promemoria basati sui luoghi."
+   },
+   "2341472379592330773": {
+      "message": "Titolo..."
+   },
+   "2359614137862708172": {
+      "message": "Maiusc"
+   },
+   "2370656573843123707": {
+      "message": "parentesi quadra chiusa"
+   },
+   "2412314804333167252": {
+      "message": "Le dimensioni del foglio di lavoro sono eccessive. Fai clic per $3\u200Bscaricarlo$1\u200B o $4\u200Bmodificalo in Editor di fogli di lavoro Google$1\u200B."
+   },
+   "2415274561162670983": {
+      "message": "Spiacenti, al momento non \u00E8 possibile visualizzare il video."
+   },
+   "2449254824382583885": {
+      "message": "Separa"
+   },
+   "2450327925369898841": {
+      "message": "Spiacenti, si \u00E8 verificato un errore durante l'aggiunta dell'elemento a Drive. Riprova."
+   },
+   "2455753442347598108": {
+      "message": "Sei uscito dal visualizzatore"
+   },
+   "2475181823688399272": {
+      "message": "Avanti"
+   },
+   "2510929871271209216": {
+      "message": "Le dimensioni del foglio di lavoro sono eccessive. Fai clic $2\u200Bqui$1\u200B per scaricarlo."
+   },
+   "2513437337377210144": {
+      "message": "fine"
+   },
+   "257317112834806705": {
+      "message": "Consente di spostarsi tra la visualizzazione elenco e griglia"
+   },
+   "2609409316752026806": {
+      "message": "PDF"
+   },
+   "2611879390264566852": {
+      "message": "Foglio di lavoro OpenOffice"
+   },
+   "2646734195256984201": {
+      "message": "$1\u200B di $2\u200B"
+   },
+   "2704432088262196025": {
+      "message": "Fai clic per modificare il titolo..."
+   },
+   "2705842902318123127": {
+      "message": "Consente di passare alla nota/all'elenco successivo/precedente"
+   },
+   "2722769111953965548": {
+      "message": "Non hai note in archivio. $2\u200BTorna alla home page$1\u200B"
+   },
+   "2742719907061406418": {
+      "message": "XML"
+   },
+   "2789687492331041935": {
+      "message": "Scegli un'ora"
+   },
+   "2797747720090426200": {
+      "message": "Siamo spiacenti, anteprima non disponibile."
+   },
+   "2814668529404267263": {
+      "message": "Accedi"
+   },
+   "2817277146396981386": {
+      "message": "pm"
+   },
+   "2827039933590757722": {
+      "message": "Collegamento Windows"
+   },
+   "2833524492098518257": {
+      "message": "Applicazioni collegate"
+   },
+   "2842885468107862276": {
+      "message": "Aggiungi a Drive e apri"
+   },
+   "289798573180023043": {
+      "message": "OK"
+   },
+   "3029395493413607486": {
+      "message": "Impossibile caricare il video player. Prova a ricaricare la pagina.$1\u200BSe il problema persiste,$3\u200Bconsulta il Centro assistenza$2\u200B."
+   },
+   "306516303501625305": {
+      "message": "Autenticazione non riuscita."
+   },
+   "3073005748126521632": {
+      "message": "Promemoria ricevuto in $1\u200B"
+   },
+   "3109321241584918345": {
+      "message": "Collega altre applicazioni..."
+   },
+   "3121560585545725724": {
+      "message": "$1\u200B, $2\u200B"
+   },
+   "3222929029344613957": {
+      "message": "Spiacenti. Si \u00E8 verificato un errore durante l'apertura di questo file. Riprova."
+   },
+   "3250489229749307913": {
+      "message": "Electronic Publication"
+   },
+   "3265524298292280681": {
+      "message": "esc"
+   },
+   "3267563602179728277": {
+      "message": "canc"
+   },
+   "3275029321588462173": {
+      "message": "Nessuno"
+   },
+   "330603631583186798": {
+      "message": "Word"
+   },
+   "3306487262690341751": {
+      "message": "Data e ora"
+   },
+   "3312545971976531405": {
+      "message": "Messaggio"
+   },
+   "3354260708176476985": {
+      "message": "Caricamento in corso&hellip;"
+   },
+   "3368639944474272225": {
+      "message": "Spiacenti. Impossibile recuperare il documento per la visualizzazione oppure non hai le autorizzazioni necessarie per visualizzarlo."
+   },
+   "3381619429606029445": {
+      "message": "Visio"
+   },
+   "3408219901032480508": {
+      "message": "$2\u200B; $1\u200B"
+   },
+   "3421685394169412932": {
+      "message": "Ogni modifica viene salvata automaticamente"
+   },
+   "3446158485617778228": {
+      "message": "Annulla"
+   },
+   "3449760465250232736": {
+      "message": "Visualizza tutti"
+   },
+   "3468441711253011521": {
+      "message": "Editor di fogli di lavoro Google"
+   },
+   "3468557655011162775": {
+      "message": "Siamo spiacenti, questo file audio non pu\u00F2 essere riprodotto in questo browser."
+   },
+   "3518073392823563581": {
+      "message": "Scorciatoie da tastiera"
+   },
+   "3522555889277726107": {
+      "message": "Pagina $1\u200B"
+   },
+   "3547194749488601916": {
+      "message": "Aggiornamento in corso..."
+   },
+   "3578537640378068716": {
+      "message": "Invia password"
+   },
+   "3595000514985906359": {
+      "message": "Excel"
+   },
+   "3602920441714068008": {
+      "message": "Promemoria ricevuto il $1\u200B alle $2\u200B"
+   },
+   "3616146071554077404": {
+      "message": "Aumenta zoom"
+   },
+   "3645728163953189422": {
+      "message": "Spiacenti. Le dimensioni del documento sono eccessive. Impossibile recuperarlo."
+   },
+   "3657386785336906042": {
+      "message": "barra rovesciata"
+   },
+   "3664842788764635265": {
+      "message": "Nessuno"
+   },
+   "3666123569747918021": {
+      "message": "Questo documento contiene modifiche non salvate. Vuoi uscire dalla pagina e annullare le modifiche?"
+   },
+   "3678477908297567934": {
+      "message": "trattino basso"
+   },
+   "3701351750654338878": {
+      "message": "Diminuisci zoom"
+   },
+   "3748461364828242354": {
+      "message": "Seleziona colore"
+   },
+   "3770795578481676514": {
+      "message": "Giallo"
+   },
+   "381100310424863459": {
+      "message": "Illustrator"
+   },
+   "3842411126100113634": {
+      "message": "pag su"
+   },
+   "3869166581651870488": {
+      "message": "Consente di terminare la modifica"
+   },
+   "3988418762222300024": {
+      "message": "punto"
+   },
+   "3989552504822984034": {
+      "message": "Disegni Google"
+   },
+   "400095519884819353": {
+      "message": "Separa"
+   },
+   "4007354186943974092": {
+      "message": "Titolo..."
+   },
+   "4010819960568614518": {
+      "message": "Spiacenti, anteprima non disponibile."
+   },
+   "4014287326684608407": {
+      "message": "Verde acqua"
+   },
+   "4059387791040010947": {
+      "message": "Meta"
+   },
+   "4097921967754832323": {
+      "message": "trattino"
+   },
+   "4110142030958917807": {
+      "message": "Note archiviate"
+   },
+   "4134385041569168669": {
+      "message": "Caricamento in corso..."
+   },
+   "4165433071549564698": {
+      "message": "Visualizzazione di $1\u200B"
+   },
+   "4174786386751618325": {
+      "message": "Nota fotografica"
+   },
+   "4182427157920112948": {
+      "message": "tilde"
+   },
+   "4205329094859140439": {
+      "message": "am"
+   },
+   "4230101516585408149": {
+      "message": "Scrivi una nuova nota"
+   },
+   "429840734875582508": {
+      "message": "..."
+   },
+   "4299690446455033653": {
+      "message": "Works"
+   },
+   "4314643310615423802": {
+      "message": "Sei stato disconnesso."
+   },
+   "4318861667254318892": {
+      "message": "Google Video"
+   },
+   "4320831042030778": {
+      "message": "Annulla"
+   },
+   "4372755508519489521": {
+      "message": "Visualizzazione griglia"
+   },
+   "4395845663892873002": {
+      "message": "home"
+   },
+   "4564682305303579317": {
+      "message": "Continua"
+   },
+   "4748046231232264180": {
+      "message": "Moduli Google"
+   },
+   "4767722428137216885": {
+      "message": "Annulla"
+   },
+   "477328789314249432": {
+      "message": "Cerca nelle note"
+   },
+   "4785794631061168971": {
+      "message": "Collega"
+   },
+   "4806763987633034948": {
+      "message": "Firma PKCS7"
+   },
+   "4889853674709731963": {
+      "message": "Tutte le note sono state salvate offline"
+   },
+   "4901386320110714275": {
+      "message": "Password sbagliata. Riprova."
+   },
+   "490372259452655427": {
+      "message": "Spiacenti. Il documento non \u00E8 ancora disponibile per la visualizzazione."
+   },
+   "4943176738805484221": {
+      "message": "modifica"
+   },
+   "4956678140555659175": {
+      "message": "backspace"
+   },
+   "4957674814179289955": {
+      "message": "Consente di passare alla voce successiva/precedente dell'elenco"
+   },
+   "509815948423424872": {
+      "message": "Navigazione"
+   },
+   "5129218019779162494": {
+      "message": "Documento Google"
+   },
+   "5180989337128758117": {
+      "message": "parentesi quadra aperta"
+   },
+   "5197718200713913936": {
+      "message": "C++"
+   },
+   "5204391636475413312": {
+      "message": "Salva"
+   },
+   "5217641707432141671": {
+      "message": "Spiacenti, si \u00E8 verificato un errore."
+   },
+   "5288037028604092288": {
+      "message": "XPS"
+   },
+   "5299648222246616124": {
+      "message": "accento grave"
+   },
+   "5316658541831864803": {
+      "message": "Spiacenti. La visualizzazione di questo tipo di documento non \u00E8 supportata."
+   },
+   "5336801339221383042": {
+      "message": "JavaScript"
+   },
+   "5353129315502554762": {
+      "message": "Foglio di stile"
+   },
+   "5372160981898991853": {
+      "message": "Publisher"
+   },
+   "5394142149034044812": {
+      "message": "Collegata"
+   },
+   "5408091115193390231": {
+      "message": "AutoCAD"
+   },
+   "5438481737351808090": {
+      "message": "Pomeriggio ($1\u200B)"
+   },
+   "5438584181753813038": {
+      "message": "Apri nell'applicazione predefinita"
+   },
+   "5465323999933375616": {
+      "message": "Hai raggiunto il limite di larghezza di banda per la visualizzazione o il download di file che non sono nel formato Documenti Google."
+   },
+   "5514516347328112388": {
+      "message": "Puoi anche provare a scaricare il documento originale facendo clic $2\u200Bqui$1\u200B."
+   },
+   "5555182241047709329": {
+      "message": "Scegli un luogo"
+   },
+   "5561862020931783154": {
+      "message": "$1\u200B di $2\u200B"
+   },
+   "5580293639634492604": {
+      "message": "Archiviata."
+   },
+   "5598649706113950710": {
+      "message": "Editor"
+   },
+   "5598877389451818095": {
+      "message": "Apri con"
+   },
+   "5600873340302959883": {
+      "message": "Inserisci un'immagine..."
+   },
+   "5631086126416409232": {
+      "message": "Blu"
+   },
+   "564165666160590723": {
+      "message": "Windows Media Player"
+   },
+   "5672358806532843305": {
+      "message": "Visualizzazione di $1\u200B."
+   },
+   "568072913338360182": {
+      "message": "HTML"
+   },
+   "5706242163161626046": {
+      "message": "I tipi di file supportati sono: $1\u200B"
+   },
+   "5714240424645614611": {
+      "message": "Pacchetto Android"
+   },
+   "5728640851616538925": {
+      "message": "Verde"
+   },
+   "5785010887521443923": {
+      "message": "Rimuovi"
+   },
+   "5879988349590045594": {
+      "message": "Per accedere a $1\u200B \u00E8 necessaria una password. Inseriscila."
+   },
+   "5971400924847413790": {
+      "message": "In alternativa, puoi visualizzare la versione $2\u200BHTML di base$1\u200B (esegue il reindirizzamento automatico)."
+   },
+   "5984398071085567332": {
+      "message": "Google Fusion Tables"
+   },
+   "60305871484579258": {
+      "message": "Alt"
+   },
+   "6044366909115009874": {
+      "message": "Ridenominazione non riuscita. Riprova pi\u00F9 tardi."
+   },
+   "6064654062949366878": {
+      "message": "Riproduci"
+   },
+   "6070475007374165567": {
+      "message": "Salvataggio in corso..."
+   },
+   "6112815042442423467": {
+      "message": "La ricerca di $3\u200B$2\u200B$1\u200B nelle note non ha prodotto risultati."
+   },
+   "6113237889871930608": {
+      "message": "Nota vuota"
+   },
+   "6122643025527543706": {
+      "message": "Ctrl"
+   },
+   "6125026684392468184": {
+      "message": "Stampa"
+   },
+   "6131822680770571276": {
+      "message": "PowerPoint"
+   },
+   "6148792237718135476": {
+      "message": "Consenti"
+   },
+   "6186290899408627510": {
+      "message": "invio"
+   },
+   "6203260615455347677": {
+      "message": "Numeri"
+   },
+   "6223207695466118454": {
+      "message": "YouTube"
+   },
+   "6231401379881217113": {
+      "message": "ins"
+   },
+   "6244042389101116716": {
+      "message": "Anteprima non disponibile. Applicazioni disponibili."
+   },
+   "6252254957484336670": {
+      "message": "Indietro"
+   },
+   "6253076263700695984": {
+      "message": "Errore di autenticazione. Carica di nuovo."
+   },
+   "6267063643272327592": {
+      "message": "Riprova pi\u00F9 tardi."
+   },
+   "6300664968211817037": {
+      "message": "Ripristinata."
+   },
+   "6324768448533022780": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "6328169385501719003": {
+      "message": "Nuova nota"
+   },
+   "6333496730738019575": {
+      "message": "Caricamento in corso..."
+   },
+   "6362170008350775214": {
+      "message": "Promemoria in $1\u200B"
+   },
+   "6386587519843563719": {
+      "message": "File binario"
+   },
+   "6436479735235889890": {
+      "message": "Promemoria alle $2\u200B, $1\u200B"
+   },
+   "6459405233858728718": {
+      "message": "Presentazioni Google"
+   },
+   "6466736813846482957": {
+      "message": "Indietro"
+   },
+   "6479216014938929613": {
+      "message": "Notte ($1\u200B)"
+   },
+   "6489419020139804370": {
+      "message": "Fine ricerca"
+   },
+   "6522917155620379865": {
+      "message": "Scarica"
+   },
+   "6524849072392100692": {
+      "message": "Cartella Google Drive"
+   },
+   "6582388186847564929": {
+      "message": "Consente di eliminare la nota/l'elenco"
+   },
+   "6588176324871799870": {
+      "message": "Google Apps Script"
+   },
+   "6622304228074863427": {
+      "message": "Applicazione"
+   },
+   "6641337723603310112": {
+      "message": "Eliminata."
+   },
+   "6644861766016503644": {
+      "message": "Password obbligatoria"
+   },
+   "6650837823238391202": {
+      "message": "Avanti"
+   },
+   "6707173584987026005": {
+      "message": "Oggi"
+   },
+   "6718621885152420894": {
+      "message": "Elenco senza titolo"
+   },
+   "6757218172402086688": {
+      "message": "Cerca nelle note..."
+   },
+   "6780628488957834429": {
+      "message": "Arancione"
+   },
+   "6926055840246960182": {
+      "message": "Visualizza tutti gli elementi"
+   },
+   "6940998537415516791": {
+      "message": "alle"
+   },
+   "6966117577694636785": {
+      "message": "Dimensioni massime file: $1\u200B MB."
+   },
+   "703014642434496879": {
+      "message": "Digita una nota..."
+   },
+   "7054631817922169541": {
+      "message": "Google Keep contiene modifiche non salvate. Vuoi uscire dalla pagina e annullare le modifiche?"
+   },
+   "7054907873263821": {
+      "message": "Ripristina"
+   },
+   "705833829394544221": {
+      "message": "Mostra in Drive"
+   },
+   "7084991134824194740": {
+      "message": "Ricordami"
+   },
+   "7116394962547236971": {
+      "message": "Consenti a Google Keep di visualizzare le notifiche?"
+   },
+   "713754035716193665": {
+      "message": "Nuovo elenco"
+   },
+   "7146242673022399081": {
+      "message": "Testo"
+   },
+   "7188024175807042621": {
+      "message": "Voce elenco..."
+   },
+   "7188754206068648188": {
+      "message": "Dati separati da virgole"
+   },
+   "7206429144039020706": {
+      "message": "Impossibile caricare altre pagine."
+   },
+   "7225837680381806920": {
+      "message": "Sera ($1\u200B)"
+   },
+   "722702934847795304": {
+      "message": "Project"
+   },
+   "7257381023528410292": {
+      "message": "Elimina"
+   },
+   "7326565093670055435": {
+      "message": "Applicazioni consigliate"
+   },
+   "734478884582426793": {
+      "message": "Archivio compresso"
+   },
+   "7364571366369083618": {
+      "message": "Video"
+   },
+   "7367958022583310325": {
+      "message": "Presentazione OpenOffice"
+   },
+   "7377239345926788722": {
+      "message": "Azioni"
+   },
+   "7393771571081973549": {
+      "message": "C"
+   },
+   "740507516967994591": {
+      "message": "Apri"
+   },
+   "7422452809590461532": {
+      "message": "Rosso"
+   },
+   "7426603384368095928": {
+      "message": "Ricarica la pagina per accedere di nuovo e continuare a lavorare."
+   },
+   "7428490253130883654": {
+      "message": "Trova nel documento"
+   },
+   "7429084719905985261": {
+      "message": "Objective C"
+   },
+   "7432956605646331928": {
+      "message": "SQL"
+   },
+   "7451573821837395189": {
+      "message": "L'elemento \u00E8 stato aggiunto a $2\u200BDrive$1\u200B."
+   },
+   "7488945223835574498": {
+      "message": "PostScript"
+   },
+   "754562894809764325": {
+      "message": "Apri con"
+   },
+   "7546994163355383999": {
+      "message": "Tutte le note sono state salvate"
+   },
+   "7561401550697263017": {
+      "message": "Caricamento di $1\u200B."
+   },
+   "7561835096421626440": {
+      "message": "Chiudi barra di ricerca"
+   },
+   "7602870977118971161": {
+      "message": "Ricarica"
+   },
+   "7614241747607201251": {
+      "message": "Errore durante la visualizzazione di $1\u200B."
+   },
+   "7616903319374696418": {
+      "message": "Salva in Drive"
+   },
+   "7621335927565458184": {
+      "message": "Nota..."
+   },
+   "7621429484880737652": {
+      "message": "Ignora"
+   },
+   "7664490637734113846": {
+      "message": "Collega altre applicazioni"
+   },
+   "7692525489619342577": {
+      "message": "Ignora"
+   },
+   "7734578122414851725": {
+      "message": "PHP"
+   },
+   "776065748745885880": {
+      "message": "spazio"
+   },
+   "7830513726270865588": {
+      "message": "Calendario"
+   },
+   "7889351669453500220": {
+      "message": "Impossibile caricare altre pagine. Nuovo tentativo in corso."
+   },
+   "7895643887742936844": {
+      "message": "punto e virgola"
+   },
+   "7911084466250509025": {
+      "message": "Scegli un'immagine da caricare"
+   },
+   "794202635102531782": {
+      "message": "Il file pu\u00F2 essere aperto o modificato con le seguenti applicazioni"
+   },
+   "7945839336462142841": {
+      "message": "$1\u200B $2\u200B"
+   },
+   "7948723884189309228": {
+      "message": "Impossibile caricare il file."
+   },
+   "7962728344554282160": {
+      "message": "Aumenta zoom"
+   },
+   "8069135745789664170": {
+      "message": "Aggiunta a Drive in corso..."
+   },
+   "8087751641867346064": {
+      "message": "Documento OpenOffice"
+   },
+   "8126700207146858047": {
+      "message": "Rinomina documento"
+   },
+   "8134417366733972066": {
+      "message": "Anteprima non disponibile."
+   },
+   "8193991135666622583": {
+      "message": "keep"
+   },
+   "821942580510564685": {
+      "message": "Inserisci la password di questo documento per visualizzarlo"
+   },
+   "8267458240960831780": {
+      "message": "Autenticazione in corso..."
+   },
+   "8281141013543828574": {
+      "message": "Immagine raw"
+   },
+   "829373983432978641": {
+      "message": "Impossibile caricare la pagina."
+   },
+   "8299047746309466797": {
+      "message": "Sei entrato nel visualizzatore"
+   },
+   "8324195080917648153": {
+      "message": "La finestra del browser \u00E8 troppo piccola per il video. Ingrandiscila leggermente."
+   },
+   "8337582740675387693": {
+      "message": "Java"
+   },
+   "8342684858400436871": {
+      "message": "tab"
+   },
+   "834835979652266872": {
+      "message": "$1\u200B di $2\u200B"
+   },
+   "8379952094517631162": {
+      "message": "No"
+   },
+   "8408756681779291666": {
+      "message": "Cerca nelle note"
+   },
+   "8436817383042650304": {
+      "message": "bloc maiusc"
+   },
+   "8467894483369467251": {
+      "message": "Flash"
+   },
+   "8586521576836841032": {
+      "message": "Siamo spiacenti, si \u00E8 verificato un errore. Nuovo tentativo in corso."
+   },
+   "8596257056433048992": {
+      "message": "Benvenuto in"
+   },
+   "8621067185485606452": {
+      "message": "ECMAScript"
+   },
+   "8660016472468563221": {
+      "message": "due punti"
+   },
+   "8663507590720636709": {
+      "message": "$1\u200B + altri $2\u200B"
+   },
+   "8674222789100049233": {
+      "message": "Chiudi"
+   },
+   "8677820266582418177": {
+      "message": "Siamo spiacenti, si \u00E8 verificato un errore."
+   },
+   "8709611758728645225": {
+      "message": "pag gi\u00F9"
+   },
+   "873811949056724870": {
+      "message": "Nota creata."
+   },
+   "8775097441636640256": {
+      "message": "$2\u200B - $1\u200B"
+   },
+   "8781837301864053001": {
+      "message": "Rtf"
+   },
+   "8798805450232120940": {
+      "message": "Altre applicazioni collegate"
+   },
+   "8813101408630252335": {
+      "message": "$1\u200B sec"
+   },
+   "8822326207328431952": {
+      "message": "I caricamenti delle immagini non sono disponibili"
+   },
+   "8884900765322249670": {
+      "message": "Visualizzazione elenco"
+   },
+   "8889019648958415451": {
+      "message": "File sconosciuto"
+   },
+   "8916237870980173557": {
+      "message": "Connessione in corso..."
+   },
+   "8919660666733306860": {
+      "message": "Immagine"
+   },
+   "901615442107785480": {
+      "message": "Consente di archiviare la nota/l'elenco"
+   },
+   "9028041601596584772": {
+      "message": "Luogo"
+   },
+   "9058308423774656474": {
+      "message": "Elaboratore testi Hangul"
+   },
+   "9083935734710258396": {
+      "message": "Rifiuta"
+   },
+   "911586799466052745": {
+      "message": "Disegno OpenOffice"
+   },
+   "9146716987301178362": {
+      "message": "Si \u00E8 verificato un errore. Ricarica."
+   },
+   "9182500445937900938": {
+      "message": "Chiudi"
+   },
+   "9210545340040914022": {
+      "message": "$2\u200BCaricamento immagine non riuscito.$1\u200B"
+   },
+   "9222674328467536367": {
+      "message": "$2\u200B - $1\u200B voci"
+   },
+   "951963820437151566": {
+      "message": "Google Sites"
+   },
+   "963611681085757795": {
+      "message": "Spiacenti. Impossibile generare una visualizzazione del documento ora."
+   },
+   "964957642315661588": {
+      "message": "Impossibile caricare la pagina. Nuovo tentativo in corso..."
+   },
+   "973644925431533602": {
+      "message": "Elimina"
+   },
+   "975416671454410602": {
+      "message": "$2\u200BRiprova$1\u200B"
+   },
+   "982187142411651629": {
+      "message": "Ignora"
+   },
+   "985197728509875956": {
+      "message": "Modello chimico"
+   },
+   "996381410993745580": {
+      "message": "Photoshop"
+   },
+   "appDesc": {
+      "description": "App description",
+      "message": "Annota rapidamente i tuoi pensieri e recuperali con facilit\u00E0, ovunque ti trovi"
+   },
+   "appName": {
+      "description": "App name.",
+      "message": "Google Keep"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "css": [ "css/main.css", "intro.js-0.4.0/introjs.css", "fancybox2/source/jquery.fancybox.css", "css/emoji.css" ],
+      "js": [ "js/jquery1.9.1.min.js", "js/jquery.scrollTo-1.4.3.1-min.js", "js/jquery.NobleCount.js", "js/moment.min.js", "bootstrap/js/bootstrap.js", "js/content_script.js", "js/easyXDM/easyXDM.min.js", "js/emoji.js", "intro.js-0.4.0/intro.js", "fancybox2/source/jquery.fancybox.pack.js", "fancybox2/source/jquery.fancybox.js", "js/mutation_summary.js", "bootstrap-growl-master/jquery.bootstrap-growl.js" ],
+      "matches": [ "*://mail.google.com/mail/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "object-src 'self';   script-src 'self' https://textyserver.appspot.com https://mighty-app.appspot.com https://talkgadget.google.com https://ssl.google-analytics.com https://ajax.googleapis.com https://i.kissmetrics.com https://*.cloudfront.net https://mightytext.net https://static.intercomcdn.com https://api.intercom.io",
+   "description": "Text directly from Gmail\u2122, using your Android phone number. SMS, MMS,group messaging,phone calls,photos,videos. Sync'd w/ your phone",
+   "icons": {
+      "48": "img/gtext-48x48_nov4.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCKKPk3fqP6JkgqBqUEdqNFb8qk7mZWBXoPxhYoOtldVM9gF653v1Q17oNJcFbh3jal/CKn6GspN1P6Jf/uq08kzeq3s3Bn2T/iHPFer6ThfmuV+zW9n8yu6Fo7IelOqjq2Wt3/RFgtNM9mAQKtUvFDxb3vsUxFNGhoO3i9l61O9QIDAQAB",
+   "manifest_version": 2,
+   "name": "GText from MightyText - SMS from Gmail\u2122",
+   "options_page": "options.html",
+   "permissions": [ "https://textyserver.appspot.com/*", "https://mighty-app.appspot.com/*", "https://mail.google.com/mail/*", "tabs", "webNavigation", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.91",
+   "web_accessible_resources": [ "img/emojicontainer-remove.png", "img/smile.png", "img/green_spinner.gif", "img/groupMMS_individual.png", "img/groupMMS.png", "img/mt_fb_navlogo.png", "img/blank.gif", "img/mt_fb_navlogo_signedout.png", "img/arrow_down.png", "img/composeNew.png", "img/gmailMMS.png", "img/mightylogo2.png", "img/bg-squares.png", "img/mightylogo.png", "img/remove.png", "img/popout.png", "img/close.png", "img/close_grey.png", "img/minimize.png", "img/red-clock-waiting.png", "img/checkmark-yes.png", "img/mightysend.png", "img/maximize.png", "img/loading.gif", "img/attach-gm.png", "img/icon-forward-1.png", "img/starred.png", "img/unstarred.png", "img/trashcan.png", "img/bg-squares.png", "img/icon-charging-blue.png", "img/phone_icon.png", "img/settings.png", "img/icon-corner-share.png", "img/gmailShare.png", "img/facebookShare.png", "img/twitterShare.png", "img/googleShare.png", "img/fbt-xicon.png", "options.html", "bootstrap/css/bootstrap.min.css", "js/easyXDM/easyXDM.min.js" ]
+}

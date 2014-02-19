@@ -1,0 +1,23 @@
+{
+   "background": {
+      "scripts": [ "js/core-lite.js", "js/core.chrome.js", "js/js.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icons/19x19-local.png",
+      "default_popup": "popup.html",
+      "default_title": "Chrome Notepad"
+   },
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "A very simple notepad for Chrome with sync functionality.",
+   "icons": {
+      "128": "icons/128x128-local.png",
+      "48": "icons/48x48-local.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC4jCt/5X6mcs6hs2gb489KDIAqJgMtARQlObkJ0B+RXGQeJWDn/jHDnWLNeZBFk/Vs3Uwzk1AmJDf6lUD6X/bSISnPR1oqHQY73Fvh6+gnLXDp5JOw+qMePG+WQPCIvY4OT2YF1LIx1Sd1hRRg4GJA5zRUi1zdtNQqAsUu9iV3ZQIDAQAB",
+   "manifest_version": 2,
+   "name": "Chrome Notepad",
+   "options_page": "options.html",
+   "permissions": [ "tabs", "bookmarks" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "3.8.3"
+}

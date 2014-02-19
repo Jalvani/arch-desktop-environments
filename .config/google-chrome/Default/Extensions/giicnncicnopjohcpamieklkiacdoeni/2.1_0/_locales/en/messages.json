@@ -1,0 +1,68 @@
+{
+   "extension_description": {
+      "message": "Receive Android notifications in your browser."
+   },
+   "extension_name": {
+      "message": "Android Desktop Notifications"
+   },
+   "extension_popup": {
+      "message": "popup-en.html"
+   },
+   "notification_button_action_desktop_notifications": {
+      "message": "Rate on Google Play"
+   },
+   "notification_button_action_dropbox": {
+      "message": "Open Dropbox"
+   },
+   "notification_button_action_facebook": {
+      "message": "Open Facebook"
+   },
+   "notification_button_action_facebook_messenger": {
+      "message": "Open Facebook Messenger"
+   },
+   "notification_button_action_google_calendar": {
+      "message": "Open Google Calendar"
+   },
+   "notification_button_action_google_mail": {
+      "message": "Open Gmail"
+   },
+   "notification_button_action_google_play": {
+      "message": "Open Google Play"
+   },
+   "notification_button_action_google_play_movies": {
+      "message": "Open Google Play Movies"
+   },
+   "notification_button_action_google_play_music": {
+      "message": "Open Google Play Music"
+   },
+   "notification_button_action_google_plus": {
+      "message": "Open Google+"
+   },
+   "notification_button_action_instagram": {
+      "message": "Open Instagram"
+   },
+   "notification_button_action_outlook": {
+      "message": "Open Outlook.com"
+   },
+   "notification_button_action_pinterest": {
+      "message": "Open Pinterest"
+   },
+   "notification_button_action_sofascore": {
+      "message": "Open SofaScore"
+   },
+   "notification_button_action_spotify": {
+      "message": "Open Spotify Web Player"
+   },
+   "notification_button_action_steam": {
+      "message": "Open Steam"
+   },
+   "notification_button_action_twitter": {
+      "message": "Open Twitter"
+   },
+   "notification_button_action_yahoo_mail": {
+      "message": "Open Yahoo! Mail"
+   },
+   "setup_complete": {
+      "message": "Setup complete!"
+   }
+}

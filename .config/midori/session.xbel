@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel>
+<info>
+<metadata current="6"/>
+</info>
+<bookmark href="http://facebook.com">
+<title>Speed Dial</title>
+<info>
+<metadata mime-type="text/html"/>
+</info>
+</bookmark>
+</xbel>

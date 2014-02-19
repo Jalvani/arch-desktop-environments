@@ -1,0 +1,3 @@
+03:39:59 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
+06:59:08 GMT+0000 (GMT) (LOG) /background.html: Went online.    at LogReceiver.log (/js/common/Log.js:8:345)
+23:34:10 GMT+0000 (GMT) (LOG) /background.html: Went offline.    at LogReceiver.log (/js/common/Log.js:8:345)
