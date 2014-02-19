@@ -6,7 +6,7 @@ mv .config ~/.config
 mv sources.list /etc/apt/sources.list
 
 apt-get update
-apt-get -y  chromium-browser redshift 
+apt-get -y  chromium-browser redshift deluge sqlite3 php-sqlite
 apt-get -y  apache2 php5 android-tools-adb	caffeine cups firefox nautilus mysql-server-core-5.5
 apt-get -y  mysql-client-5.5 nodejs-dev nodejs	php5-sqlite rails sublime-text
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
