@@ -1,7 +1,7 @@
 echo "Run this script as root only."
 echo "You can hit Ctrl+c in next 10 seconds if you don't want to continue."
-mv .config ~/.config
-mv sources.list /etc/apt/sources.list
+// mv .config ~/.config
+// mv sources.list /etc/apt/sources.list
 wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
 sudo sh -c 'echo "deb http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
